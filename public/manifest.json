@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Subnautica 2 Wiki - Co-op, Map & Early Access",
+  "short_name": "Subnautica 2",
+  "description": "Explore Subnautica 2 wiki guides for co-op, early access, map, creatures, crafting, vehicles, bases, PC specs, beginner survival tips, and updates.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "theme_color": "#0e8faa",
+  "background_color": "#030b12",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
