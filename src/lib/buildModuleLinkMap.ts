@@ -35,25 +35,25 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['early access', 'release date', 'platforms', 'xbox', 'windows'],
+  lucidBlocksApotheosisCrafting: ['beginner guide', 'what to do first', 'scanning', 'crafting', 'starter base'],
+  lucidBlocksToolsAndWeapons: ['multiplayer', 'co-op', 'cross-platform', 'online', 'singleplayer'],
+  lucidBlocksStorageAndInventory: ['map', 'biomes', 'routes', 'exploration', 'leviathan'],
+  lucidBlocksQualiaAndBaseBuilding: ['base building', 'underwater base', 'habitat', 'construction', 'modules'],
+  lucidBlocksWorldRegions: ['vehicles', 'tools', 'upgrade', 'seaglide', 'seamoth'],
+  lucidBlocksCreaturesAndEnemies: ['creatures', 'leviathans', 'hostile fauna', 'scanning', 'threat zones'],
+  lucidBlocksMobilityGear: ['system requirements', 'performance', 'fps', 'hardware', '4k'],
+  lucidBlocksFarmingAndGrowth: ['farming', 'growth', 'resources', 'planting', 'harvesting'],
+  lucidBlocksBestEarlyUnlocks: ['best early unlocks', 'early game', 'priorities', 'upgrades', 'progression'],
+  lucidBlocksAchievementTracker: ['achievement tracker', 'steam achievements', 'completion', 'milestones'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['singleplayer', 'platform faq', 'release window', 'game pass', 'pricing'],
+  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton', 'input', 'compatibility'],
+  lucidBlocksSettingsAndAccessibility: ['settings', 'accessibility', 'graphics', 'display', 'controls'],
+  lucidBlocksUpdatesAndPatchNotes: ['updates', 'patch notes', 'hotfix', 'changelog', 'version'],
+  lucidBlocksCrashFixAndTroubleshooting: ['crash fix', 'troubleshooting', 'startup issue', 'vulkan', 'logs'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['subnautica', '2', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -78,9 +78,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Subnautica 2")
+  const strippedQuery = normalizedQuery.replace(/subnautica\s*2?\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/subnautica\s*2?\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
