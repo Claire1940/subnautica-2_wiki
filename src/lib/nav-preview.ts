@@ -9,9 +9,10 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 		if (!item.isContentType) continue
 		const type = item.path.slice(1)
 		const items = await getAllContent(type, locale)
+		const validItems = items.filter((i) => i.frontmatter)
 		// 导航栏内按「最早更新」升序（优先 lastModified，回退 date），
 		// 与首页/列表页「最近更新」降序相反
-		const sorted = items.slice().sort((a, b) => {
+		const sorted = validItems.slice().sort((a, b) => {
 			const getTime = (i: (typeof items)[number]) => {
 				const fm = i.frontmatter
 				if (!fm) return 0
@@ -23,7 +24,7 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 		})
 		data[type] = sorted.map((i) => ({
 			slug: i.slug,
-			title: i.frontmatter.title,
+			title: i.frontmatter?.title || i.slug,
 		}))
 	}
 

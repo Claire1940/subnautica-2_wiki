@@ -10,7 +10,14 @@
       "twitterDescription": "Subnautica 2 Wiki tracks launch details, co-op systems, map biomes, crafting, and survival progression."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "price": "Price",
+    "multiplayer": "Multiplayer",
+    "requirements": "Requirements",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -832,125 +839,125 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Subnautica 2 Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Subnautica 2 Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Subnautica 2 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Subnautica 2 Release",
+      "description": "Track Subnautica 2 release timing, early access milestones, preload details, and launch window updates in one place.",
+      "metaTitle": "Subnautica 2 Release - Date, Early Access, and Launch Timing",
+      "metaDescription": "Get the latest Subnautica 2 release coverage including early access timing, launch window updates, preload expectations, and timeline breakdowns.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Subnautica 2 Release coverage?",
+      "whatIsDescription": "This category organizes launch-window facts, early access timing, and key date signals so you can follow Subnautica 2 release progress without chasing scattered announcements.",
+      "why": "Why follow this category?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Track Date Changes Fast",
+        "step1Description": "See release timing updates and timeline shifts in a single feed.",
+        "step2Title": "Prepare for Launch",
+        "step2Description": "Use preload and early access guidance to plan your first session.",
+        "step3Title": "Avoid Conflicting Rumors",
+        "step3Description": "Compare reported timing details with consistent category context."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Subnautica 2 Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Subnautica 2 Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Subnautica 2 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "platforms": {
+      "title": "Subnautica 2 Platforms",
+      "description": "Understand where Subnautica 2 is playable, including PC and console platform support, storefronts, and compatibility details.",
+      "metaTitle": "Subnautica 2 Platforms - PC, Console, and Storefront Support",
+      "metaDescription": "Review Subnautica 2 platform availability across PC and consoles, with compatibility details for storefronts, devices, and access options.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Subnautica 2 platform guides?",
+      "whatIsDescription": "Platform guides map device and storefront availability, helping you confirm where Subnautica 2 can be played and how access differs by ecosystem.",
+      "why": "Why use platform guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Confirm Availability",
+        "step1Description": "Check whether your preferred hardware and store are supported.",
+        "step2Title": "Plan Purchase Path",
+        "step2Description": "Compare launcher and platform options before you buy.",
+        "step3Title": "Reduce Setup Friction",
+        "step3Description": "Prepare for account, controller, and compatibility differences early."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Platform Articles"
     },
-    "items": {
-      "title": "Subnautica 2 Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Subnautica 2 Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Subnautica 2 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "price": {
+      "title": "Subnautica 2 Price",
+      "description": "Follow Subnautica 2 pricing coverage, including expected ranges, edition structure, and early access pricing context.",
+      "metaTitle": "Subnautica 2 Price - Cost, Editions, and Early Access Value",
+      "metaDescription": "Track Subnautica 2 price updates with cost expectations, edition comparisons, and early access pricing context for smarter purchase planning.",
+      "categoryLabel": "PRICE",
+      "whatIs": "What is Subnautica 2 price coverage?",
+      "whatIsDescription": "Price coverage compiles cost expectations, edition breakdowns, and regional pricing context to help you evaluate total value before purchase.",
+      "why": "Why review price guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Estimate Budget",
+        "step1Description": "Understand likely price ranges before launch decisions.",
+        "step2Title": "Compare Editions",
+        "step2Description": "See what different versions may include so you can choose clearly.",
+        "step3Title": "Time Your Purchase",
+        "step3Description": "Use pricing context to plan when and where to buy."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Price Articles"
     },
-    "biomes": {
-      "title": "Subnautica 2 Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Subnautica 2 Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Subnautica 2 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "multiplayer": {
+      "title": "Subnautica 2 Multiplayer",
+      "description": "Learn how Subnautica 2 multiplayer works, including co-op expectations, crossplay context, and session setup details.",
+      "metaTitle": "Subnautica 2 Multiplayer - Co-op, Crossplay, and Player Setup",
+      "metaDescription": "Explore Subnautica 2 multiplayer details including co-op structure, crossplay expectations, party setup, and player-count context.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What are Subnautica 2 multiplayer guides?",
+      "whatIsDescription": "Multiplayer guides explain co-op systems, compatibility expectations, and session logistics so teams can prepare before joining the same world.",
+      "why": "Why follow multiplayer guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Plan Group Sessions",
+        "step1Description": "Coordinate player count and co-op expectations ahead of launch.",
+        "step2Title": "Understand Compatibility",
+        "step2Description": "Review cross-platform and account constraints before inviting friends.",
+        "step3Title": "Start Faster Together",
+        "step3Description": "Use setup guidance to reduce connection and lobby confusion."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Multiplayer Articles"
     },
-    "building": {
-      "title": "Subnautica 2 Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Subnautica 2 Building - Qualia & Base Construction",
-      "metaDescription": "Master Subnautica 2 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "requirements": {
+      "title": "Subnautica 2 Requirements",
+      "description": "Check Subnautica 2 system requirements, performance expectations, and hardware guidance for smooth gameplay.",
+      "metaTitle": "Subnautica 2 Requirements - System Specs and Performance Guide",
+      "metaDescription": "Review Subnautica 2 requirements with system specs, performance expectations, and optimization guidance for different hardware tiers.",
+      "categoryLabel": "REQUIREMENTS",
+      "whatIs": "What are Subnautica 2 requirements guides?",
+      "whatIsDescription": "Requirements guides collect system-spec and performance information to help you verify whether your setup can run Subnautica 2 comfortably.",
+      "why": "Why check requirements early?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Validate Hardware",
+        "step1Description": "Compare your CPU, GPU, memory, and storage against expected targets.",
+        "step2Title": "Set Performance Goals",
+        "step2Description": "Choose settings and upgrade priorities for stable frame rates.",
+        "step3Title": "Avoid Launch-Day Surprises",
+        "step3Description": "Handle compatibility risks before downloading or buying."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Requirements Articles"
     },
-    "support": {
-      "title": "Subnautica 2 Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Subnautica 2 Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Subnautica 2 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "guide": {
+      "title": "Subnautica 2 Guide",
+      "description": "Use practical Subnautica 2 guides for progression routes, exploration priorities, and efficient early-game survival decisions.",
+      "metaTitle": "Subnautica 2 Guide - Beginner Tips, Progression, and Walkthrough Help",
+      "metaDescription": "Read Subnautica 2 guide coverage for beginner tips, progression planning, exploration paths, and practical survival walkthrough advice.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Subnautica 2 guide category?",
+      "whatIsDescription": "The guide category focuses on actionable progression help, from first-hour priorities to exploration and crafting decisions that keep momentum high.",
+      "why": "Why read guide articles?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Start with Clear Priorities",
+        "step1Description": "Follow structured early-game goals instead of wandering blindly.",
+        "step2Title": "Progress Efficiently",
+        "step2Description": "Use route and resource guidance to unlock key milestones faster.",
+        "step3Title": "Improve Survival Consistency",
+        "step3Description": "Apply proven tactics for exploration, oxygen management, and base growth."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Guide Articles"
     }
   }
 }

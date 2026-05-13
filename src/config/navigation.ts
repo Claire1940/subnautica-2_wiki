@@ -1,4 +1,12 @@
 import type { LucideIcon } from 'lucide-react'
+import {
+	CalendarClock,
+	MonitorSmartphone,
+	BadgeDollarSign,
+	Users,
+	Cpu,
+	BookOpen,
+} from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -8,6 +16,12 @@ export interface NavigationItem {
 }
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{ key: 'release', path: '/release', icon: CalendarClock, isContentType: true },
+	{ key: 'platforms', path: '/platforms', icon: MonitorSmartphone, isContentType: true },
+	{ key: 'price', path: '/price', icon: BadgeDollarSign, isContentType: true },
+	{ key: 'multiplayer', path: '/multiplayer', icon: Users, isContentType: true },
+	{ key: 'requirements', path: '/requirements', icon: Cpu, isContentType: true },
+	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）

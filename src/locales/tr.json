@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "release": "Release",
+    "platforms": "Platforms",
+    "price": "Price",
+    "multiplayer": "Multiplayer",
+    "requirements": "Requirements",
+    "guide": "Guide"
   },
   "common": {
     "home": "Ana Sayfa",

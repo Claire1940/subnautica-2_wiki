@@ -70,6 +70,7 @@ function getSignificantTokens(text: string): string[] {
 }
 
 function matchScore(queryText: string, article: ArticleWithType, extraKeywords?: string[]): number {
+  if (!article.frontmatter) return 0
   const normalizedQuery = normalize(queryText)
   const normalizedTitle = normalize(article.frontmatter.title)
   const normalizedDesc = normalize(article.frontmatter.description || '')
@@ -125,7 +126,7 @@ function findBestMatch(
   if (bestScore >= threshold && bestArticle) {
     return {
       url: `/${bestArticle.contentType}/${bestArticle.slug}`,
-      title: bestArticle.frontmatter.title,
+      title: bestArticle.frontmatter?.title || bestArticle.slug,
     }
   }
 
@@ -138,6 +139,7 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
   for (const contentType of CONTENT_TYPES) {
     const items = await getAllContent(contentType, locale)
     for (const item of items) {
+      if (!item.frontmatter) continue
       allArticles.push({ ...item, contentType })
     }
   }

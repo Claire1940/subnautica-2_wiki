@@ -20,15 +20,16 @@ export async function getLatestArticles(
 
   for (const contentType of CONTENT_TYPES) {
     const items = await getAllContent(contentType, locale)
-    allArticles.push(...items.map(item => ({ ...item, contentType })))
+    const validItems = items.filter(item => item.frontmatter)
+    allArticles.push(...validItems.map(item => ({ ...item, contentType })))
   }
 
   // 预分配随机 key，确保同时间文章随机排序稳定
   const articlesWithMeta = allArticles.map(article => ({
     article,
-    updateTime: article.frontmatter.lastModified
+    updateTime: article.frontmatter?.lastModified
       ? new Date(article.frontmatter.lastModified).getTime()
-      : (article.frontmatter.date ? new Date(article.frontmatter.date).getTime() : 0),
+      : (article.frontmatter?.date ? new Date(article.frontmatter.date).getTime() : 0),
     rand: Math.random()
   }))
 
