@@ -82,23 +82,23 @@
       },
       {
         "icon": "Home",
-        "title": "Subnautica 2 Base Building",
-        "description": "Starter habitat layout and expansion workflow"
+        "title": "Subnautica 2 Base Building Guide",
+        "description": "Procedural construction, windows, and multiplayer build flow"
       },
       {
         "icon": "Eye",
-        "title": "Subnautica 2 Region Notes",
-        "description": "Exploration signal tags and route checkpoints"
+        "title": "Subnautica 2 Vehicles and Tools",
+        "description": "Tadpole usage, scanning priorities, and shared blueprints"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Subnautica 2 Creatures Guide",
-        "description": "Threat levels, scan value, and avoidance plans"
+        "title": "Subnautica 2 Creatures and Leviathans",
+        "description": "Danger levels, scan value, and safe encounter planning"
       },
       {
         "icon": "ArrowRight",
-        "title": "Subnautica 2 Mobility Guide",
-        "description": "Vehicle usage and movement upgrade order"
+        "title": "Subnautica 2 System Requirements and Performance",
+        "description": "PC specs, handheld notes, and expected settings targets"
       },
       {
         "icon": "TrendingUp",
@@ -317,144 +317,139 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Subnautica 2 Qualia and Base Building",
+      "title": "Subnautica 2 Base Building Guide",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Subnautica 2. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Subnautica 2 introduces a more procedural and sculptural base-building flow, letting you build practical starter hubs first and expand into larger personalized underwater spaces.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Choose a safe starter location",
+          "description": "Build near stable resources and shallow fallback routes before committing to deeper expansion paths."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Use procedural construction",
+          "description": "The new building system is less dependent on fixed prefab snapping and supports more expressive room shaping."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Subnautica 2 supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Plan windows and visibility",
+          "description": "Place windows around intended viewpoints first, then shape connected spaces to match exploration sightlines."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Coordinate co-op construction",
+          "description": "Shared lockers and joint build access make team expansion faster, whether the party uses one megabase or multiple hubs."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Prioritize function before decoration",
+        "Keep storage and crafting near entry points",
+        "Reserve space for lighting and cosmetics",
+        "Expand modules as depth routes increase"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Subnautica 2 World Regions",
+      "title": "Subnautica 2 Vehicles and Tools",
       "displayType": "regionCards",
-      "intro": "Subnautica 2 uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Scan, craft, and upgrade your way through deeper biomes with shared progression systems built for both solo and co-op exploration in Subnautica 2.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Tadpole Submersible",
+          "type": "Vehicle",
+          "description": "The Tadpole is the core traversal vehicle for moving deeper and safer once long swims stop being practical."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Scanner and Data Entries",
+          "type": "Core Tool",
+          "description": "Scanning creatures, terrain, ruins, and objects expands Data Entries and reveals practical progression targets."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Blueprint Discovery",
+          "type": "Progression System",
+          "description": "Finding and scanning key targets unlocks new vehicles, equipment, and craftable recipes for the whole journey."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Craftable Tools and Upgrades",
+          "type": "Survival Gear",
+          "description": "Tool and upgrade progression supports oxygen discipline, safer harvesting, deeper scouting, and stronger return consistency."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Subnautica 2 Creatures and Enemies",
+      "title": "Subnautica 2 Creatures and Leviathans",
       "displayType": "creatureCards",
-      "intro": "Subnautica 2 mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Subnautica 2 rewards careful observation and scanning, from passive biodiversity to Leviathan-class threats that can abruptly change a route into an escape sequence.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Collector Leviathan",
+          "role": "Extreme Threat",
+          "description": "A reactive apex predator that responds to sound, light, vehicles, and nearby activity, demanding disciplined distance control."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Deepwing Brooder Leviathan",
+          "role": "Leviathan-Class",
+          "description": "Officially named during the Leviathan event cycle, this creature represents one of the clearest high-risk encounter profiles."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Towering Leviathans",
+          "role": "Very High Danger",
+          "description": "Large Leviathan silhouettes mark deep-zone corridors where preparation, exit routing, and calm retreat timing matter most."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "Hostile Fauna",
+          "role": "Medium to High Danger",
+          "description": "Aggressive wildlife punishes rushed movement in unfamiliar zones and should be scanned from patrol edges before close interaction."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Passive Small Creatures",
+          "role": "Low Danger",
+          "description": "Lower-risk lifeforms are valuable for Data Entries and ecosystem mapping during early and mid-depth exploration."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Ruins and Biome Life",
+          "role": "Variable Risk",
+          "description": "Creature behavior near ruins and key scan zones often signals progression clues, hidden hazards, and route decisions."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Subnautica 2 Mobility Gear",
+      "title": "Subnautica 2 System Requirements and Performance",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Subnautica 2. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Review Subnautica 2 hardware targets before installation, from minimum 1080p settings to high-end 4K plans, plus handheld and console support notes.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Minimum Performance Target",
+          "type": "1080p Low",
+          "description": "GeForce GTX 1660 6 GB or Radeon RX 5500 XT 6 GB, Intel i5-8400 or Ryzen 5 2600, and 12 GB RAM for 30 FPS targets."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Recommended Performance Target",
+          "type": "1440p Medium",
+          "description": "GeForce RTX 3070 8 GB or Radeon RX 6700 XT 8 GB with Intel i7-13700 or Ryzen 7 7700X and 16 GB RAM for smoother 60 FPS play."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "High-End and 4K Targets",
+          "type": "1440p High / 4K High",
+          "description": "Ultra paths scale to RTX 4070-class and above, with 4K high settings centered around RTX 5070 Ti or Radeon RX 7900 XTX-level hardware."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Platform and API Requirements",
+          "type": "OS and DirectX",
+          "description": "Windows 10/11 64-bit and DirectX 12 are required, with 50 GB storage and broadband connectivity listed across targets."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Handheld and Console Notes",
+          "type": "Steam Deck / Xbox",
+          "description": "Steam Deck is verified, while Xbox Series platforms and the ROG Xbox Ally series are confirmed launch-ready options."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Early Access Optimization Outlook",
+          "type": "Performance Roadmap",
+          "description": "Optimization and hardware tuning are expected to improve throughout Early Access as additional content and systems roll out."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Target your display resolution first",
+        "Match GPU class to expected preset",
+        "Validate handheld controller behavior",
+        "Recheck settings after major updates"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
@@ -773,7 +768,7 @@
         },
         {
           "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "description": "Open Windows Run, paste %APPDATA%, go to the game logs folder, and gather the .txt files for troubleshooting."
         },
         {
           "title": "Report the Issue Properly",
