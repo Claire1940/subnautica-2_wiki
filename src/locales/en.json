@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Subnautica 2 Wiki - Co-op, Map & Early Access",
+      "description": "Subnautica 2 Wiki covers co-op, early access, map routes, creatures, crafting, vehicles, base building, and survival guides for PC and Xbox players.",
+      "keywords": "Subnautica 2, Subnautica 2 wiki, co-op, early access, map, creatures, crafting, vehicles, Xbox, Steam",
+      "ogTitle": "Subnautica 2 Wiki - Co-op, Map & Early Access",
+      "ogDescription": "Subnautica 2 Wiki covers co-op, early access, map routes, creatures, crafting, vehicles, base building, and survival guides for PC and Xbox players.",
+      "twitterTitle": "Subnautica 2 Wiki - Co-op, Map & Early Access",
+      "twitterDescription": "Subnautica 2 Wiki tracks launch details, co-op systems, map biomes, crafting, and survival progression."
     }
   },
   "nav": {},
@@ -52,238 +52,274 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Subnautica 2 Gameplay",
+    "description": "Explore a new alien ocean, survive deeper biome threats, build modular bases, and progress through co-op-friendly discovery systems."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Subnautica 2",
+    "titleHighlight": "Module Navigation",
+    "subtitle": "Jump to every Subnautica 2 homepage section",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Subnautica 2 Beginner Guide",
+        "description": "First-session priorities and safe progression routes"
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Subnautica 2 Crafting Guide",
+        "description": "Early tool path, scan goals, and upgrade planning"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Subnautica 2 Co-op Guide",
+        "description": "4-player session setup, cross-play, and shared systems"
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Subnautica 2 Map and Biomes",
+        "description": "Biome depth flow, routes, currents, and danger zones"
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Subnautica 2 Base Building",
+        "description": "Starter habitat layout and expansion workflow"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Subnautica 2 Region Notes",
+        "description": "Exploration signal tags and route checkpoints"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Subnautica 2 Creatures Guide",
+        "description": "Threat levels, scan value, and avoidance plans"
       },
       {
         "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Subnautica 2 Mobility Guide",
+        "description": "Vehicle usage and movement upgrade order"
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Subnautica 2 Resource Growth",
+        "description": "Material loops and efficient farming patterns"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Subnautica 2 Priority Unlocks",
+        "description": "Essential unlock order for the first 10 hours"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Subnautica 2 Achievement Tracker",
+        "description": "Milestones and progression checkpoints"
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Subnautica 2 Platform FAQ",
+        "description": "Pricing, launch scope, and access questions"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Subnautica 2 Controller Setup",
+        "description": "Input presets and console-to-PC setup notes"
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Subnautica 2 Settings Guide",
+        "description": "Performance, graphics, and accessibility setup"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Subnautica 2 Patch Timeline",
+        "description": "Major updates, notes, and gameplay fixes"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Subnautica 2 Troubleshooting",
+        "description": "Launch fixes, crashes, and report workflow"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "Subnautica 2 Early Access Release Date and Platforms",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Use this section to quickly check when Subnautica 2 unlocks, where you can play it, launch pricing, and what Early Access includes.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Early Access release date: May 14, 2026",
+          "description": "Subnautica 2 starts public Early Access / Game Preview rollout on May 14, 2026."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Global launch time: 08:00 PDT / 15:00 UTC",
+          "description": "The global unlock window is synchronized across PC and Xbox storefront regions."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Launch price and storefronts",
+          "description": "Early Access launches at $29.99 USD on Steam and Epic Games Store with regional price variation."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Xbox and Game Pass availability",
+          "description": "Subnautica 2 launches on Xbox Series X|S, Xbox on PC, and Game Pass Ultimate/PC Game Pass on day one."
+        },
+        {
+          "title": "Early Access roadmap and full release scope",
+          "description": "The current plan estimates about 2 to 3 years of Early Access with additional biomes, creatures, craftables, and story content."
+        },
+        {
+          "title": "Purchase timing note",
+          "description": "Unknown Worlds notes the game price is planned to increase after Early Access, while Early buyers receive ongoing updates."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Check your local timezone conversion before launch hour.",
+        "Steam and Epic are both available for PC players at launch.",
+        "Game Pass access starts immediately at Early Access launch time.",
+        "Plan for feature expansion during Early Access, not full 1.0 scope on day one."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "Subnautica 2 Beginner Guide: What to Do First",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Start with safe exploration, scanning, crafting, and a compact base before pushing toward deep-biome progression.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Stabilize basic survival",
+          "description": "Prioritize oxygen, water, food, and safe return routes before long-distance dives."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Scan everything useful",
+          "description": "Scan lifeforms, fragments, ruins, and points of interest to expand data and unlock practical crafting targets."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Craft before depth pushing",
+          "description": "Upgrade tools and mobility first, then commit to darker and deeper biome routes."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Build a small starter base",
+          "description": "Use a safe-route location with storage and prep space, then expand only after supply loops stabilize."
+        },
+        {
+          "name": "Use the Tadpole to expand range",
+          "description": "The Tadpole submersible helps extend route distance and improves deep-water logistics."
+        },
+        {
+          "name": "Follow discovery cues",
+          "description": "Use terrain clues, scan data, beacons, and environmental signals to guide progression naturally."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Secure oxygen discipline",
+        "Complete core scans",
+        "Build first safe base"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "Subnautica 2 Multiplayer Co-op Guide",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Subnautica 2 supports solo play and optional online co-op for up to four players, including PC and Xbox cross-platform play.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Solo-compatible from start to finish",
+          "type": "Mode",
+          "description": "Subnautica 2 can be completed solo with no mandatory co-op-only progression gates."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Up to four players per world",
+          "type": "Party Size",
+          "description": "Each co-op session supports one host plus up to three additional players."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "PC and Xbox cross-play",
+          "type": "Cross-Platform",
+          "description": "Cross-platform multiplayer is supported between PC and Xbox ecosystems."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Host, friend invites, and friend codes",
+          "type": "Session Setup",
+          "description": "Players can host multiplayer worlds, invite friends, and use friend code flows for joining."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Drop-in and drop-out progression",
+          "type": "Progression",
+          "description": "Players can join active worlds and continue group progression without restarting world state."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Shared storage and shared scans",
+          "type": "Shared Systems",
+          "description": "Built storage, data entries, and craftable recipe unlocks support coordinated team progression."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "Collaborative or split base building",
+          "type": "Construction",
+          "description": "Teams can build one large base together or run separate build sites in the same world."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Vehicle sharing",
+          "type": "Vehicle Access",
+          "description": "Vehicles can be used by the group, and duplicate builds reduce route waiting time."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "Subnautica 2 Map, Biomes, Routes, and Exploration",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Subnautica 2 shifts to a new alien ocean with layered biome progression, high-risk deep routes, scan-led discovery, and Leviathan threat zones.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "New alien ocean world",
+          "role": "Setting",
+          "description": "Subnautica 2 takes place on a new underwater planet built around mystery-driven exploration."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Shallow starter routes",
+          "role": "Early Path",
+          "description": "Early routes focus on safe scanning, material gathering, and reliable return planning."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Depth-based biome progression",
+          "role": "Progression",
+          "description": "Deeper routes open as players improve tools, vehicle upgrades, and survival stability."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Launch + future biome expansion",
+          "role": "Content Scope",
+          "description": "Early Access includes multiple biomes with additional creatures and narrative planned over time."
+        },
+        {
+          "name": "Ruins and key exploration points",
+          "role": "Discovery",
+          "description": "Ruins and major scan targets drive data unlocks, route knowledge, and upgrade priorities."
+        },
+        {
+          "name": "Ocean currents as route risk",
+          "role": "Traversal Risk",
+          "description": "Currents can redirect dives into dangerous zones and require stronger return discipline."
+        },
+        {
+          "name": "Dark zones and bioluminescence",
+          "role": "Visibility",
+          "description": "Lighting shifts and darker waters increase navigation challenge in deeper biomes."
+        },
+        {
+          "name": "Leviathan threat corridors",
+          "role": "Danger",
+          "description": "Large hostile fauna appear in designated danger zones and punish unprepared route entry."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Map your oxygen-safe loop before expanding into deeper lanes.",
+        "Use scan data to sequence your biome progression and upgrades.",
+        "Treat currents as route modifiers, not background effects.",
+        "Track Leviathan sightings and avoid repeating blind approach paths."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Subnautica 2 Qualia and Base Building",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Qualia is one of the most important progression milestones in Subnautica 2. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
           "name": "Personal Qualia",
@@ -295,7 +331,7 @@
         },
         {
           "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "description": "Subnautica 2 supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
         },
         {
           "name": "Progression Hub",
@@ -310,9 +346,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Subnautica 2 World Regions",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Subnautica 2 uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -337,9 +373,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Subnautica 2 Creatures and Enemies",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Subnautica 2 mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
           "name": "Manikins",
@@ -379,9 +415,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Subnautica 2 Mobility Gear",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Subnautica 2. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
       "items": [
         {
           "name": "Hookshot",
@@ -422,9 +458,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Subnautica 2 Farming and Growth",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in Subnautica 2. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
       "sections": [
         {
           "name": "Seed Progression",
@@ -451,9 +487,9 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Subnautica 2 Best Early Unlocks",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Subnautica 2, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
         {
           "name": "Personal Qualia",
@@ -488,9 +524,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Subnautica 2 Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Subnautica 2 currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
           "name": "Exploration",
@@ -596,83 +632,83 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Subnautica 2 Singleplayer and Platform FAQ",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core platform and access questions players keep asking before buying Subnautica 2.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is Subnautica 2 singleplayer?",
+          "answer": "Yes. Subnautica 2 is a singleplayer game."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
+          "question": "Is Subnautica 2 Subnautica 2 multiplayer or co-op planned?",
           "answer": "No. Multiplayer is not planned for release or future updates."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
+          "question": "Where can I play Subnautica 2?",
           "answer": "It is currently available on Steam for Windows."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
+          "question": "How much does Subnautica 2 cost?",
           "answer": "$9.99 on Steam."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Subnautica 2 support controllers?",
           "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Subnautica 2 work on Steam Deck?",
           "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
+          "question": "Does Subnautica 2 work on Linux?",
           "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
-          "question": "Will Mac or Android be supported?",
+          "question": "Will Subnautica 2 Subnautica 2 Mac or Android be supported?",
           "answer": "They may be supported in the future, but they are not current launch platforms."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
+          "question": "Does Subnautica 2 have translations?",
           "answer": "No. There are currently no translations planned."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
+          "question": "Will Subnautica 2 keep getting updates?",
           "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Subnautica 2 Steam Deck and Controller",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Subnautica 2 can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Subnautica 2 work on Steam Deck?",
           "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
+          "question": "What Subnautica 2 in Subnautica 2 should I do if Steam Deck controls are not working?",
           "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Subnautica 2 support controllers?",
           "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
         },
         {
-          "question": "Is Linux support possible?",
+          "question": "Is Subnautica 2 Subnautica 2 Linux support possible?",
           "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
-          "question": "What is the best input setup?",
+          "question": "What Subnautica 2 in Subnautica 2 is the best input setup?",
           "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Subnautica 2 Settings and Accessibility",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Subnautica 2 already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
       "settings": [
         {
           "name": "Display Settings",
@@ -697,9 +733,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Subnautica 2 Updates and Patch Notes",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Subnautica 2 is already receiving quick post-launch fixes and small usability updates.",
       "entries": [
         {
           "title": "Update 2.8.2",
@@ -719,7 +755,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Subnautica 2 Crash Fix and Troubleshooting",
       "displayType": "steps",
       "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
@@ -729,7 +765,7 @@
         },
         {
           "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "description": "Subnautica 2 requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
         },
         {
           "title": "Use Proton 9.0.4 on Steam Deck",
@@ -749,30 +785,30 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know before diving into Subnautica 2",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Subnautica 2 a singleplayer game?",
+        "answer": "Yes. Subnautica 2 is a singleplayer-only game with no multiplayer or co-op planned."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the Apotheosis system in Subnautica 2?",
+        "answer": "Apotheosis is Subnautica 2' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Subnautica 2?",
+        "answer": "Subnautica 2 is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does Subnautica 2 cost?",
+        "answer": "Subnautica 2 costs $9.99 on Steam."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
+        "question": "Does Subnautica 2 support controllers?",
         "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
+        "question": "Will Subnautica 2 receive updates?",
         "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
       }
     ]
@@ -802,10 +838,10 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
+      "title": "Subnautica 2 Guides",
       "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "metaTitle": "Subnautica 2 Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Subnautica 2 guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
       "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
@@ -822,10 +858,10 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
+      "title": "Subnautica 2 Crafting",
       "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "metaTitle": "Subnautica 2 Crafting - Apotheosis System & Recipes",
+      "metaDescription": "Master Subnautica 2 Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
       "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
@@ -842,10 +878,10 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Subnautica 2 Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Subnautica 2 Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Subnautica 2 including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
@@ -862,10 +898,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Subnautica 2 Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Subnautica 2 Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Subnautica 2 biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -882,10 +918,10 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
+      "title": "Subnautica 2 Building",
       "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "metaTitle": "Subnautica 2 Building - Qualia & Base Construction",
+      "metaDescription": "Master Subnautica 2 building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
       "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
@@ -902,10 +938,10 @@
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Subnautica 2 Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Subnautica 2 Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Subnautica 2 including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",

@@ -45,31 +45,21 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
   />
 );
 
-// Conditionally render text as a link or plain span
+// Render section titles without internal article links on homepage modules
 function LinkedTitle({
   linkData,
   children,
   className,
   locale,
 }: {
-  linkData: { url: string; title: string } | null | undefined;
+  linkData?: { url: string; title: string } | null;
   children: React.ReactNode;
   className?: string;
-  locale: string;
+  locale?: string;
 }) {
-  if (linkData) {
-    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
-    return (
-      <Link
-        href={href}
-        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
-        title={linkData.title}
-      >
-        {children}
-      </Link>
-    );
-  }
-  return <>{children}</>;
+  void linkData;
+  void locale;
+  return <span className={className}>{children}</span>;
 }
 
 interface HomePageClientProps {
@@ -267,6 +257,29 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* 广告位 2: 首屏内容之后再加载广告 */}
+      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
+
+      {/* Video Section */}
+      <section className="px-4 py-10 md:py-12">
+        <div className="scroll-reveal container mx-auto max-w-4xl">
+          <div className="relative overflow-hidden rounded-2xl">
+            <VideoFeature
+              videoId="xVG4LmFQ5QY"
+              title="SUBNAUTICA 2 | EARLY ACCESS"
+              posterImage="/images/hero.webp"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
+
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-4xl">
@@ -284,7 +297,6 @@ export default function HomePageClient({
 
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4 lg:grid-cols-4">
             {t.tools.cards.map((card: any, index: number) => {
-              // 映射卡片索引到 section ID
               const sectionIds = [
                 "beginner-guide",
                 "apotheosis-crafting",
@@ -306,9 +318,13 @@ export default function HomePageClient({
               const sectionId = sectionIds[index];
 
               return (
-                <button
+                <a
                   key={index}
-                  onClick={() => scrollToSection(sectionId)}
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    scrollToSection(sectionId);
+                  }}
                   className="scroll-reveal group rounded-xl border border-border p-4 md:p-6
                              bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
                              transition-all duration-300 cursor-pointer text-left
@@ -333,35 +349,12 @@ export default function HomePageClient({
                   <p className="text-sm text-muted-foreground">
                     {card.description}
                   </p>
-                </button>
+                </a>
               );
             })}
           </div>
         </div>
       </section>
-
-      {/* 广告位 2: 首屏内容之后再加载广告 */}
-      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
-
-      {/* Video Section */}
-      <section className="px-4 py-10 md:py-12">
-        <div className="scroll-reveal container mx-auto max-w-4xl">
-          <div className="relative overflow-hidden rounded-2xl">
-            <VideoFeature
-              videoId="xVG4LmFQ5QY"
-              title="LUCID BLOCKS | AVAILABLE NOW"
-              posterImage="/images/hero.webp"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
 
       {/* 广告位 3: 移动端优先使用方形，桌面端保留横幅 */}
       <AdBanner
