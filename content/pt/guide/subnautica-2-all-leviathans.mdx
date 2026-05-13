@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Todos os Leviatãs de Subnautica 2: Guia Completo de Criaturas e Biomas 2026",
+  description: "Explore todos os leviatãs confirmados de Subnautica 2, novos biomas e mecânicas de IA. Domine as profundezas com nosso guia de sobrevivência completo de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/001f3f/fff?text=Subnautica+2+Leviathans+Guide",
+  date: "2026-05-13",
+  author: "Equipe da Wiki de Subnautica",
+  keywords: "Subnautica 2, leviatãs, biomas, IA, guia de sobrevivência, 2026, Coletor, DNA"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Todos os leviatãs de Subnautica 2**: O Acesso Antecipado apresenta pelo menos três leviatãs massivos com IA avançada.
+- **IA Avançada**: As criaturas agora usam árvores de comportamento para rastrear luz, som e o cheiro do jogador.
+- **Veículos Modulares**: O novo veículo Girino (Tadpole) permite a troca de asas e compartimentos de carga.
+- **Bioamostragem**: Uma mecânica central envolve a colheita de DNA para desbloquear vantagens e melhorias para o personagem.
+- **Novos Biomas**: Explore as Planícies Esparsas, o Cemitério e os Pináculos Termais em busca de recursos únicos.
+</Callout>
+
+As profundezas do oceano estão chamando mais uma vez com a chegada em Acesso Antecipado da aguardada sequência do fenômeno de sobrevivência subaquática. Entender o comportamento e a localização de **todos os leviatãs de subnautica 2** é a diferença entre uma exploração bem-sucedida e uma viagem rápida de volta à cápsula salva-vidas. À medida que os jogadores descem neste novo mundo alienígena, encontrarão um ecossistema muito mais reativo e inteligente do que qualquer coisa vista nos títulos anteriores. Este guia fornece uma análise detalhada dos predadores massivos, da fauna passiva e das mecânicas inovadoras de jogabilidade que definem a experiência em 2026. Seja você um mergulhador veterano ou um novato na franquia, dominar essas novas ameaças e ferramentas é essencial para a sobrevivência. Neste artigo, cobriremos todas as criaturas confirmadas, as complexidades do sistema de IA da Unreal Engine 5 e a tecnologia modular que ajudará você a conquistar as trincheiras mais profundas do novo planeta.
+
+<Section icon={Swords} title="Leviatãs Confirmados de Subnautica 2">
+
+Os organismos da classe leviatã continuam sendo os predadores alfa dos mares alienígenas. No lançamento inicial, os desenvolvedores confirmaram várias entidades aterrorizantes que patrulham regiões específicas do mapa. Essas criaturas não são apenas maiores; elas são mais espertas, utilizando o novo sistema de árvore de comportamento para caçar jogadores através de vastas distâncias.
+
+**Destaques do Vídeo:**
+- Olhar detalhado sobre o design inspirado em Cthulhu do Leviatã Coletor.
+- Vislumbres do leviatã translúcido fantasmagórico que patrulha o vácuo.
+- Explicação das novas árvores de comportamento de IA na Unreal Engine 5.
+- Prévia do massivo predador de emboscada semelhante a uma ostra gigante.
+
+<YouTubeEmbed videoId="DnCZ5xRp-WA" title="Subnautica 2 Todos os NOVOS Leviatãs + Mecânicas de Jogo e Mais" />
+
+### O Leviatã Coletor
+O Coletor é talvez a adição mais impressionante à lista de **todos os leviatãs de subnautica 2**. Ele apresenta um corpo aterrorizante, semelhante a uma lula, com uma cabeça que lembra Cthulhu. Ao contrário do Leviatã Reaper do primeiro jogo, que patrulhava caminhos fixos, o Coletor foi projetado para rastrear ativamente o jogador. Ele reside principalmente nas Planícies Esparsas, uma grande área aberta onde os esconderijos são raros.
+
+### O Predador Fantasmagórico
+Observadores notaram uma criatura esquelética e translúcida que guarda uma forte semelhança com o Leviatã Ghost original. Esta entidade possui grandes barbatanas em forma de asa e uma estrutura interna brilhante. Teoriza-se que ele sirva como guardião das áreas do "Vácuo" ou "Inexplorado", garantindo que os jogadores não se afastem muito além dos limites do mapa jogável.
+
+### O Monstro Ostra Gigante
+Visto em imagens cinematográficas iniciais, esta criatura representa um novo tipo de ameaça: o leviatã estacionário. Ele se disfarça como parte do ambiente, parecendo uma ostra massiva e inofensiva. Exploradores incautos podem nadar ou pisar acidentalmente diretamente em sua boca, percebendo o perigo apenas quando as mandíbulas massivas começam a se fechar.
+
+| Nome do Leviatã | Tamanho Estimado | Bioma Primário | Tipo de Comportamento |
+| :--- | :--- | :--- | :--- |
+| **Coletor** | Massivo | Planícies Esparsas | Caçador Ativo, Sensível ao Som |
+| **Fantasmagórico** | Grande | O Vácuo / Inexplorado | Territorial, Guardião de Limite |
+| **Ostra Gigante** | Colossal | Recifes Desconhecidos | Emboscada, Camuflado |
+| **Alfa Inominado** | Desconhecido | Trincheiras Profundas | Perseguição Baseada em Inteligência |
+
+<Callout type="warning" title="Perigo: Furtividade é Necessária">
+O Leviatã Coletor pode detectar seu "rastro" através de mudanças na luz e no som. Evite usar lanternas de alta intensidade ou propulsores barulhentos ao explorar as Planícies Esparsas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="IA Revolucionária e Árvores de Comportamento">
+
+O salto técnico mais significativo na sequência é a transição para a Unreal Engine 5, que permitiu aos desenvolvedores implementar um sofisticado sistema de árvore de comportamento de IA. Isso torna **todos os leviatãs de subnautica 2** muito mais imprevisíveis do que seus predecessores.
+
+No jogo original, as criaturas operavam em grande parte com uma lógica simples de "se-então" baseada na proximidade. Na sequência de 2026, os predadores podem adaptar suas táticas com base em:
+1.  **Níveis de Luz**: O uso de holofotes potentes atrairá predadores de distâncias muito maiores.
+2.  **Assinaturas Acústicas**: Veículos e ferramentas geram diferentes frequências de som que os predadores podem aprender a reconhecer.
+3.  **Condições Ambientais**: Algumas criaturas podem se tornar mais agressivas durante eventos climáticos específicos ou ciclos de dia/noite.
+
+| Recurso de IA | Subnautica 1 | Subnautica 2 (2026) | Impacto na Jogabilidade |
+| :--- | :--- | :--- | :--- |
+| **Navegação** | Nós de patrulha fixos | Navegação dinâmica | Predadores podem seguir você em cavernas |
+| **Detecção** | Baseada em proximidade | Multissensorial (Luz/Som) | A furtividade torna-se uma mecânica viável |
+| **Memória** | Reseta rapidamente | Rastreamento persistente | Um leviatã pode caçar você por minutos |
+| **Adaptabilidade** | Comportamento estático | Nós de árvore comportamental | Criaturas mudam de tática se feridas |
+
+<Callout type="tip" title="Dica de Especialista">
+Se você estiver sendo rastreado por um Leviatã Coletor, tente desligar todas as luzes e permanecer imóvel perto do fundo do mar. A IA frequentemente perde o interesse se a entrada sensorial permanecer estática por muito tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Explorando Novos Biomas e Fauna">
+
+O mundo da sequência é dividido em biomas distintos, cada um servindo como lar para recursos únicos e fauna perigosa. A narrativa ambiental nessas áreas sugere uma história profunda envolvendo civilizações antigas.
+
+### Biomas Chave do Planeta 2
+- **Planícies Esparsas**: Uma vasta extensão arenosa que oferece alta visibilidade, mas nenhuma cobertura. Este é o principal campo de caça do Leviatã Coletor.
+- **O Cemitério**: Uma região assustadora repleta de restos de estruturas antigas. É provável que seja um local de lore significativo e tecnologia dos Arquitetos.
+- **Pináculos Termais**: Fontes hidrotermais de águas profundas que fornecem calor extremo. Equipamentos especializados são necessários para sobreviver às temperaturas aqui.
+- **Os Platôs**: Formações de profundidade média ricas em materiais de construção básicos e lar de predadores menores e irritantes.
+
+### Fauna Não-Leviatã
+Nem toda criatura é um titã massivo. Os residentes menores do recife são igualmente importantes para sua sobrevivência e coleta de recursos.
+
+| Nome da Criatura | Função | Nível de Ameaça | Localização Comum |
+| :--- | :--- | :--- | :--- |
+| **Cabeça-de-martelo** | Assediador | Moderado | Platôs / Recifes |
+| **Lesma do Tempo** | Recurso | Passivo | Águas Rasas |
+| **Espreitador-caranguejo**| Emboscador | Alto | Recifes de Coral |
+| **Peixe-divisor** | Presa | Nenhuma | Bioma Inicial |
+
+<CardGrid cols={2}>
+  <Card title="O Cabeça-de-martelo">
+    Agindo de forma semelhante ao Bone Shark, este predador tem grandes barbatanas ao redor do rosto. É conhecido por assediar veículos e pode ser um grande incômodo durante a coleta de recursos.
+  </Card>
+  <Card title="O Espreitador-caranguejo">
+    Esta criatura se disfarça como um pedaço de coral. Ela permanece perfeitamente imóvel até que um jogador se aproxime, então salta para um ataque de emboscada de alto dano.
+  </Card>
+  <Card title="A Lesma do Tempo">
+    Encontrada em áreas rasas, esta criatura pode substituir o Peixe-balão (Bladderfish) como fonte primária de água purificada. Seu nome sugere propriedades biológicas únicas.
+  </Card>
+  <Card title="Peixe-divisor">
+    Um peixe passivo único que pode dividir seu corpo em duas entidades separadas antes de se reconectar. É uma maravilha de detalhe biológico nas áreas iniciais.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Dica de Recurso">
+Sempre carregue uma Ferramenta de Bioamostragem ao entrar no bioma do Cemitério. O DNA encontrado nos restos mortais lá é essencial para melhorias de alto nível.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Bioamostragem e Modificação de DNA">
+
+Uma mecânica inédita introduzida no lançamento de 2026 é o sistema de modificação de DNA. Isso permite que os jogadores aprimorem fisicamente seu personagem colhendo material genético da vida selvagem local, incluindo de **todos os leviatãs de subnautica 2**.
+
+<Steps>
+  <Step num="1" title="Fabrique o Bioamostrador">
+    Reúna minerais básicos e componentes eletrônicos para fabricar a ferramenta Bioamostrador em seu fabricante.
+  </Step>
+  <Step num="2" title="Colha DNA">
+    Aproxime-se de uma criatura viva e use a ferramenta para tirar uma amostra. Tenha cuidado, pois criaturas agressivas reagirão ao serem amostradas.
+  </Step>
+  <Step num="3" title="Analise na Estação">
+    Leve as amostras de volta para uma Estação de Modificação de DNA dedicada em sua base para desbloquear novas características.
+  </Step>
+  <Step num="4" title="Aplique Melhorias">
+    Escolha entre várias vantagens, como maior capacidade pulmonar, velocidade de natação mais rápida ou melhor resistência ao calor.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Visão de Especialista">
+Embora seja tentador buscar o DNA de leviatã imediatamente, comece com criaturas menores como o Peixe-divisor para desbloquear vantagens básicas de mobilidade que tornarão os encontros com leviatãs mais seguros.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Customização Modular de Veículos">
+
+Os dias de designs de veículos estáticos acabaram. A sequência introduz um sistema modular, começando com o submersível "Girino" (Tadpole). Isso permite que os jogadores adaptem seu transporte para a missão específica em questão.
+
+### Módulos e Efeitos do Girino
+O chassi do Girino pode ser equipado com vários módulos que alteram suas estatísticas e capacidades. Essa flexibilidade é vital ao navegar pelos diversos biomas do novo planeta.
+
+| Tipo de Módulo | Benefício Primário | Desvantagem | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Módulo de Asa** | Grande aumento de velocidade | Durabilidade reduzida | Reconhecimento e Viagem |
+| **Módulo de Carga** | Slots de itens extras | Aceleração mais lenta | Transporte de Recursos |
+| **Matriz de Sensores**| Detecta Leviatãs | Alto consumo de energia | Exploração Perigosa |
+| **Escudo Térmico** | Proteção térmica | Alcance de profundidade limitado | Bioma Pináculos Termais |
+
+<Checklist
+  id="vehicle-prep"
+  title="Checklist Pré-Exploração:"
+  items={[
+    "Verificar níveis de bateria do Girino",
+    "Equipar Módulo de Asa para fuga rápida",
+    "Garantir que o Bioamostrador esteja na barra de acesso rápido",
+    "Trazer 2x Água Purificada das Lesmas do Tempo",
+    "Escanear assinaturas de Leviatãs próximos"
+  ]}
+/>
+
+<Callout type="warning" title="Desacoplamento de Módulos">
+Você pode desacoplar o corpo principal de pilotagem do Girino de seus módulos maiores. Isso é perfeito para entrar em cavernas pequenas, mas lembre-se que seu armazenamento permanece com o chassi!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e FAQ">
+
+O mundo da sequência é uma expansão bela, porém aterrorizante, dos temas centrais da franquia. Ao entender os padrões de **todos os leviatãs de subnautica 2**, utilizar o sistema de veículos modulares e dominar as novas ferramentas de bioamostragem, você prosperará nas profundezas. A IA avançada garante que não existam duas jogadas exatamente iguais, exigindo vigilância constante e adaptação de cada mergulhador.
+
+<FAQ items={[
+  {
+    question: "Quantos leviatãs existem em Subnautica 2 no lançamento?",
+    answer: "Os desenvolvedores confirmaram pelo menos três leviatãs para o lançamento do Acesso Antecipado: o Coletor, o predador Fantasmagórico e o monstro Ostra Gigante. Espera-se que mais sejam adicionados em atualizações futuras."
+  },
+  {
+    question: "O Leviatã Coletor consegue ouvir minha base?",
+    answer: "Embora as bases ofereçam segurança, atividades de alta energia como fabricação pesada ou carregar várias células de energia criam ruído que pode atrair predadores próximos para as vizinhanças da sua base."
+  },
+  {
+    question: "Qual é o propósito da Lesma do Tempo?",
+    answer: "A Lesma do Tempo é uma criatura passiva encontrada em águas rasas. Acredita-se amplamente que ela seja a substituta do Peixe-balão (Bladderfish), servindo como fonte primária para a fabricação de água purificada."
+  },
+  {
+    question: "A modificação de DNA é permanente?",
+    answer: "As modificações de DNA podem ser trocadas em uma Estação de Modificação de DNA, permitindo que você mude sua build com base no bioma que pretende explorar a seguir."
+  }
+]} />
+
+</Section>
