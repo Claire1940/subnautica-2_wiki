@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -37,14 +37,15 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://subnautica-2.wiki";
 
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+  const metadataTitle = "Subnautica 2 Wiki - Co-op, Map & Early Access";
+  const metadataDescription =
+    "Explore Subnautica 2 wiki guides for co-op, early access, map, creatures, crafting, vehicles, bases, PC specs, beginner survival tips, and updates.";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title: metadataTitle,
+    description: metadataDescription,
     robots: {
       index: true,
       follow: true,
@@ -60,24 +61,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      siteName: "Subnautica 2 Wiki",
+      title: metadataTitle,
+      description: metadataDescription,
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Subnautica 2 - Underwater Survival Adventure",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
+      title: metadataTitle,
+      description: metadataDescription,
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@Subnautica",
     },
     icons: {
       icon: [

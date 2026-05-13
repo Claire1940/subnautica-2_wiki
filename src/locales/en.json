@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Underwater Survival Adventure",
+    "title": "Subnautica 2 Wiki",
+    "description": "Dive into an all-new alien ocean world in solo or up to 4-player online co-op. Explore biomes, build bases, craft gear, pilot vehicles, and survive unknown creatures.",
+    "getFreeCodesCTA": "View Early Access Guide",
+    "playOnSteamCTA": "Play Subnautica 2 on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "May 14, 2026",
+        "label": "Early Access"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "1-4",
+        "label": "Online Co-op"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "$29.99",
+        "label": "Early Access Price"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5M+",
+        "label": "Steam Wishlists"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Subnautica 2 Early Access?",
+    "description": "Join the official Subnautica community and start your expedition on Steam, Epic Games, or Xbox.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Subnautica 2 on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Subnautica 2 Wiki",
+    "description": "Your complete Subnautica 2 resource hub for co-op, biomes, creatures, vehicles, crafting, and base-building guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Official Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "steamCommunity": "Reddit Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Subnautica 2 Wiki. Not affiliated with Unknown Worlds Entertainment.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
