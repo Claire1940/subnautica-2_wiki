@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Leviatán Recolector: Guía de Encuentro y Evasión 2026",
+  description: "Aprende sobre el aterrador Leviatán Recolector en Subnautica 2, incluyendo su comportamiento, nivel de peligro y consejos esenciales de evasión para sobrevivir a sus encuentros en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0A2C3D/fff?text=Collector+Leviathan+Guide",
+  date: "2026-05-15",
+  author: "Equipo Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Leviatán Recolector** es un depredador alfa de **peligro extremo** en Subnautica 2.
+- Es una **criatura reactiva** que responde a las acciones del jugador, la luz y el sonido.
+- Los **consejos de evasión** incluyen mantener la distancia, escuchar las señales de audio y la retirada estratégica.
+- El escaneo proporciona un alto valor de lore, pero debe hacerse **de forma segura desde la cubierta**.
+- Los vehículos pueden ser atacados, así que **nunca estaciones cerca de criaturas grandes desconocidas**.
+</Callout>
+
+Sumérgete en las profundidades abisales de Subnautica 2, e inevitablemente te encontrarás con sus habitantes colosales y aterradores. Entre los más formidables se encuentra el **Leviatán Recolector**, un depredador alfa que impone respeto y miedo. Comprender el comportamiento de esta criatura y desarrollar estrategias de evasión efectivas son primordiales para la supervivencia en el mundo oceánico alienígena. Esta guía te proporcionará el conocimiento para navegar los encuentros con el Leviatán Recolector, asegurando que puedas continuar tu exploración sin convertirte en su próxima comida.
+
+<Section icon={Swords} title="Comprendiendo al Leviatán Recolector">
+
+El **Leviatán Recolector** es una de las principales amenazas de clase Leviatán introducidas en Subnautica 2. A diferencia de algunos leviatán pasivos, el Recolector es una criatura altamente reactiva y agresiva, diseñada para convertir la exploración en una secuencia de escape emocionante. Su presencia significa una zona de peligro importante, lo que requiere que los jugadores ejerzan una precaución extrema y un pensamiento estratégico.
+
+**Puntos destacados del video:**
+- Demuestra el comportamiento agresivo y los patrones de ataque del Leviatán Recolector.
+- Muestra las reacciones de los jugadores a los encuentros iniciales y las tácticas de evasión.
+- Destaca el tamaño masivo y la presencia intimidante de la criatura en su hábitat.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Subnautica 2 Collector Leviathan Gameplay" />
+
+<Callout type="warning" title="Peligro Extremo">
+El Leviatán Recolector es un **depredador alfa** con un **nivel de peligro extremo**. Se desaconseja encarecidamente la confrontación directa. Tu mejor estrategia es siempre la evasión.
+</Callout>
+
+### Características Clave
+
+<CardGrid cols={2}>
+  <Card title="Comportamiento Reactivo">
+    El Leviatán Recolector responde dinámicamente a las acciones del jugador. Esto incluye fuentes de luz, sonidos generados por vehículos o herramientas, y objetos cercanos. Sus patrullas no siempre son fijas, lo que lo convierte en una amenaza menos predecible.
+  </Card>
+  <Card title="Atributos Físicos">
+    Descrito como poseedor de cuatro tentáculos, el Leviatán Recolector es capaz de agarrar, aplastar y golpear a su presa. Su tamaño y poder lo convierten en un oponente formidable en el océano profundo.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Encontrando al Leviatán Recolector">
+
+Los encuentros con el **Leviatán Recolector** están diseñados para ser memorables y aterradores. Estas criaturas suelen habitar biomas más profundos y oscuros, a menudo cerca de puntos de interés significativos o recursos críticos. Saber dónde pueden aparecer y cómo reaccionar es crucial para la supervivencia.
+
+### Identificación de Áreas de Amenaza de Leviatán
+
+<Callout type="tip" title="Señales Ambientales">
+Mantente siempre alerta a las señales ambientales que indican la presencia de un Leviatán. Esto incluye cambios en el sonido ambiental, caídas repentinas en la actividad de criaturas pequeñas o perturbaciones visuales en el agua.
+</Callout>
+
+| Tipo de Indicación | Descripción | Acción del Jugador |
+|---|---|---|
+| **Señales de Audio** | Rugidos profundos, golpes rítmicos o silencio repentino. | Detenerse, escuchar e identificar la dirección. |
+| **Señales Visuales** | Sombras grandes, cambios repentinos en las corrientes de agua, bioluminiscencia distante. | Mantener la distancia, usar el escáner desde lejos. |
+| **Diseño del Bioma** | Áreas más oscuras y abiertas con menos obstáculos. | Proceder con extrema precaución, prepararse para la retirada. |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Evasión y Supervivencia">
+
+Sobrevivir a un encuentro con el **Leviatán Recolector** depende en gran medida de la prevención y la evasión estratégica. El combate directo rara vez es una opción viable.
+
+### Pasos Esenciales para la Evasión
+
+<Steps>
+  <Step num="1" title="Mantener Distancia">
+    Observa siempre a los Leviatanes desde una distancia segura. No te acerques a ellos innecesariamente, ni siquiera para escanear. Tu burbuja de seguridad personal es tu activo más valioso.
+    <Checklist
+      id="distance-checklist"
+      items={[
+        "Mantente al borde de las zonas de patrulla conocidas de los Leviatanes.",
+        "Usa herramientas de escaneo de largo alcance antes de entrar en nuevas áreas.",
+        "Evita fuentes de luz innecesarias en biomas profundos y oscuros."
+      ]}
+    />
+  </Step>
+  <Step num="2" title="Escucha las Señales de Audio de Estado de Ánimo">
+    El Leviatán Recolector a menudo emite advertencias de audio antes de iniciar una búsqueda o ataque agresivo. Aprende a distinguir estas señales de los sonidos ambientales.
+    <Callout type="info" title="Desglose de Señales de Audio">
+    - **Gruñidos bajos/zumbidos**: Indica conciencia, pero no agresión inmediata.
+    - **Rugidos/chillidos fuertes**: Significa caza activa o amenaza directa.
+    - **Silencio repentino**: A menudo precede a una carga o emboscada.
+    </Callout>
+  </Step>
+  <Step num="3" title="Evita la Provocación">
+    Acciones como embestir con un vehículo, encender luces brillantes directamente hacia él o permanecer demasiado tiempo en su línea de visión directa pueden provocar un ataque.
+  </Step>
+  <Step num="4" title="Retirada Estratégica">
+    Si un encuentro es inevitable, concéntrate en huir. Ten una ruta de escape planificada, utiliza el terreno como cobertura y asegúrate de que tu vehículo (como el submarino Tadpole) tenga suficiente energía y mejoras para una huida rápida.
+    <Callout type="tip" title="Escape del Vehículo">
+    Al escapar en un vehículo, intenta moverte erráticamente para ser un objetivo más difícil. Utiliza propulsores si están disponibles y dirígete hacia aguas menos profundas y seguras o terreno denso.
+    </Callout>
+  </Step>
+</Steps>
+
+### Gestión de Vehículos en Territorio Leviatán
+
+| Acción del Vehículo | Recomendado | Razón |
+|---|---|---|
+| **Estacionamiento** | Evita estacionar cerca de criaturas grandes desconocidas. | Los vehículos pueden atraer la atención y convertirse en objetivos. |
+| **Exploración** | Usa vehículos para una exploración más profunda y arriesgada. | Proporciona protección y velocidad para la evasión. |
+| **Mejoras** | Prioriza las mejoras de velocidad y defensa. | Aumenta las posibilidades de supervivencia durante un ataque. |
+| **Estrategia Cooperativa** | Designa un "explorador" en cooperativo para despejar caminos. | Reduce el riesgo para todo el equipo, permitiendo una progresión más segura. |
+
+</Section>
+
+<Section icon={Map} title="Escaneando al Leviatán Recolector de Forma Segura">
+
+Escanear Leviatanes proporciona valiosas entradas de datos y lore, pero conlleva un riesgo significativo. El **Leviatán Recolector** no es una excepción.
+
+### Prácticas Seguras de Escaneo
+
+<CardGrid cols={3}>
+  <Card title="Desde la Distancia">
+    Usa tu escáner desde el mayor alcance posible. Aprovecha las características del terreno como cuevas, salientes o flora densa para cubrirte.
+  </Card>
+  <Card title="Puestos de Observación">
+    Considera establecer un pequeño puesto de observación temporal en un bioma cercano y más seguro si necesitas una observación prolongada.
+  </Card>
+  <Card title="Escaneos Rápidos">
+    Si debes acercarte, hazlo con una acción rápida y decisiva. Entra, escanea e inmediatamente retírate. Ten tu ruta de escape pre-planificada.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Valor del Lore y la Guía de Campo">
+Escanear con éxito al Leviatán Recolector ofrece un alto valor de lore y guía de campo, profundizando tu comprensión del ecosistema alienígena. Este conocimiento puede ser crítico para la supervivencia futura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Futuras Actualizaciones y Encuentros con Leviatanes">
+
+A medida que Subnautica 2 avanza en Acceso Anticipado, Unknown Worlds planea introducir más biomas, criaturas y contenido narrativo. Esto puede incluir nuevas especies de Leviatanes y comportamientos alterados para las existentes.
+
+<Callout type="info" title="Desarrollo en Acceso Anticipado">
+Unknown Worlds ha destacado que la versión completa de Subnautica 2 agregará más biomas, criaturas, objetos fabricables, características y contenido narrativo. ¡Mantente atento a las noticias oficiales sobre nuevas amenazas!
+</Callout>
+
+El **Leviatán Criador Aladelta** también ha sido nombrado oficialmente, lo que sugiere que el océano alienígena alberga peligros aún más colosales. Trata siempre las nuevas siluetas de Leviatanes como inseguras hasta que se escanéen y observen adecuadamente desde una ubicación segura. Los desarrolladores se centran en hacer que estos encuentros sean memorables y desafiantes, recompensando a los jugadores que priorizan la observación y la evasión estratégica sobre la confrontación directa.
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre el Leviatán Recolector">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel de peligro principal del Leviatán Recolector?",
+    answer: "El Leviatán Recolector está clasificado como un depredador alfa de nivel de peligro 'Extremo'. Se desaconseja encarecidamente el enfrentamiento directo debido a su naturaleza agresiva y reactiva."
+  },
+  {
+    question: "¿Cómo puedo evitar provocar a un Leviatán Recolector?",
+    answer: "Para evitar la provocación, mantén una distancia significativa, minimiza el ruido de vehículos o herramientas y evita apuntarle luces brillantes directamente. Escucha sus señales de audio para evaluar su estado de ánimo y presencia."
+  },
+  {
+    question: "¿Están los vehículos a salvo del Leviatán Recolector?",
+    answer: "Los vehículos ofrecen cierta protección, pero no son inmunes a los ataques del Leviatán Recolector. Pueden convertirse en objetivos, por lo que es crucial nunca estacionarlos cerca de criaturas grandes desconocidas y tener siempre un plan de escape con suficiente oxígeno."
+  },
+  {
+    question: "¿Vale la pena escanear al Leviatán Recolector?",
+    answer: "Sí, escanear al Leviatán Recolector proporciona un alto valor de lore y guía de campo, lo que puede ser beneficioso para comprender el ecosistema y la progresión del juego. Sin embargo, prioriza siempre la seguridad e intenta escanear desde una distancia segura o desde la cubierta."
+  }
+]} />
+
+</Section>

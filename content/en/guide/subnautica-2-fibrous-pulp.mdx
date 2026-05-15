@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Fibrous Pulp: Farming & Crafting Guide 2026",
+  description: "Discover how to efficiently find and use Fibrous Pulp in Subnautica 2 for essential crafting and upgrades. Learn optimal farming locations and crafting recipes.",
+  category: "Crafting Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Fibrous+Pulp+Guide",
+  date: "2026-05-15",
+  author: "Subnautica Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fibrous Pulp** is a crucial early-game crafting material in **Subnautica 2**.
+- Found primarily in **shallow biomes** from specific plant life.
+- Essential for crafting **basic tools** and early-game vehicle upgrades.
+- Efficiently gather by **scanning new flora** and exploring safe starting routes.
+- Always prioritize upgrading your **scanner** for easier resource identification.
+</Callout>
+
+In Subnautica 2, survival hinges on your ability to gather resources and craft essential tools. Among the myriad of materials you'll encounter, Fibrous Pulp stands out as a fundamental component for early-game progression. This versatile organic resource is vital for fabricating a range of items, from basic survival gear to initial vehicle modifications, enabling deeper exploration and a safer journey through the alien ocean world. Understanding where to find it and how to best utilize it will significantly impact your early game experience in 2026. This guide will help you pinpoint the best locations for farming Fibrous Pulp and outline the key crafting recipes it enables.
+
+<Section icon={Map} title="Locating Fibrous Pulp Sources">
+Fibrous Pulp is an organic resource derived from various plant life found across the new alien ocean world. While specific biomes and flora might be unique to Subnautica 2, the general principle remains: look for distinctive plant formations, often in shallower, safer waters. Early exploration around your drop pod or starter base is usually the best bet.
+
+<CardGrid cols={2}>
+  <Card title="Primary Biome: Shallow Reefs">
+    - **Characteristics**: Often vibrant, well-lit areas with diverse plant life.
+    - **Flora**: Look for larger, soft-textured plant formations.
+    - **Resource Density**: Moderate to high chance of finding Fibrous Pulp.
+    - **Danger Level**: Generally low, ideal for early-game harvesting.
+  </Card>
+  <Card title="Secondary Biome: Kelp Forests (Early Sections)">
+    - **Characteristics**: Denser vegetation, can obscure vision, but rich in organic materials.
+    - **Flora**: Certain kelp-like structures may yield Fibrous Pulp.
+    - **Resource Density**: Patchy, but can be abundant in specific areas.
+    - **Danger Level**: Low to medium, watch out for aggressive fauna.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Always use your scanner on new plant species. This will add them to your databank and often reveal what resources they yield, including Fibrous Pulp. Prioritize upgrading your scanner early to increase its range and speed, making resource identification much more efficient.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Efficient Fibrous Pulp Farming Strategy">
+To maximize your Fibrous Pulp yield, a systematic approach to exploration and harvesting is recommended. Don't just wander aimlessly; plan your routes and prioritize safety.
+
+<Steps>
+  <Step num="1" title="Equip Basic Tools">
+    Ensure you have a **Survival Knife** for harvesting and a **Scanner** for identification. An **Oxygen Tank** upgrade will allow for longer dives.
+    <Checklist
+      id="basic-tools"
+      title="Essential Gear:"
+      items={[
+        "Survival Knife (for harvesting)",
+        "Scanner (for identification)",
+        "Standard Oxygen Tank (for extended dives)"
+      ]}
+    />
+  </Step>
+  <Step num="2" title="Identify Target Flora">
+    In shallow areas, use your scanner to identify large, soft-bodied alien plants. The exact appearance of the Fibrous Pulp-yielding flora may vary, but it will typically be a prominent, easily accessible plant.
+  </Step>
+  <Step num="3" title="Harvest and Store">
+    Use your Survival Knife to harvest the identified plants. Each plant will yield a certain amount of Fibrous Pulp. Return to your base or a temporary storage locker frequently to deposit your findings and manage inventory.
+  </Step>
+  <Step num="4" title="Expand Search Radius">
+    Once you've depleted nearby sources, gradually expand your search radius within the same biome or venture into adjacent, slightly deeper biomes if your oxygen capacity allows.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Environmental Hazards">
+While shallow biomes are generally safer, always be aware of your surroundings. Some aggressive small fauna might inhabit these areas. Keep an eye on your health and oxygen levels, especially when venturing into new zones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Crafting with Fibrous Pulp">
+Fibrous Pulp is a cornerstone material for many early to mid-game crafting recipes. Its versatility makes it indispensable for survival and exploration.
+
+| Crafted Item          | Fibrous Pulp Needed | Other Materials           | Purpose                                    | Priority |
+| :-------------------- | :------------------ | :------------------------ | :----------------------------------------- | :------- |
+| **Basic Wiring Kit**  | 2                   | Copper x1                 | Essential for electronic components        | High     |
+| **Standard Battery**  | 1                   | Acid Mushroom x2          | Powers early tools and equipment           | High     |
+| **Rebreather**        | 2                   | Silicone Rubber x1, Copper x1 | Extends oxygen at deeper levels, reduces blur | Medium   |
+| **Fins**              | 2                   | Silicone Rubber x1        | Increases swim speed                       | Medium   |
+| **Storage Locker**    | 3                   | Titanium x2               | Basic storage for your base                | High     |
+| **Reinforced Dive Suit** | 4                | Titanium x2, Silicone Rubber x2 | Provides basic protection from creature attacks | Medium |
+
+<Callout type="success" title="Co-op Advantage">
+In multiplayer, one player can focus on gathering Fibrous Pulp while others collect complementary resources like Copper or Acid Mushrooms. Shared blueprints mean that once one player scans a recipe requiring Fibrous Pulp, everyone can see it.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tips for Fibrous Pulp Management">
+As you progress, your need for Fibrous Pulp might decrease, but it remains a valuable resource for maintaining and expanding your operations.
+
+<table className="table-auto w-full">
+  <thead>
+    <tr>
+      <th className="px-4 py-2">Tip Category</th>
+      <th className="px-4 py-2">Recommendation</th>
+      <th className="px-4 py-2">Benefit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="border px-4 py-2">**Storage Optimization**</td>
+      <td className="border px-4 py-2">Dedicate a specific locker in your base for raw organic materials, including Fibrous Pulp.</td>
+      <td className="border px-4 py-2">Quick access; prevents clutter in general storage.</td>
+    </tr>
+    <tr>
+      <td className="border px-4 py-2">**Automation (Late Game)**</td>
+      <td className="border px-4 py-2">Explore potential for automated harvesting or cultivation systems in later game stages if available.</td>
+      <td className="border px-4 py-2">Reduces manual farming time for high-volume needs.</td>
+    </tr>
+    <tr>
+      <td className="border px-4 py-2">**Resource Planning**</td>
+      <td className="border px-4 py-2">Before a major crafting session or expedition, check your Fibrous Pulp stock.</td>
+      <td className="border px-4 py-2">Avoids interruptions and ensures readiness for upgrades.</td>
+    </tr>
+  </tbody>
+</table>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Fibrous Pulp">
+
+<FAQ items={[
+  {
+    question: "Where is the best place to find Fibrous Pulp in Subnautica 2?",
+    answer: "Fibrous Pulp is most commonly found in the shallow reef biomes and the early sections of kelp forests. These areas are generally safer and teeming with the specific plant life that yields this resource."
+  },
+  {
+    question: "What are the primary uses for Fibrous Pulp?",
+    answer: "Fibrous Pulp is crucial for crafting essential early-game items such as Basic Wiring Kits, Standard Batteries, Rebreathers, Fins, and Storage Lockers. It's a foundational material for electrical and propulsion components."
+  },
+  {
+    question: "Can Fibrous Pulp be used for vehicle upgrades?",
+    answer: "Yes, Fibrous Pulp is often a component in recipes for early vehicle upgrades, particularly those related to power or minor structural enhancements. Always check the crafting menu for specific requirements."
+  },
+  {
+    question: "Is Fibrous Pulp a renewable resource?",
+    answer: "As an organic resource from plant life, Fibrous Pulp sources typically respawn over time, allowing for sustainable farming. However, the exact respawn rate can vary by biome and game update."
+  }
+]} />
+
+</Section>

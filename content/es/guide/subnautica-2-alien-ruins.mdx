@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Ruinas Alienígenas: Guía Completa de Descubrimiento y Lore 2026",
+  description: "Explora las ruinas alienígenas de Subnautica 2 con nuestra guía completa de 2026. Aprende sobre ubicaciones de planos, consejos de escaneo y cómo sobrevivir a las amenazas de leviatán en modo cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Subnautica+2+Alien+Ruins",
+  date: "2026-05-15",
+  author: "Equipo Wiki de Subnautica 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **ruinas alienígenas de Subnautica 2** son la fuente principal de planos avanzados y datos históricos en el nuevo planeta alienígena.
+- **El escaneo es esencial**: Usa la herramienta de escáner en todas las estructuras, fragmentos y pistas ambientales para desbloquear el árbol tecnológico.
+- **Compartir en cooperativo**: En el modo multijugador, cualquier escaneo de ruina o descubrimiento de plano se comparte automáticamente con todo el grupo de 4 jugadores.
+- **Presencia de Leviatanes**: Amenazas peligrosas como el Leviatán Recolector a menudo patrullan ruinas de aguas profundas; se recomienda encarecidamente el sigilo.
+- **Corrientes Oceánicas**: Una nueva mecánica en 2026 que puede arrastrar a los jugadores a zonas de ruinas más profundas y peligrosas de forma inesperada.
+</Callout>
+
+El misterio de las profundidades da un gran salto en Subnautica 2, ya que los jugadores transitan de las familiares aguas del Planeta 4546B a un mundo alienígena submarino completamente nuevo. Centrales en este viaje son las **ruinas alienígenas de Subnautica 2**, estructuras antiguas y olvidadas que guardan las claves para la supervivencia y la tecnología avanzada. A diferencia de títulos anteriores, estas ruinas están integradas en un ecosistema más dinámico donde los peligros ambientales como las corrientes oceánicas y los depredadores reactivos hacen de la exploración una empresa de alto riesgo. Ya sea que juegues solo o con una tripulación de cuatro en el nuevo modo cooperativo, comprender cómo navegar por estas ruinas es la diferencia entre desbloquear el submarino Tadpole y convertirse en alimento para peces. En esta guía completa, desglosaremos las ubicaciones, las prioridades de escaneo y las estrategias de supervivencia para cada sitio antiguo descubierto en el lanzamiento de Acceso Anticipado de 2026.
+
+<Section icon={Map} title="Tipos de Ruinas Alienígenas y Ubicaciones en Biomas">
+
+El nuevo planeta presenta una diversa variedad de estructuras antiguas dispersas en varios niveles de profundidad. Estas **ruinas alienígenas de Subnautica 2** no son solo elementos estáticos; son centros funcionales que alguna vez sirvieron a los habitantes anteriores del planeta. Identificar el tipo de ruina a distancia te permite preparar las herramientas y los suministros de oxígeno necesarios antes de comprometerte con una inmersión.
+
+<CardGrid cols={3}>
+  <Card title="Puestos de Avanzada Poco Profundos">
+    - **Profundidad**: 0m - 150m
+    - Se encuentran en biomas iniciales más seguros
+    - Contiene planos de herramientas básicas
+    - Baja actividad de depredadores
+  </Card>
+  <Card title="Agujas de Investigación">
+    - **Profundidad**: 200m - 500m
+    - Estructuras verticales con múltiples niveles
+    - Enfoque en escaneos de datos biológicos
+    - Peligros moderados de corrientes
+  </Card>
+  <Card title="Ciudadelas de Aguas Profundas">
+    - **Profundidad**: 600m+
+    - Complejos masivos en zonas oscuras
+    - Mejoras de vehículos de alto nivel
+    - Vigiladas por amenazas de Leviatanes
+  </Card>
+</CardGrid>
+
+Explorar estos sitios requiere un ojo agudo para el detalle. Muchas ruinas están parcialmente enterradas en el lecho marino o escondidas detrás de flora bioluminiscente. La actualización de 2026 enfatiza el descubrimiento impulsado por el jugador, lo que significa que hay menos marcadores HUD y más pistas ambientales, como extrañas señales de audio o patrones de luz inusuales, para guiarte hacia un descubrimiento importante.
+
+| Categoría de Ruina | Bioma Común | Tipo de Botín Principal | Nivel de Peligro |
+| :--- | :--- | :--- | :--- |
+| **Puestos de Avanzada** | Bajos de Coral | Escáner Básico/Tanque de Oxígeno | ★☆☆☆☆ |
+| **Agujas** | Algas Bioluminiscentes | Partes de Submarino Tadpole | ★★★☆☆ |
+| **Ciudadelas** | Fosas Abisales | Reactor Avanzado/Blindaje de Casco | ★★★★★ |
+| **Portales** | Túneles de Corriente | Lore/Datos de Teletransportación | ★★★★☆ |
+
+<Callout type="tip" title="Advertencia Ambiental">
+Mantente atento a la nueva mecánica de **Corrientes Oceánicas**. Algunas ruinas están ubicadas al final de túneles de alta velocidad que pueden atrapar a un jugador sin un vehículo de alta potencia como el Tadpole.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Explorar las Ruinas Alienígenas de Subnautica 2">
+
+Navegar por la arquitectura antigua de un nuevo planeta requiere un enfoque sistemático. Las ruinas a menudo son laberínticas, con pasillos estrechos y habitaciones ocultas que pueden llevar fácilmente a un ahogamiento si te pierdes. Seguir un protocolo de exploración estricto asegura que maximices tu recolección de datos mientras mantienes la seguridad.
+
+<Steps>
+  <Step num="1" title="Establecer un Enlace con la Superficie o la Base">
+    Antes de entrar en cualquier ruina de aguas profundas, estaciona tu submarino Tadpole cerca para que actúe como una burbuja de seguridad móvil. Si juegas en cooperativo, haz que un jugador permanezca cerca de la entrada para monitorear los niveles de oxígeno y los movimientos de los depredadores locales.
+  </Step>
+  <Step num="2" title="Escaneo Sistemático">
+    Usa tu herramienta de escáner en todo. Las **ruinas alienígenas de Subnautica 2** están llenas de terreno escaneable, fragmentos y entradas de datos específicas de las ruinas. Estos son esenciales para llenar tu Banco de Datos y desbloquear el siguiente nivel de equipo de supervivencia.
+  </Step>
+  <Step num="3" title="Identificar Fuentes de Energía">
+    Muchas ruinas tienen sistemas de energía inactivos. Restaurar la energía a través de acertijos ambientales o interacciones específicas de herramientas puede abrir mamparos sellados y revelar áreas de almacenamiento de planos de alto valor.
+  </Step>
+  <Step num="4" title="Recuperación de Botín y Datos">
+    Recolecta cualquier artefacto físico o cubo de datos. En la versión de Acceso Anticipado de 2026, algunas ruinas contienen "Fragmentos de Memoria" que proporcionan contexto narrativo para la historia del planeta y el origen de las nuevas criaturas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mecánicas Cooperativas">
+Recuerda que en Subnautica 2, los casilleros de almacenamiento construidos en tu base son compartidos. Al saquear ruinas, puedes enviar objetos de vuelta a la superficie usando la nueva utilidad **Ascensor de Buceo**, permitiendo que tus compañeros de equipo comiencen a fabricar mejoras de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Planos Clave y Tecnología Encontrados en Ruinas">
+
+La motivación principal para visitar las **ruinas alienígenas de Subnautica 2** es la adquisición de tecnología avanzada. Los planos encontrados dentro de estas antiguas paredes te permiten adentrarte más en el océano y construir bases submarinas más complejas. El sistema de creación de 2026 es más modular, requiriendo componentes específicos que a menudo se encuentran solo en tipos de ruinas especializadas.
+
+| Tecnología | Fuente de la Ruina | Escaneos Requeridos | Función |
+| :--- | :--- | :--- | :--- |
+| **Submarino Tadpole** | Agujas de Profundidad Media | 3 Fragmentos | Vehículo de exploración principal |
+| **Ascensor de Buceo** | Aguja de Investigación | 2 Fragmentos | Transporte vertical rápido |
+| **Planta Térmica** | Ruinas Volcánicas | 3 Fragmentos | Energía base infinita |
+| **Traje Reforzado** | Ciudadela de Aguas Profundas | 4 Fragmentos | Protección contra alta presión |
+| **Escáner de Pulso** | Ruinas de Portal | 2 Fragmentos | Detección de recursos de largo alcance |
+
+El submarino Tadpole es el hallazgo más crítico en el juego temprano a medio. La mayoría de los jugadores encontrarán los fragmentos necesarios dispersos por el perímetro de las Agujas de Investigación. Una vez fabricado, el Tadpole sirve como tu herramienta principal para llegar a las Ciudadelas de Aguas Profundas donde se esconde la tecnología del juego final.
+
+<Callout type="success" title="Consejo de Descubrimiento de Planos">
+Prioriza las ruinas que parecen "Archivos". Estas estructuras tienen una mayor densidad de tabletas de datos y fragmentos de planos en comparación con las "Estaciones de Procesamiento" de aspecto más industrial.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivir a las Amenazas Cerca de Sitios Antiguos">
+
+Las ruinas antiguas rara vez están abandonadas. En Subnautica 2, estos sitios a menudo son reclamados por los depredadores ápice del planeta como zonas de anidación o territorios de caza. La amenaza más significativa en el lanzamiento de 2026 es el **Leviatán Recolector**, un depredador reactivo que es muy sensible a la luz y el sonido.
+
+<CardGrid cols={2}>
+  <Card title="Leviatán Recolector">
+    - **Comportamiento**: Reactivo a la luz y el ruido
+    - **Peligro**: Extremo
+    - **Evitación**: Apaga las luces del vehículo y muévete lentamente cuando suene la señal de audio "buscando".
+  </Card>
+  <Card title="Criadero de Alas Profundas">
+    - **Comportamiento**: Territorial cerca de las ruinas
+    - **Peligro**: Alto
+    - **Evitación**: Mantente cerca de las paredes de la ruina para evitar ser detectado desde aguas abiertas.
+  </Card>
+</CardGrid>
+
+Más allá de las amenazas biológicas, las propias ruinas pueden ser peligrosas. Los colapsos estructurales y los cambios repentinos de corriente pueden atrapar a un jugador dentro de una habitación sin una salida clara. Lleva siempre una fuente de luz secundaria y una herramienta de orientación para marcar tu camino de regreso a la entrada.
+
+| Tipo de Peligro | Efecto | Prevención/Solución |
+| :--- | :--- | :--- |
+| **Corrientes Oceánicas** | Desplazamiento rápido | Usa Tadpole con mejoras de motor |
+| **Zonas Oscuras** | Visibilidad cero | Bengalas bioluminiscentes o Linterna |
+| **Colapso Estructural** | Daño físico | Evita usar explosivos cerca de las ruinas |
+| **Fauna Reactiva** | Ataques dirigidos | Movimiento sigiloso y gestión de la luz |
+
+<Callout type="warning" title="Alerta de Leviatán">
+El Leviatán Recolector tiene cuatro tentáculos diseñados para agarrar y aplastar vehículos. Si ves su silueta cerca de una ruina, a menudo es mejor esperar en una grieta hasta que se mueva a un sector de patrulla diferente.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Estrategias Cooperativas para la Exploración de Ruinas">
+
+La adición del modo cooperativo en línea para 4 jugadores cambia significativamente la dinámica de la exploración de las **ruinas alienígenas de Subnautica 2**. Mientras que un jugador en solitario debe gestionar el oxígeno, el escaneo y la defensa simultáneamente, un equipo puede especializarse. Esto hace que la exploración en aguas profundas sea mucho más segura y eficiente.
+
+**Roles del Equipo para Inmersiones en Ruinas:**
+- **El Explorador**: Utiliza aletas de alta movilidad para mapear el diseño de la ruina e identificar objetivos de escaneo.
+- **El Técnico**: Se centra en escanear fragmentos y tabletas de datos para desbloquear planos para el grupo.
+- **El Guardián**: Permanece cerca de la entrada con una herramienta de defensa perimetral para ahuyentar a la fauna hostil más pequeña.
+- **El Apoyo**: Gestiona el Ascensor de Buceo y asegura que el equipo tenga un suministro constante de tanques de oxígeno y baterías.
+
+<Checklist
+  id="coop-ruin-checklist"
+  title="Lista de Verificación de Misión de Ruina Cooperativa:"
+  items={[
+    "Sincronizar los tanques de oxígeno antes de entrar",
+    "Designar un jugador como escáner principal",
+    "Desplegar una baliza en la entrada de la ruina",
+    "Compartir todas las entradas de datos descubiertas en el registro",
+    "Establecer una señal de retirada clara para ataques de leviatán"
+  ]}
+/>
+
+<Callout type="tip" title="Progreso Compartido">
+Dado que las entradas de datos y los planos se comparten, solo un jugador necesita escanear un fragmento para que todo el equipo reciba el plano. Esto permite que los otros tres jugadores se concentren en la recolección de recursos o la defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas Frecuentes sobre las Ruinas Alienígenas de Subnautica 2">
+
+<FAQ items={[
+  {
+    question: "¿Dónde es el mejor lugar para encontrar ruinas alienígenas en Subnautica 2?",
+    answer: "Las mejores ruinas iniciales se encuentran en los biomas de Algas Bioluminiscentes a profundidades de 150-300m. Estas contienen los fragmentos esenciales de Tadpole necesarios para una exploración más profunda."
+  },
+  {
+    question: "¿Necesito una herramienta específica para entrar en las ruinas?",
+    answer: "Aunque muchas ruinas están abiertas, algunas requieren un Cortador Láser (o su equivalente de 2026) para pasar por puertas selladas. Lleva siempre un Escáner para desbloquear los planos que se encuentran dentro."
+  },
+  {
+    question: "¿Hay diferentes ruinas en el modo cooperativo?",
+    answer: "No, las ruinas y sus ubicaciones son las mismas tanto en el modo individual como en el cooperativo. Sin embargo, el modo cooperativo te permite explorarlas de manera más eficiente dividiendo las tareas."
+  },
+  {
+    question: "¿Qué debo hacer si un Leviatán Recolector está acampando una ruina?",
+    answer: "Espera a que su ciclo de patrulla se aleje. También puedes usar señuelos o apagar todas las luces de tu vehículo para ser menos visible para sus sensores reactivos."
+  }
+]} />
+
+</Section>
+
+Al dominar la exploración de las **ruinas alienígenas de Subnautica 2**, no solo desbloquearás la tecnología más poderosa del juego, sino que también descubrirás los profundos secretos narrativos de este nuevo mundo alienígena. Recuerda escanear todo, respetar las corrientes oceánicas y siempre estar atento a las imponentes siluetas de las profundidades. ¡Feliz inmersión en 2026!

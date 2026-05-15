@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2: Guía de Exploración Temprana 2026 para Investigar Corrales de Renacuajos",
+  description: "Aprende a investigar eficazmente los corrales de submarinos Renacuajo en Subnautica 2, optimiza tu exploración inicial y descubre planos vitales en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0A3D62/fff?text=Tadpole+Pens+Investigation",
+  date: "2026-05-15",
+  author: "Equipo Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Corrales de Renacuajos**: Esenciales para **investigar los corrales de Renacuajos en Subnautica 2** y desbloquear la progresión temprana de vehículos.
+- **Prioridad de Escaneo**: Escanea todos los fragmentos y entradas de datos dentro de los corrales para asegurar los planos.
+- **Recolección de Recursos**: Recolecta materiales básicos como Titanio y Cobre cerca de los corrales para la fabricación temprana.
+- **Ventaja Cooperativa**: Coordínate con compañeros de equipo para cubrir más terreno y asegurar planos más rápido.
+- **Seguridad Primero**: Los corrales de Renacuajos suelen estar en aguas menos peligrosas y poco profundas, pero siempre ten en cuenta la fauna local.
+</Callout>
+
+En Subnautica 2, el submarino Renacuajo es tu puerta de entrada a una exploración más profunda y a la comprensión del mundo oceánico alienígena. Investigar los corrales de Renacuajos es un objetivo crucial al principio del juego que proporciona acceso a este valioso vehículo y sus mejoras. Esta guía te mostrará cómo **investigar eficazmente los corrales de Renacuajos en Subnautica 2**, asegurándote de que reúnas todos los planos y recursos necesarios para impulsar tus esfuerzos de supervivencia y descubrimiento en 2026. Dominar este paso inicial sentará una base sólida para tu viaje en este nuevo planeta.
+
+<Section icon={Target} title="Localización y Aproximación a los Corrales de Renacuajos">
+
+Los corrales de submarinos Renacuajo se encuentran típicamente en los biomas iniciales y menos profundos del juego. Estas áreas están diseñadas para ser relativamente seguras, lo que las hace ideales para la exploración temprana y la recolección de recursos. Tu primera prioridad debe ser identificar estas estructuras y planificar tu aproximación.
+
+<Callout type="tip" title="Consejo de Exploración Temprana">
+Concéntrate en explorar áreas cercanas a tu cápsula de aterrizaje o ubicación inicial de la base. Los corrales de Renacuajos suelen estar estratégicamente ubicados para introducir a los jugadores en la mecánica de los vehículos desde el principio. Usa tu escáner con frecuencia para detectar estructuras distantes y posibles puntos de interés.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Reconocimiento Inicial de Biomas Poco Profundos">
+    Comienza explorando metódicamente los alrededores inmediatos de tu área de inicio. Busca cualquier estructura o anomalía inusual que pueda indicar una antigua presencia humana. Los corrales de Renacuajos a menudo se distinguen por su apariencia metálica o de tecnología alienígena.
+  </Step>
+  <Step num="2" title="Utiliza Tu Escáner">
+    El escáner de mano es tu mejor amigo. Apúntalo en todas las direcciones mientras navegas. Resaltará fragmentos, recursos y estructuras, incluidos los componentes del corral de Renacuajos. Un escaneo exitoso agregará información a tu PDA y revelará el progreso del plano.
+  </Step>
+  <Step num="3" title="Observa las Pistas Ambientales">
+    A veces, las pistas ambientales como formaciones rocosas distintivas, agrupaciones inusuales de flora o incluso cambios sutiles en las corrientes de agua pueden llevarte a ubicaciones importantes. Mantente atento a cualquier cosa que parezca fuera de lugar o hecha por el hombre.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Escaneo de Planos y Mejoras del Renacuajo">
+
+Una vez que hayas localizado un corral de Renacuajos, comienza el verdadero trabajo: el escaneo. Para desbloquear completamente el submarino Renacuajo y su potencial, deberás encontrar y escanear varios fragmentos. Este proceso es vital para la progresión.
+
+<Callout type="warning" title="Cuidado con la Fauna Local">
+Aunque los biomas poco profundos son generalmente más seguros, algunas faunas agresivas aún podrían patrullar la zona. Siempre mantente atento a tu entorno y prepárate para retirarte a un lugar seguro si encuentras una amenaza. Escanea criaturas desconocidas desde la distancia antes de acercarte.
+</Callout>
+
+| Componente del Plano | Tipo de Ubicación     | Requisito de Escaneo | Uso Principal                                     |
+| :------------------ | :-------------------- | :------------------- | :------------------------------------------------ |
+| **Casco del Renacuajo** | Restos de Naufragio, Ruinas del Corral | 3 Fragmentos         | Desbloquea el submarino Renacuajo básico           |
+| **Célula de Energía del Renacuajo** | Yacimientos de Recursos | 1 Fragmento          | Alimenta al Renacuajo, requisito de fabricación    |
+| **Módulo de Almacenamiento del Renacuajo** | Interior del Corral | 2 Fragmentos         | Aumenta la capacidad de inventario, mejora opcional |
+| **Módulo de Profundidad del Renacuajo** | Naufragios más Profundos | 2 Fragmentos         | Permite inmersiones más profundas, crucial para la progresión |
+| **Sonar del Renacuajo** | Sitios de Corrales Avanzados | 1 Fragmento          | Mejora la navegación, utilidad opcional            |
+
+<Checklist
+  id="tadpole-scan-list"
+  title="Lista de Verificación de Investigación del Corral de Renacuajos:"
+  items={[
+    "Escanea todos los fragmentos de Renacuajo visibles.",
+    "Busca dentro y alrededor del corral fragmentos ocultos.",
+    "Escanea cualquier recurso nuevo encontrado cerca.",
+    "Busca Entradas de Datos que proporcionen información o pistas.",
+    "Asegúrate de encontrar todos los fragmentos necesarios para el Casco del Renacuajo."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Recolección de Recursos y Fabricación Temprana">
+
+Investigar los corrales de Renacuajos no se trata solo de planos; también es una excelente oportunidad para recolectar recursos esenciales al principio del juego. Las áreas alrededor de estas estructuras a menudo contienen materiales necesarios para fabricar el Renacuajo y otras herramientas vitales.
+
+<Callout type="success" title="Sinergia Cooperativa">
+En el modo cooperativo, ¡asigna roles! Un jugador puede concentrarse en escanear planos mientras otro recolecta recursos. Los casilleros de inventario compartidos dentro de tu base hacen que la combinación de esfuerzos sea perfecta.
+</Callout>
+
+| Tipo de Recurso | Ubicación Común Alrededor de los Corrales | Usos de Fabricación                               | Prioridad |
+| :------------ | :---------------------------------------- | :------------------------------------------------ | :-------- |
+| **Titanio**   | Afloramientos de Caliza, Restos de Naufragio | Casco del Renacuajo, Herramientas, Estructuras de Base | Alta      |
+| **Mineral de Cobre** | Afloramientos de Caliza              | Kits de Cableado, Baterías, Células de Energía del Renacuajo | Alta      |
+| **Cuarzo**    | Cuevas Poco Profundas, Fondo Marino      | Vidrio, Chips de Computadora, Taquillas Impermeables | Media     |
+| **Mineral de Plata** | Afloramientos de Galena              | Kits de Cableado Avanzados, Equipo de Comunicaciones | Media     |
+| **Muestra de Creepvine** | Bosques de Creepvine             | Goma de Silicona, Lubricante                      | Baja      |
+
+<Steps>
+  <Step num="1" title="Prioriza los Materiales Centrales">
+    Concéntrate primero en el Titanio y el Cobre, ya que son críticos para el Renacuajo y las herramientas básicas de supervivencia. Usa tu escáner para localizar Afloramientos de Caliza, que son una fuente principal de ambos.
+  </Step>
+  <Step num="2" title="Fabrica Herramientas Básicas">
+    Antes de abandonar el área, asegúrate de tener un Escáner, un Cuchillo de Supervivencia y una Herramienta de Reparación. Estos son indispensables para la recolección, la defensa y el mantenimiento de tu equipo.
+  </Step>
+  <Step num="3" title="Establece un Punto de Almacenamiento Temporal">
+    Si encuentras un área particularmente rica, considera construir un casillero de almacenamiento temporal cerca para descargar recursos. Esto minimiza los viajes de regreso a tu base principal.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Corrales de Renacuajos: Cooperativo y Progresión">
+
+Subnautica 2 introduce el modo cooperativo opcional, lo que cambia significativamente la forma en que puedes abordar objetivos como investigar los corrales de Renacuajos. Utilizar el trabajo en equipo puede hacer que el proceso sea más rápido y eficiente.
+
+<Callout type="info">
+El submarino Renacuajo es un vehículo compartido en mundos cooperativos. Una vez fabricado, cualquiera en el grupo puede usarlo, convirtiéndolo en un activo crítico para la exploración en equipo.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Estrategia de Juego en Solitario">
+    - **Escaneo Metódico**: Tómate tu tiempo para escanear cada rincón y grieta.
+    - **Gestión de Recursos**: Planifica tus inmersiones cuidadosamente para evitar la sobrecarga.
+    - **Proximidad a la Base**: Construye una pequeña base inicial cerca de ubicaciones prometedoras de corrales.
+  </Card>
+  <Card title="Estrategia de Juego Cooperativo">
+    - **Tareas Divididas**: Un jugador escanea, otro recolecta recursos, un tercero vigila.
+    - **Planos Compartidos**: Cualquier plano escaneado por un jugador está disponible para todo el equipo.
+    - **Compartir Vehículos**: El Renacuajo puede ser utilizado por todos, lo que permite rotaciones rápidas y exploración compartida.
+  </Card>
+</CardGrid>
+
+El submarino Renacuajo te ayuda a viajar a través de biomas más grandes y a ir más allá de las aguas poco profundas. A medida que tu rango de exploración crece, los vehículos y las mejoras se vuelven indispensables. El límite de profundidad inicial del Renacuajo te animará a buscar mejoras, que pueden encontrarse en sitios de corrales de Renacuajos o restos de naufragios más profundos y peligrosos.
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes: Investigación del Corral de Renacuajos">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos fragmentos de Renacuajo necesito escanear?",
+    answer: "Normalmente, necesitas escanear tres fragmentos del Casco del Renacuajo para desbloquear el plano básico del submarino Renacuajo. Otros módulos como la Célula de Energía o el Módulo de Almacenamiento pueden requerir escaneos adicionales de sus fragmentos específicos."
+  },
+  {
+    question: "¿Puedo encontrar corrales de Renacuajos en biomas peligrosos?",
+    answer: "Aunque los corrales de Renacuajos iniciales suelen estar en aguas más seguras y poco profundas, los fragmentos avanzados de mejora del Renacuajo o corrales adicionales podrían estar ubicados en biomas más profundos y peligrosos. Siempre mejora tu vehículo y equipo antes de aventurarte en zonas peligrosas desconocidas."
+  },
+  {
+    question: "¿Los planos del Renacuajo se comparten en modo cooperativo?",
+    answer: "Sí, las recetas fabricables y los planos de vehículos, incluidos los del Renacuajo, se comparten con todo el grupo una vez descubiertos por cualquier jugador en un mundo cooperativo. Esto permite una progresión eficiente del equipo, ya que el descubrimiento de un jugador beneficia a todos."
+  },
+  {
+    question: "¿Qué debo hacer si no encuentro ningún corral de Renacuajos?",
+    answer: "Vuelve a explorar tus biomas iniciales a fondo, prestando mucha atención a tu escáner. A veces, los fragmentos pueden estar parcialmente oscurecidos por el terreno o la flora. Expandir tu búsqueda un poco más en biomas adyacentes también podría revelar ubicaciones de corrales ocultos. Recuerda revisar también los sitios de naufragios."
+  }
+]} />
+
+</Section>

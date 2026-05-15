@@ -1,0 +1,157 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Pulpa Fibrosa: Guía de Cultivo y Fabricación 2026",
+  description: "Descubre cómo encontrar y usar eficientemente la Pulpa Fibrosa en Subnautica 2 para la fabricación esencial y mejoras. Aprende las ubicaciones óptimas de cultivo y las recetas de fabricación.",
+  category: "Guía de Fabricación",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Fibrous+Pulp+Guide",
+  date: "2026-05-15",
+  author: "Equipo Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Pulpa Fibrosa** es un material de fabricación crucial al principio del juego en **Subnautica 2**.
+- Se encuentra principalmente en **biomas poco profundos** de flora específica.
+- Esencial para fabricar **herramientas básicas** y mejoras de vehículos en el juego temprano.
+- Recolecta eficientemente **escaneando nueva flora** y explorando rutas iniciales seguras.
+- Siempre prioriza mejorar tu **escáner** para una identificación de recursos más fácil.
+</Callout>
+
+En Subnautica 2, la supervivencia depende de tu habilidad para recolectar recursos y fabricar herramientas esenciales. Entre la miríada de materiales que encontrarás, la Pulpa Fibrosa se destaca como un componente fundamental para la progresión temprana del juego. Este versátil recurso orgánico es vital para fabricar una variedad de objetos, desde equipo básico de supervivencia hasta modificaciones iniciales de vehículos, lo que permite una exploración más profunda y un viaje más seguro a través del mundo oceánico alienígena. Comprender dónde encontrarla y cómo utilizarla mejor impactará significativamente tu experiencia de juego temprana en 2026. Esta guía te ayudará a localizar los mejores lugares para cultivar Pulpa Fibrosa y describirá las recetas de fabricación clave que habilita.
+
+<Section icon={Map} title="Localización de Fuentes de Pulpa Fibrosa">
+La Pulpa Fibrosa es un recurso orgánico derivado de varias plantas que se encuentran en el nuevo mundo oceánico alienígena. Si bien los biomas y la flora específicos pueden ser únicos de Subnautica 2, el principio general sigue siendo: busca formaciones vegetales distintivas, a menudo en aguas menos profundas y más seguras. La exploración temprana alrededor de tu cápsula de aterrizaje o base inicial suele ser la mejor opción.
+
+<CardGrid cols={2}>
+  <Card title="Bioma Principal: Arrecifes Poco Profundos">
+    - **Características**: A menudo áreas vibrantes y bien iluminadas con diversa vida vegetal.
+    - **Flora**: Busca formaciones vegetales más grandes y de textura suave.
+    - **Densidad de Recursos**: Probabilidad moderada a alta de encontrar Pulpa Fibrosa.
+    - **Nivel de Peligro**: Generalmente bajo, ideal para la recolección temprana del juego.
+  </Card>
+  <Card title="Bioma Secundario: Bosques de Algas (Secciones Tempranas)">
+    - **Características**: Vegetación más densa, puede oscurecer la visión, pero rica en materiales orgánicos.
+    - **Flora**: Ciertas estructuras tipo algas pueden producir Pulpa Fibrosa.
+    - **Densidad de Recursos**: Irregular, pero puede ser abundante en áreas específicas.
+    - **Nivel de Peligro**: Bajo a medio, ten cuidado con la fauna agresiva.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Usa siempre tu escáner en nuevas especies de plantas. Esto las agregará a tu banco de datos y a menudo revelará qué recursos producen, incluida la Pulpa Fibrosa. Prioriza mejorar tu escáner temprano para aumentar su alcance y velocidad, haciendo la identificación de recursos mucho más eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia Eficiente de Cultivo de Pulpa Fibrosa">
+Para maximizar tu rendimiento de Pulpa Fibrosa, se recomienda un enfoque sistemático para la exploración y la recolección. No deambules sin rumbo; planifica tus rutas y prioriza la seguridad.
+
+<Steps>
+  <Step num="1" title="Equipar Herramientas Básicas">
+    Asegúrate de tener un **Cuchillo de Supervivencia** para recolectar y un **Escáner** para identificar. Una mejora del **Tanque de Oxígeno** permitirá inmersiones más largas.
+    <Checklist
+      id="basic-tools"
+      title="Equipo Esencial:"
+      items={[
+        "Cuchillo de Supervivencia (para recolectar)",
+        "Escáner (para identificar)",
+        "Tanque de Oxígeno Estándar (para inmersiones prolongadas)"
+      ]}
+    />
+  </Step>
+  <Step num="2" title="Identificar Flora Objetivo">
+    En áreas poco profundas, usa tu escáner para identificar plantas alienígenas grandes y de cuerpo blando. La apariencia exacta de la flora que produce Pulpa Fibrosa puede variar, pero típicamente será una planta prominente y de fácil acceso.
+  </Step>
+  <Step num="3" title="Recolectar y Almacenar">
+    Usa tu Cuchillo de Supervivencia para recolectar las plantas identificadas. Cada planta producirá una cierta cantidad de Pulpa Fibrosa. Regresa a tu base o a un casillero de almacenamiento temporal con frecuencia para depositar tus hallazgos y gestionar tu inventario.
+  </Step>
+  <Step num="4" title="Expandir el Radio de Búsqueda">
+    Una vez que hayas agotado las fuentes cercanas, expande gradualmente tu radio de búsqueda dentro del mismo bioma o aventúrate en biomas adyacentes, ligeramente más profundos, si tu capacidad de oxígeno lo permite.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peligros Ambientales">
+Si bien los biomas poco profundos son generalmente más seguros, siempre sé consciente de tu entorno. Algunas pequeñas faunas agresivas pueden habitar estas áreas. Vigila tu salud y tus niveles de oxígeno, especialmente al aventurarte en nuevas zonas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fabricación con Pulpa Fibrosa">
+La Pulpa Fibrosa es un material fundamental para muchas recetas de fabricación de principios a mediados del juego. Su versatilidad la hace indispensable para la supervivencia y la exploración.
+
+| Objeto Fabricado      | Pulpa Fibrosa Necesaria | Otros Materiales          | Propósito                                     | Prioridad |
+| :-------------------- | :---------------------- | :------------------------ | :-------------------------------------------- | :-------- |
+| **Kit de Cableado Básico** | 2                    | Cobre x1                  | Esencial para componentes electrónicos        | Alta      |
+| **Batería Estándar**  | 1                       | Hongo Ácido x2            | Alimenta herramientas y equipos tempranos     | Alta      |
+| **Rebreather**        | 2                       | Goma de Silicona x1, Cobre x1 | Extiende el oxígeno a niveles más profundos, reduce la visión borrosa | Media     |
+| **Aletas**            | 2                       | Goma de Silicona x1       | Aumenta la velocidad de nado                  | Media     |
+| **Taquilla de Almacenamiento** | 3                | Titanio x2                | Almacenamiento básico para tu base            | Alta      |
+| **Traje de Buceo Reforzado** | 4                 | Titanio x2, Goma de Silicona x2 | Proporciona protección básica contra ataques de criaturas | Media   |
+
+<Callout type="success" title="Ventaja Cooperativa">
+En el modo multijugador, un jugador puede concentrarse en recolectar Pulpa Fibrosa mientras otros recolectan recursos complementarios como Cobre u Hongos Ácidos. Los planos compartidos significan que una vez que un jugador escanea una receta que requiere Pulpa Fibrosa, todos pueden verla.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos Avanzados para la Gestión de Pulpa Fibrosa">
+A medida que progresas, tu necesidad de Pulpa Fibrosa podría disminuir, pero sigue siendo un recurso valioso para mantener y expandir tus operaciones.
+
+<table className="table-auto w-full">
+  <thead>
+    <tr>
+      <th className="px-4 py-2">Categoría de Consejo</th>
+      <th className="px-4 py-2">Recomendación</th>
+      <th className="px-4 py-2">Beneficio</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td className="border px-4 py-2">**Optimización del Almacenamiento**</td>
+      <td className="border px-4 py-2">Dedica un casillero específico en tu base para materiales orgánicos crudos, incluida la Pulpa Fibrosa.</td>
+      <td className="border px-4 py-2">Acceso rápido; evita el desorden en el almacenamiento general.</td>
+    </tr>
+    <tr>
+      <td className="border px-4 py-2">**Automatización (Juego Tardío)**</td>
+      <td className="border px-4 py-2">Explora el potencial de sistemas automatizados de recolección o cultivo en etapas posteriores del juego, si están disponibles.</td>
+      <td className="border px-4 py-2">Reduce el tiempo de cultivo manual para necesidades de gran volumen.</td>
+    </tr>
+    <tr>
+      <td className="border px-4 py-2">**Planificación de Recursos**</td>
+      <td className="border px-4 py-2">Antes de una sesión de fabricación importante o una expedición, verifica tu inventario de Pulpa Fibrosa.</td>
+      <td className="border px-4 py-2">Evita interrupciones y asegura la preparación para las mejoras.</td>
+    </tr>
+  </tbody>
+</table>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Pulpa Fibrosa">
+
+<FAQ items={[
+  {
+    question: "¿Dónde es el mejor lugar para encontrar Pulpa Fibrosa en Subnautica 2?",
+    answer: "La Pulpa Fibrosa se encuentra más comúnmente en los biomas de arrecifes poco profundos y en las secciones tempranas de los bosques de algas. Estas áreas son generalmente más seguras y están repletas de la vida vegetal específica que produce este recurso."
+  },
+  {
+    question: "¿Cuáles son los usos principales de la Pulpa Fibrosa?",
+    answer: "La Pulpa Fibrosa es crucial para fabricar objetos esenciales al principio del juego, como Kits de Cableado Básico, Baterías Estándar, Rebreathers, Aletas y Taquillas de Almacenamiento. Es un material fundamental para componentes eléctricos y de propulsión."
+  },
+  {
+    question: "¿Se puede usar la Pulpa Fibrosa para mejoras de vehículos?",
+    answer: "Sí, la Pulpa Fibrosa es a menudo un componente en recetas para mejoras tempranas de vehículos, particularmente aquellas relacionadas con la energía o mejoras estructurales menores. Siempre verifica el menú de fabricación para los requisitos específicos."
+  },
+  {
+    question: "¿Es la Pulpa Fibrosa un recurso renovable?",
+    answer: "Como recurso orgánico de la vida vegetal, las fuentes de Pulpa Fibrosa típicamente reaparecen con el tiempo, permitiendo un cultivo sostenible. Sin embargo, la tasa exacta de reaparición puede variar según el bioma y la actualización del juego."
+  }
+]} />
+
+</Section>

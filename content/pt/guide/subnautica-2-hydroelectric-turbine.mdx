@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Turbina Hidrelétrica Subnautica 2: Alimentando Sua Base Subaquática 2026",
+  description: "Aprenda como usar efetivamente a Turbina Hidrelétrica em Subnautica 2 para gerar energia confiável para sua base, mesmo nos biomas mais profundos. Descubra dicas de posicionamento, sistemas de retransmissão e muito mais para energia sustentável em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/22c55e/fff?text=Hydroelectric+Turbine+Guide",
+  date: "2026-05-15",
+  author: "Equipe Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guia Rápido">
+- As **Turbinas Hidrelétricas** são cruciais para o fornecimento consistente de energia da base em **Subnautica 2**.
+- Elas geram energia aproveitando as **correntes subaquáticas naturais**.
+- O posicionamento em **correntes com aura azul** visíveis maximiza a produção de energia.
+- Requer um **sistema de retransmissão de energia** usando Transmissores de Energia para conectar à sua base.
+- Construir sua base perto de uma fonte de corrente forte simplifica a **distribuição de energia**.
+</Callout>
+
+Nos vastos e misteriosos oceanos de Subnautica 2, manter um suprimento de energia estável para sua base subaquática é fundamental para a sobrevivência. Embora os painéis solares ofereçam uma solução conveniente durante o dia, eles se tornam obsoletos à noite, deixando sua base vulnerável a quedas de energia. É aqui que a **turbina hidrelétrica de Subnautica 2** surge como um dispositivo gerador de energia indispensável. Ao contrário dos painéis solares, essas turbinas operam independentemente da luz solar, fornecendo um fluxo de energia consistente. Este guia abordará a mecânica, o posicionamento ideal e as estratégias de configuração para turbinas hidrelétricas, garantindo que sua base permaneça energizada durante todos os ciclos das profundezas em 2026.
+
+<Section icon={Sparkles} title="Entendendo as Turbinas Hidrelétricas">
+
+A Turbina Hidrelétrica é um dispositivo gerador de energia desbloqueado por escaneamento em Subnautica 2, projetado para fornecer um suprimento contínuo de energia. Sua principal vantagem reside na capacidade de funcionar sem luz solar, tornando-a perfeita para bases em águas profundas ou ciclos noturnos onde os painéis solares são ineficazes. No entanto, sua operação depende de um fator crucial: a presença de uma corrente subaquática natural.
+
+<Callout type="tip" title="Por que as Turbinas são Superiores aos Painéis Solares à Noite">
+Os painéis solares são excelentes para energia diurna, mas se tornam completamente inúteis quando o sol se põe ou em biomas profundos e escuros. As Turbinas Hidrelétricas, quando colocadas corretamente, oferecem uma fonte de energia constante e confiável, garantindo que o suprimento de oxigênio, os fabricadores e outros sistemas vitais de sua base permaneçam operacionais 24 horas por dia, 7 dias por semana.
+</Callout>
+
+**Principais Características das Turbinas Hidrelétricas:**
+
+| Característica    | Descrição                                                                 | Benefício                                                                       |
+| :---------------- | :------------------------------------------------------------------------ | :------------------------------------------------------------------------------ |
+| **Fonte de Energia** | Correntes subaquáticas naturais                                           | Independente da luz solar, funciona dia e noite, em qualquer profundidade      |
+| **Aquisição**     | Escaneie durante a exploração                                             | Desbloqueia novas opções de construção                                          |
+| **Posicionamento** | Deve estar dentro de uma corrente visível de "aura azul"                  | Geração ideal de energia, indicador visual para o jogador                       |
+| **Saída de Energia** | Varia de acordo com a força da corrente (indicada por um número durante o posicionamento) | Permite aos jogadores otimizar o posicionamento para máxima eficiência         |
+| **Conectividade** | Requer Transmissores de Energia para retransmitir energia para a base     | Estende a rede elétrica por distâncias, permite posicionamento flexível da base |
+
+</Section>
+
+<Section icon={Map} title="Localizando Correntes Naturais">
+
+Encontrar um local adequado para sua turbina hidrelétrica é o passo mais crítico. Essas turbinas aproveitam a energia de "correntes naturais", que são distintas de qualquer água aberta. Você reconhecerá essas correntes por uma aura azul visível ao redor delas e pelo empurrão perceptível que elas exercem sobre seu personagem.
+
+**Identificando Correntes Fortes:**
+
+*   **Pistas Visuais:** Procure áreas com uma aura azul fraca e cintilante na água. Essas são as zonas de corrente ativa.
+*   **Interação do Jogador:** Ao nadar em uma corrente natural, você sentirá um empurrão ou puxão distinto, indicando sua direção e força.
+*   **Indicador de Posicionamento:** Ao tentar colocar uma turbina, um pequeno número aparecerá, indicando a potencial produção de energia (por exemplo, "12"). Procure o número mais alto possível.
+
+<Callout type="warning" title="Evite Zonas de Corrente Fraca">
+Colocar uma turbina em uma área sem uma forte corrente natural resultará em zero ou mínima geração de energia. Sempre procure a aura azul e o indicador de produção de energia antes de se comprometer com um posicionamento.
+</Callout>
+
+É altamente recomendável explorar possíveis locais de base perto dessas fontes de corrente natural. Esse planejamento estratégico economizará um esforço e recursos significativos a longo prazo, simplificando sua rede elétrica.
+
+</Section>
+
+<Section icon={Shield} title="Configurando Seu Sistema de Turbina Hidrelétrica">
+
+Depois de identificar uma corrente forte, configurar a turbina em si é simples. O desafio geralmente reside em retransmitir essa energia de volta à sua base de forma eficiente.
+
+**Destaques do Vídeo:**
+- As turbinas hidrelétricas não precisam de luz solar, ao contrário dos painéis solares.
+- Elas requerem correntes naturais, visíveis como uma aura azul, que empurram o jogador.
+- Ao posicionar, um número indica a produção de energia; aponte para o mais alto.
+- Transmissores de Energia são essenciais para criar um sistema de retransmissão de volta à sua base.
+- Construir sua base perto de uma corrente simplifica a rede elétrica.
+
+<YouTubeEmbed videoId="ZL2tAlbxcjY" title="Como as Turbinas Hidrelétricas Funcionam em Subnautica 2" />
+
+<Steps>
+  <Step num="1" title="Escaneie para o Projeto">
+    Primeiro, certifique-se de ter escaneado uma **turbina hidrelétrica** para desbloquear seu projeto. Estes são geralmente encontrados durante a exploração em vários biomas.
+  </Step>
+  <Step num="2" title="Localize uma Corrente Forte">
+    Nade até encontrar uma corrente natural, identificável por sua **aura azul** e pelo empurrão que ela dá ao seu personagem. Use sua ferramenta de construção para pairar a turbina na corrente e observe o número de produção de energia. Procure o valor mais alto possível.
+  </Step>
+  <Step num="3" title="Posicione a Turbina">
+    Depois de encontrar um local ideal com uma alta leitura de produção de energia, posicione a turbina hidrelétrica. Ela se orientará automaticamente com o fluxo da corrente.
+  </Step>
+  <Step num="4" title="Construa um Sistema de Retransmissão de Energia">
+    Da turbina, você precisará construir uma série de **Transmissores de Energia** para levar a eletricidade de volta à sua base. Posicione o primeiro transmissor perto da turbina e, em seguida, estenda a linha em direção à sua base. Cada transmissor se conectará ao próximo, formando um conduto de energia.
+  </Step>
+  <Step num="5" title="Conecte à Sua Base">
+    Certifique-se de que o Transmissor de Energia final em seu sistema de retransmissão esteja posicionado perto o suficiente para se conectar diretamente à estrutura de sua base. Isso integrará a energia gerada pela turbina à rede de sua base.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Otimizando Seu Sistema de Retransmissão">
+Para minimizar o número de Transmissores de Energia necessários e simplificar sua rede elétrica, sempre tente construir sua base o mais próximo possível de uma forte corrente natural. Isso pode permitir que você conecte a turbina diretamente ou com apenas um ou dois transmissores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Posicionamento Estratégico da Base para Eficiência Energética">
+
+A eficiência da configuração da sua **turbina hidrelétrica de Subnautica 2** é fortemente influenciada pela localização da sua base. Uma base bem posicionada pode reduzir drasticamente a complexidade e o custo de recursos da sua rede elétrica.
+
+<CardGrid cols={2}>
+  <Card title="Posicionamento Ótimo da Base">
+    - **Perto de Correntes Fortes**: Reduz a necessidade de longas cadeias de Transmissores de Energia.
+    - **Acesso a Recursos**: Combine energia com proximidade a recursos vitais.
+    - **Segurança**: Considere a fauna local e os perigos ambientais.
+  </Card>
+  <Card title="Posicionamento Subótimo da Base">
+    - **Longe de Correntes**: Requer extensas redes de Transmissores de Energia.
+    - **Alto Custo de Recursos**: Mais titânio e fio de cobre para transmissores.
+    - **Vulnerabilidade**: Linhas de energia mais longas são mais suscetíveis a danos.
+  </Card>
+</CardGrid>
+
+**Comparação da Produção de Energia da Turbina Hidrelétrica:**
+
+| Tipo de Localização        | Força da Corrente (Aprox.) | Produção de Energia (Unidades/min) | Caso de Uso Ideal                                |
+| :------------------------- | :------------------------- | :--------------------------------- | :----------------------------------------------- |
+| **Corrente Natural Forte** | Alta (aura azul visível)   | 10-12+                             | Fonte de energia primária para bases principais  |
+| **Corrente Moderada**      | Média (menos visível)      | 5-9                                | Energia suplementar, pequenos postos avançados   |
+| **Corrente Fraca/Nenhuma** | Baixa/Nenhuma              | 0-4                                | Evitar para geração de energia, apenas decorativa |
+
+</Section>
+
+<Section icon={Target} title="Solução de Problemas e Manutenção">
+
+Mesmo com uma configuração perfeita, você pode encontrar problemas com seu sistema de **turbina hidrelétrica**. Saber como solucionar problemas pode salvar sua base de falhas críticas de energia.
+
+<Checklist
+  id="turbine-checklist"
+  title="Lista de Verificação de Solução de Problemas da Turbina Hidrelétrica:"
+  items={[
+    "Verifique o posicionamento da turbina dentro de uma forte corrente de aura azul.",
+    "Verifique o indicador de produção de energia durante o posicionamento (deve ser >0).",
+    "Certifique-se de que todos os Transmissores de Energia estejam conectados e energizados corretamente.",
+    "Confirme que o Transmissor de Energia final está conectado à sua base.",
+    "Inspecione quaisquer seções danificadas da linha de retransmissão de energia.",
+    "Considere adicionar mais turbinas se a demanda de energia exceder a oferta.",
+  ]}
+/>
+
+<Callout type="info" title="Resiliência da Rede Elétrica">
+Para bases críticas, considere diversificar suas fontes de energia. Embora as turbinas hidrelétricas sejam confiáveis, combiná-las com alguns painéis solares estrategicamente colocados (para cargas de pico diurnas) ou um biorreator (para backup de emergência) pode criar uma rede elétrica verdadeiramente resiliente.
+</Callout>
+
+Verifique regularmente as leituras de energia de sua base e a integridade de suas linhas de energia. O oceano profundo pode ser imprevisível, e uma abordagem proativa à manutenção evitará blecautes inesperados.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "As turbinas hidrelétricas de Subnautica 2 funcionam em qualquer lugar?",
+    answer: "Não, as turbinas hidrelétricas só geram energia quando colocadas dentro de correntes subaquáticas naturais. Essas correntes são visualmente identificadas por uma aura azul e mostrarão um número de produção de energia durante o posicionamento. Colocá-las fora dessas correntes resultará em zero energia."
+  },
+  {
+    question: "Como conecto a turbina hidrelétrica à minha base?",
+    answer: "Você precisa usar Transmissores de Energia. Coloque o primeiro transmissor perto da turbina e, em seguida, construa uma cadeia de transmissores de volta à sua base. Certifique-se de que o último transmissor se conecte diretamente à estrutura de sua base para integrar a energia."
+  },
+  {
+    question: "Qual é a melhor maneira de maximizar a energia de uma turbina hidrelétrica?",
+    answer: "Para maximizar a energia, coloque a turbina na corrente natural mais forte disponível. O número de produção de energia exibido durante o posicionamento indica sua eficiência; aponte para o número mais alto possível. Construir sua base mais perto dessas correntes também ajuda a reduzir a perda de energia em longas linhas de retransmissão."
+  },
+  {
+    question: "Posso usar várias turbinas hidrelétricas?",
+    answer: "Sim, você pode implantar várias **turbinas hidrelétricas de Subnautica 2** em diferentes locais de corrente forte para gerar ainda mais energia. Isso é especialmente útil para bases maiores com altas demandas de energia ou para criar sistemas de energia redundantes."
+  }
+]} />
+
+</Section>
