@@ -1,110 +1,54 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Sparkles, Shield, Target } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
-import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Checklist } from '@/components/mdx/Checklist'
-import { FAQ } from '@/
+import { Section } from '@/components/mdx/Section'
 
 export const metadata = {
-  title: "Entrenamiento Cooperativo: Domina las Mejores Estadísticas",
-  description: "Desbloquea mejoras masivas de PC en Solo Leveling: Arise con esta guía completa de entrenamiento cooperativo.",
-  category: "Guía",
-  author: "Equipo Wiki de Solo Leveling: Arise",
-  date: "2024-05-18",
-  image: "https://static.solo.leveling.wiki/guides/co-op-training.webp",
-  keywords: "Solo Leveling Arise, Entrenamiento Cooperativo, Guía, Estadísticas, PC, Poder de Combate, Crecimiento, Mejoras"
+  title: 'Subnautica 2 Adaptaciones: cómo evolucionar para sobrevivir mejor en 2026',
+  description: 'Descubre cómo la adaptación al bioma, las mejoras de equipo y la planificación de rutas definen la supervivencia en Subnautica 2.',
+  category: 'Guía',
+  date: '2026-05-15',
+  author: 'Equipo Wiki de Subnautica'
 }
 
-<Section icon={{Sparkles}} title="Dominando el Entrenamiento Cooperativo">
-El Entrenamiento Cooperativo es un sistema de crecimiento crucial en Solo Leveling: Arise que te permite mejorar las estadísticas de todos tus cazadores simultáneamente.
-
-A diferencia del equipo y los artefactos, que solo benefician a un cazador, el Entrenamiento Cooperativo ofrece mejoras de estadísticas universales, lo que lo convierte en un método increíblemente eficiente para aumentar el Poder de Combate (PC) general de tu equipo.
-
-<Callout type="info" title="¿Por qué es importante el Entrenamiento Cooperativo?">
-El Entrenamiento Cooperativo proporciona aumentos de estadísticas que se aplican a **todos tus cazadores**. Esto significa que incluso si obtienes un nuevo cazador, se beneficiará inmediatamente de tus mejoras de Entrenamiento Cooperativo existentes, lo que lo convierte en un sistema de crecimiento muy valioso a largo plazo.
+<Callout type="info" title="Respuesta rápida">
+En Subnautica 2, adaptarse significa leer el bioma, mejorar el equipo correcto y cambiar la forma de explorar cuando el océano se vuelve más hostil.
 </Callout>
 
+<Section icon={Sparkles} title="Qué significa adaptarse en Subnautica 2">
+La adaptación es el proceso de ajustar herramientas, vehículos y decisiones de ruta a cada nuevo entorno. A medida que avanzas hacia zonas más profundas, la presión, la oscuridad, la fauna agresiva y la gestión de recursos exigen soluciones distintas.
 </Section>
 
-<Section icon={{Trophy}} title="Desbloqueando el Entrenamiento Cooperativo">
-El Entrenamiento Cooperativo se desbloquea al alcanzar el **Capítulo 8** de la historia principal. Una vez desbloqueado, se accede a él a través del menú principal del juego.
-
-</Section>
-
-<Section icon={{Target}} title="Entendiendo el Árbol de Habilidades de Entrenamiento Cooperativo">
-El sistema de Entrenamiento Cooperativo se presenta como un árbol de habilidades con varios nodos, cada uno de los cuales representa una mejora de estadísticas específica.
-
-El árbol está dividido en dos secciones principales:
-
-<CardGrid cols={2}>
-<Card title="Cazador" icon={Swords}>
-Esta sección se enfoca en mejorar las estadísticas de tus cazadores, como ataque, defensa y PS.
-</Card>
-<Card title="Sung Jinwoo" icon={Shield}>
-Esta sección se dedica a mejorar las estadísticas de Sung Jinwoo, tu personaje principal, incluyendo sus habilidades específicas.
-</Card>
-</CardGrid>
-
-<Callout type="warning" title="Enfoque en los Cazadores Primero">
-Para la mayoría de los jugadores, especialmente en las primeras etapas, se recomienda encarecermente priorizar la sección **Cazador** del árbol de habilidades. Las mejoras de estadísticas a todos los cazadores suelen proporcionar un mayor aumento general de PC que las mejoras específicas de Sung Jinwoo.
-</Callout>
-
-</Section>
-
-<Section icon={{Map}} title="Tipos de Nodos y Monedas">
-Dentro del árbol de habilidades, encontrarás varios tipos de nodos que requieren diferentes monedas para activarse:
-
+<Section icon={Target} title="Cómo adaptarte más rápido">
 <Checklist
   items={[
-    '**Nodos Comunes:** Requieren **Cristales de Entrenamiento Cooperativo** para activarse. Estos son los nodos más frecuentes y proporcionan aumentos de estadísticas generales.',
-    '**Nodos Principales:** Requieren **Esencias de Entrenamiento Cooperativo** para activarse. Estos nodos son menos comunes pero ofrecen aumentos de estadísticas significativamente mayores, a menudo desbloqueando nuevos umbrales de poder.',
-    '**Nodos de Habilidad (Solo Sung Jinwoo):** En la sección de Sung Jinwoo, algunos nodos requieren **Libros de Habilidad** específicos para desbloquear nuevas habilidades o mejorar las existentes.'
+    'Mejora primero el equipo que resuelve el peligro principal del próximo bioma.',
+    'Lleva energía, reparación y suministros de respaldo para expediciones largas.',
+    'Escanea materiales y criaturas nuevas lo antes posible para desbloquear opciones futuras.',
+    'Crea pequeños puestos avanzados para reducir rutas de regreso peligrosas.',
+    'Abandona la zona cuando la visibilidad, la energía o la integridad del vehículo caigan demasiado.'
   ]}
 />
-
 </Section>
 
-<Section icon={{Sparkles}} title="Prioridades de Mejora de Estadísticas">
-Al navegar por el árbol de habilidades de Entrenamiento Cooperativo, es crucial priorizar ciertas estadísticas para maximizar tu ganancia de PC:
-
-<Checklist
-  items={[
-    '**Ataque:** Siempre debe ser tu máxima prioridad. Un mayor ataque conduce a un mayor daño, lo que te permite completar contenido más rápido y de manera más eficiente.',
-    '**Defensa y PS:** Estas estadísticas son importantes para la supervivencia, especialmente en contenido desafiante. Priorízalas después del ataque para asegurar que tus cazadores puedan soportar el daño enemigo.',
-    '**Probabilidad de Crítico y Daño Crítico:** Una vez que tus estadísticas básicas de ataque, defensa y PS estén en un nivel decente, puedes comenzar a invertir en estas estadísticas para aumentar tu producción de daño general.'
-  ]}
-/>
-
+<Section icon={Shield} title="Por qué adaptarse vale más que avanzar rápido">
+Forzar la exploración sin adaptarte suele terminar en pérdidas de recursos y viajes repetidos para recuperar objetos. Ajustarte al entorno ahorra tiempo y hace que el progreso real sea más estable.
 </Section>
 
-<Section icon={{Swords}} title="Consejos para un Entrenamiento Cooperativo Eficiente">
+## FAQ
 
-- **Prioriza los Nodos Principales:** Siempre que sea posible, prioriza la activación de los Nodos Principales, ya que ofrecen las mayores ganancias de estadísticas.
-- **Enfoque en una sección a la vez:** Es más eficiente enfocarse en maximizar una sección (por ejemplo, la sección de Ataque de Cazador) antes de pasar a otra.
-- **No te olvides de Sung Jinwoo:** Aunque los cazadores son la prioridad inicial, no descuides por completo a Sung Jinwoo. Eventualmente, querrás invertir en sus mejoras también.
-- **Verifica regularmente:** El Entrenamiento Cooperativo es un sistema de crecimiento continuo. Vuelve a visitarlo regularmente para ver qué mejoras puedes permitirte.
-- **Fuentes de Monedas:**
-  - **Cristales de Entrenamiento Cooperativo:** Se obtienen principalmente a través de la historia principal, las misiones secundarias y las recompensas del Gremio.
-  - **Esencias de Entrenamiento Cooperativo:** Se obtienen de contenido de juego final más desafiante, como el Portal de Desafío y las Misiones de Élite.
-
-</Section>
-
-<Section icon={{Sparkles}} title="Preguntas Frecuentes sobre Entrenamiento Cooperativo">
-
-<FAQ
-  items={[
-    {
-      question: "¿Puedo restablecer mi progreso de Entrenamiento Cooperativo?",
-      answer: "Actualmente, no hay una función para restablecer el progreso de Entrenamiento Cooperativo. Por lo tanto, es importante planificar cuidadosamente tus mejoras."
-    },
-    {
-      question: "¿Con qué frecuencia debo invertir en Entrenamiento Cooperativo?",
-      answer: "Debes invertir en Entrenamiento Cooperativo cada vez que tengas suficientes recursos, especialmente si puedes activar un Nodo Principal o una mejora significativa de estadísticas."
-    },
-    {
-      question: "¿Cuál es la mejor manera de obtener Cristales de Entrenamiento Cooperativo?",
-      answer: "Completar la historia principal y las misiones secundarias, así como participar en actividades del Gremio, son las formas más eficientes de farmear Cristales de Entrenamiento Cooperativo."
-    }
-  ]}
-/>
-
-</Section>
+<FAQ items={[
+  {
+    question: '¿Cuál es la base de la adaptación en Subnautica 2?',
+    answer: 'Identificar el mayor peligro del bioma y mejorar únicamente las herramientas que lo neutralizan antes de profundizar más.'
+  },
+  {
+    question: '¿Adaptarse significa centrarse en el combate?',
+    answer: 'No principalmente. Suele tratarse más de movilidad, oxígeno, energía, visibilidad y planificación que de pelear.'
+  },
+  {
+    question: '¿Cuándo conviene retirarse?',
+    answer: 'Cuando tu energía, salud, oxígeno o resistencia del vehículo empiezan a caer más rápido de lo que puedes estabilizarlos con seguridad.'
+  }
+]} />

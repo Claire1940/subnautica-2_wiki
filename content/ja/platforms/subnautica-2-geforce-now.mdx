@@ -1,110 +1,57 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles, Cloud } from 'lucide-react'
+import { Cloud, Sparkles, Target } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
-import { Card, CardGrid } from '@/components/mdx/CardGrid'
-import { Checklist } from '@/components/mdx/Checklist'
 import { FAQ } from '@/components/mdx/FAQ'
-import { Steps, Step } from '@/components/mdx/Steps'
+import { Checklist } from '@/components/mdx/Checklist'
 import { Section } from '@/components/mdx/Section'
 import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
 
 export const metadata = {
-  title: "Subnautica 2 GeForce Now: 2026年クラウドストリーミングで深海に潜る",
-  description: "GeForce NowでSubnautica 2の驚くべき水中世界を探索し、2026年には壮大な設定とスムーズなパフォーマンスを体験しましょう。",
-  category: "ガイド",
-  image: "https://placehold.co/800x400/007bff/fff?text=Subnautica+2+GeForce+Now",
-  date: "2026-05-15",
-  author: "Subnautica Wiki Team"
+  title: 'Subnautica 2 GeForce Now: 2026年クラウド設定と快適な遊び方',
+  description: 'Subnautica 2をGeForce Nowで遊ぶときに重要な設定と、安定したクラウド体験の考え方をまとめます。',
+  category: 'ガイド',
+  date: '2026-05-15',
+  author: 'Subnautica Wiki Team'
 }
 
 <Callout type="info" title="クイックガイド">
-- **Subnautica 2 GeForce Now**は、素晴らしいビジュアルとスムーズなゲームプレイを提供します。
-- **Ultimate Tier**で壮大な設定とフレーム生成によるゲームを体験してください。
-- 最適なクラウドストリーミングパフォーマンスには、**安定したインターネット接続**が不可欠です。
-- **最小限の遅延**で深い洞窟や異星の環境を探索しましょう。
-- 強化された忠実度を実現するために、**DLSSとフレーム生成を有効にして**1440p解像度をお楽しみください。
+GeForce Nowは、高性能PCがなくてもSubnautica 2を高画質で遊びやすくしますが、体験の質は回線の安定性に大きく左右されます。
 </Callout>
 
-NVIDIAのGeForce Nowクラウドゲーミングプラットフォームを通じて、さらに没入感のあるアクセスしやすい体験となったSubnautica 2の異星の海洋惑星の深海に飛び込む準備をしましょう。このガイドでは、**Subnautica 2 GeForce Now**が、最高のローカルPCがなくても、高忠実度のグラフィックとスムーズなパフォーマンスで、息をのむような水中環境、複雑な基地建設、スリリングな探検を楽しむ方法を説明します。デバイスに直接ストリーミングされる、これまでにない惑星4546Bの秘密を発見してください。
-
-<Section icon={Cloud} title="GeForce NowでSubnautica 2をアンロックする">
-GeForce Nowは、Subnautica 2のプレイ方法を変革し、その要求の厳しいグラフィックをより多くのユーザーに提供します。強力なクラウドサーバーからゲームをストリーミングすることで、他に類を見ない素晴らしいビジュアル、高いフレームレート、高度な設定を楽しむことができます。特にGeForce NowのUltimate Tierは、Subnautica 2を最高の状態で実行できる比類のない体験を提供します。
-
-**ビデオハイライト:**
-- GeForce Now Ultimate Tierで動作するSubnautica 2をデモンストレーション。
-- 壮大な設定とフレーム生成により、水中での60-80 FPSを表示。
-- ゲームのゴージャスなビジュアルと夜間効果を強調。
-- 中断のないシームレスなストリーミング体験について説明。
-
-<YouTubeEmbed videoId="mLwVO1lnwm0" title="Subnautica 2 is looking awesome on GeForce NOW" />
-
-<Callout type="tip">
-最高の**Subnautica 2 GeForce Now**体験を得るには、インターネット接続が安定していて高速であることを確認してください。遅延とパケットロスを最小限に抑えるには、Wi-Fiよりも有線接続が常に推奨されます。
-</Callout>
-
-### Subnautica 2のGeForce Nowティア比較
-
-| 機能                 | フリーティア       | プライオリティティア | アルティメットティア (推奨) |
-| :---------------------- | :--------------- | :----------------- | :-------------------------- |
-| **セッション時間**      | 1時間            | 6時間              | 8時間                       |
-| **アクセス優先度**      | 標準             | 優先               | 排他的                      |
-| **サーバータイプ**      | ベーシック         | プレミアムリグ       | RTX 4080リグ                |
-| **グラフィック品質**    | 良い             | より良い           | 最高 (壮大な設定)           |
-| **最大解像度**          | 1080p            | 1080p              | 1440p / 4K                  |
-| **フレームレート**      | 最大60 FPS       | 最大60 FPS         | 最大120 FPS / 240 FPS (Reflex) |
-| **RTXサポート**         | いいえ           | はい               | はい                        |
-| **DLSS/フレーム生成**   | いいえ           | 制限あり           | フル                        |
-| **料金 (月額)**         | 無料             | $9.99 - $19.99     | $19.99 - $39.99             |
-
+<Section icon={Cloud} title="なぜGeForce NowがSubnautica 2に合うのか">
+Subnautica 2では、暗い海中でも見やすい映像、安定したフレーム、長時間の探索中に途切れないプレイが重要です。クラウド環境でも、事前に回線を整えればかなり快適に遊べます。
 </Section>
 
-<Section icon={Sparkles} title="ビジュアルとパフォーマンスの最適化">
-GeForce NowでSubnautica 2を実行すると、グラフィック設定を限界まで引き上げることができます。Ultimate Tierでは、壮大な設定、1440p解像度、DLSS（Deep Learning Super Sampling）、およびフレーム生成を有効にして、信じられないほどスムーズで視覚的に魅力的な体験を実現できます。これらのテクノロジーは連携して、視覚的な忠実度を損なうことなく高いフレームレートを提供します。
+<YouTubeEmbed videoId="mLwVO1lnwm0" title="Subnautica 2 on GeForce NOW" />
 
-<Callout type="success" title="壮大な設定を実現する">
-体験を最大限に引き出すには、ゲーム内のグラフィック設定に移動し、すべてのオプションで「Epic」を選択します。DLSSが「Quality」または「Balanced」に設定され、フレーム生成が有効になっていることを確認してください。この組み合わせにより、**Subnautica 2 GeForce Now**で最高のビジュアルとパフォーマンスのバランスが提供されます。
-</Callout>
-
-### GeForce Now Ultimateの推奨ゲーム内設定
-
-| 設定                  | 推奨値                  | パフォーマンス/ビジュアルへの影響                               |
-| :----------------------- | :------------------------ | :-------------------------------------------------------------- |
-| **解像度**               | 2560x1440 (1440p)         | 互換性のあるモニターで最もシャープな画像。                      |
-| **DLSS**                 | Quality / Balanced        | フレームレートを向上させながら画質を向上させます。            |
-| **フレーム生成**         | Enabled                   | 特に高解像度でFPSを大幅に向上させます。                       |
-| **グラフィックプリセット** | Epic                      | 素晴らしい水中詳細のためにすべての視覚設定を最大化します。    |
-| **テクスチャ品質**       | Epic                      | 環境の詳細のための高解像度テクスチャ。                        |
-| **影の品質**             | Epic                      | 世界に深みを与えるリアルな影。                                |
-| **水の品質**             | Epic                      | ダイナミックでリアルな水のエフェクト。                        |
-| **アンチエイリアシング**   | TAA (Temporal AA)         | より滑らかな画像のためにギザギザのエッジを減らします。        |
-| **V-Sync**               | On (画面のティアリングがある場合) | 画面のティアリングを防ぐためにフレームレートをモニターのリフレッシュレートと同期させます。 |
-
+<Section icon={Target} title="設定で優先したいこと">
+<Checklist
+  items={[
+    '可能なら有線接続を優先する。',
+    '回線が安定して維持できる範囲で高い配信品質を選ぶ。',
+    '遅延が不安定なら、まず解像度を下げて安定性を取る。',
+    '本格探索の前に安全地帯で操作感を確認する。',
+    '重要な深海遠征は、回線が空いている時間帯に行う。'
+  ]}
+/>
 </Section>
 
-<Section icon={Target} title="GeForce NowでSubnautica 2を始める">
-GeForce Nowを介してSubnautica 2の異星の深海に飛び込むのは、簡単なプロセスです。これらの手順に従ってアカウントを設定し、水中での冒険を始めましょう。
-
-<Steps>
-  <Step num="1" title="GeForce Nowアカウントを作成する">
-    公式NVIDIA GeForce Nowウェブサイトにアクセスし、アカウントを登録します。フリー、プライオリティ、またはアルティメットティアから選択できます。最高の**Subnautica 2 GeForce Now**体験を得るには、アルティメットティアが強く推奨されます。
-  </Step>
-  <Step num="2" title="GeForce Nowアプリをダウンロードする">
-    GeForce Nowアプリケーションを、ご希望のデバイス（PC、Mac、Android、iOS、NVIDIA SHIELD TV、または一部のスマートテレビ）にダウンロードしてインストールします。
-  </Step>
-  <Step num="3" title="ゲームストアを接続する">
-    GeForce Nowアプリを起動してログインします。Subnautica 2を所有しているSteamまたはEpic Gamesストアアカウントをリンクする必要があります。GeForce Nowは、すでに所有しているゲームをストリーミングします。
-  </Step>
-  <Step num="4" title="Subnautica 2を検索する">
-    GeForce Nowアプリ内の検索バーを使用して「Subnautica 2」を検索します。見つかったら、ゲームをクリックします。
-  </Step>
-  <Step num="5" title="起動してプレイする">
-    「Play」をクリックしてゲームを起動します。GeForce Nowはあなたをクラウドゲーミングリグに接続し、Subnautica 2のストリーミングが開始されます。前のセクションで述べたように、最適なパフォーマンスのためにゲーム内設定を調整してください。
-  </Step>
-</Steps>
-
-<Callout type="warning" title="インターネット接続が重要">
-GeForce NowはSubnautica 2の実行という重い処理を担いますが、スムーズな体験のためには、個人のインターネット接続が最も重要な要素です。頻繁な切断や高い遅延は、ゲームプレイに深刻な影響を与える可能性があります。
-</Callout>
-
+<Section icon={Sparkles} title="パフォーマンスの見どころ">
+回線が安定していれば、利便性と映像の一貫性が大きな強みになります。回線が不安定だと、入力遅延、暗所での圧縮ノイズ、長距離移動中の切断が大きな弱点になります。
 </Section>
 
-<Section icon={Shield} title="Exploring the Dep
+## FAQ
+
+<FAQ items={[
+  {
+    question: 'GeForce NowでSubnautica 2を遊ぶ価値はある？',
+    answer: 'あります。特にローカルPC性能が足りない場合でも、安定した回線があれば十分に楽しめます。'
+  },
+  {
+    question: 'クラウド品質に一番影響するのは何？',
+    answer: '端末性能よりも、安定した低遅延の通信環境の方がずっと重要です。'
+  },
+  {
+    question: 'クラウドでの長時間プレイを避けるべき場面は？',
+    answer: '回線が混雑している時間や不安定な状況では、深海探索のような失敗コストが高い行動は避けた方が安全です。'
+  }
+]} />

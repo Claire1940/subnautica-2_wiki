@@ -1,9 +1,54 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Sparkles, Shield, Target } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
-import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Checklist } from '@/components/mdx/Checklist'
-import { FAQ } from '@/
+import { Section } from '@/components/mdx/Section'
 
 export const metadata = {
-  title: "Treinamento Cooperativo: Domine as Melhores Estatísticas",
-  description: "Desbloque
+  title: 'Subnautica 2 Adaptations: como evoluir para sobreviver melhor em 2026',
+  description: 'Entenda como adaptação de bioma, melhorias de equipamento e planejamento de rota moldam a sobrevivência em Subnautica 2.',
+  category: 'Guia',
+  date: '2026-05-15',
+  author: 'Equipe Wiki de Subnautica'
+}
+
+<Callout type="info" title="Resposta rápida">
+Adaptar-se em Subnautica 2 significa ler o bioma, melhorar o equipamento certo e mudar seu plano de exploração quando o oceano fica mais hostil.
+</Callout>
+
+<Section icon={Sparkles} title="O que adaptação significa em Subnautica 2">
+Adaptação é o processo de ajustar ferramentas, veículos e decisões de rota para cada novo ambiente. Conforme você avança para zonas mais profundas, pressão, escuridão, fauna agressiva e gestão de recursos exigem respostas diferentes.
+</Section>
+
+<Section icon={Target} title="Como se adaptar mais rápido">
+<Checklist
+  items={[
+    'Melhore primeiro o equipamento que resolve o principal perigo do próximo bioma.',
+    'Leve energia, reparo e suprimentos de reserva para expedições longas.',
+    'Escaneie materiais e criaturas novas cedo para abrir mais opções depois.',
+    'Monte pequenos postos avançados para encurtar trajetos perigosos de volta.',
+    'Saia da área quando visibilidade, energia ou integridade do veículo começarem a cair demais.'
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Por que adaptação vale mais do que pressa">
+Forçar a exploração sem adaptação normalmente leva à perda de recursos e a viagens repetidas de recuperação. Ajustar-se ao ambiente economiza tempo e torna o progresso mais estável.
+</Section>
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: 'Qual é a base da adaptação em Subnautica 2?',
+    answer: 'Identificar a maior ameaça do bioma e melhorar apenas as ferramentas que resolvem esse problema antes de ir mais fundo.'
+  },
+  {
+    question: 'Adaptação significa focar em combate?',
+    answer: 'Na maioria das vezes não. Costuma envolver mais mobilidade, oxigênio, energia, visibilidade e planejamento do que luta direta.'
+  },
+  {
+    question: 'Quando devo recuar?',
+    answer: 'Quando energia, saúde, oxigênio ou durabilidade do veículo começam a cair mais rápido do que você consegue estabilizar com segurança.'
+  }
+]} />

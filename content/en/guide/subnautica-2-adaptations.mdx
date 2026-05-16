@@ -1,5 +1,54 @@
-import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Sparkles, Shield, Target } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
-import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { FAQ } from '@/components/mdx/FAQ'
 import { Checklist } from '@/components/mdx/Checklist'
-import { FAQ } from '@/
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: 'Subnautica 2 Adaptations: How Evolution Could Shape Survival in 2026',
+  description: 'Learn how adaptation systems, biome pressure, and creature behavior could shape progression in Subnautica 2.',
+  category: 'Guide',
+  date: '2026-05-15',
+  author: 'Subnautica Wiki Team'
+}
+
+<Callout type="info" title="Quick Answer">
+Adaptation in Subnautica 2 is best understood as your ability to survive changing biomes, upgrade your tools for deeper zones, and adjust your route based on hazards rather than forcing one fixed build everywhere.
+</Callout>
+
+<Section icon={Sparkles} title="What adaptation means in Subnautica 2">
+In practice, adaptation is the loop of reading the environment, upgrading your equipment, and changing your exploration plan when the ocean becomes more hostile. New zones pressure you through darkness, temperature, aggressive fauna, and resource scarcity, so steady adaptation is what keeps progression smooth.
+</Section>
+
+<Section icon={Target} title="Best ways to adapt faster">
+<Checklist
+  items={[
+    'Upgrade depth and survival tools before pushing into a new biome.',
+    'Carry backup power, food, water, and repair options for longer trips.',
+    'Scan new creatures and materials early so future crafting paths open sooner.',
+    'Build small forward outposts to shorten dangerous return routes.',
+    'Leave risky zones when visibility, energy, or vehicle integrity becomes unstable.'
+  ]}
+/>
+</Section>
+
+<Section icon={Shield} title="Why adaptation matters more than speed">
+Rushing deeper without adapting usually leads to lost resources and repeated recovery trips. Players who treat each biome as a new survival problem tend to progress faster overall because they waste fewer runs and keep more materials.
+</Section>
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: 'What is the core adaptation strategy in Subnautica 2?',
+    answer: 'Observe the biome, identify the main threat, and upgrade only the tools that solve that specific survival problem before going deeper.'
+  },
+  {
+    question: 'Does adaptation mainly mean combat upgrades?',
+    answer: 'Not usually. It is more about mobility, oxygen, power, visibility, depth tolerance, and route planning than winning direct fights.'
+  },
+  {
+    question: 'When should I stop exploring and come back later?',
+    answer: 'Leave when your power, health, oxygen, or vehicle durability starts dropping faster than you can safely stabilize it.'
+  }
+]} />

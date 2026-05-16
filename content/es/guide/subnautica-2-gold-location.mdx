@@ -1,30 +1,54 @@
-import { Map, Swords, Trophy } from 'lucide-react'
+import { Map, Sparkles, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Checklist } from '@/components/mdx/Checklist'
+import { Section } from '@/components/mdx/Section'
 
 export const metadata = {
-  title: "Entrenamiento Cooperativo: Domina las Mejores Estadísticas",
-  description: "Desbloquea mejoras masivas de CP en Solo Leveling: Arise con nuestra guía de Entrenamiento Cooperativo.",
-  category: "Guía",
-  author: "Equipo de Wiki de Solo Leveling: Arise",
-  date: "2024-05-24",
-  image: "https://example.com/image.png",
-  keywords: "Solo Leveling Arise, Entrenamiento Cooperativo, Guía de Estadísticas, Mejora de CP"
+  title: 'Subnautica 2 Gold Location: dónde conseguir oro más rápido en 2026',
+  description: 'Aprende dónde buscar oro en Subnautica 2 y cómo montar una ruta segura de farmeo para mejoras y electrónica.',
+  category: 'Guía',
+  date: '2026-05-15',
+  author: 'Equipo Wiki de Subnautica'
 }
 
-<Section icon={{Map}} title="Resumen del Entrenamiento Cooperativo">
-El Entrenamiento Cooperativo es un sistema esencial en Solo Leveling: Arise que permite a los jugadores mejorar las estadísticas globales de Sung Jinwoo y de todos sus cazadores. Al invertir recursos en este sistema, puedes obtener aumentos significativos en tu Poder de Combate (CP) total.
+<Callout type="tip" title="Respuesta rápida">
+El oro suele rendir mejor en cuevas, zonas de transición a mayor profundidad y rutas donde puedas recoger varios recursos útiles en un solo viaje.
+</Callout>
+
+<Section icon={Map} title="Dónde suele aparecer el oro">
+El oro acostumbra a encontrarse en áreas que conectan biomas iniciales con regiones más peligrosas. En lugar de buscar en agua abierta sin rumbo, conviene revisar cuevas, afloramientos minerales y recorridos que ya usas para progresar.
 </Section>
 
-<Section icon={{Swords}} title="Estadísticas Prioritarias">
-Para maximizar la eficiencia de tu entrenamiento, se recomienda centrarse en las siguientes estadísticas:
-
-| Estadística | Prioridad | Impacto en CP |
-| :--- | :--- | :--- |
-| Ataque (%) | Muy Alta | Masivo |
-| Daño Crítico | Alta | Alto |
-| Perforación | Media | Notable |
-
+<Section icon={Target} title="Rutina recomendada de farmeo">
+<Checklist
+  items={[
+    'Reconoce primero la ruta antes de hacer un viaje completo de recolección.',
+    'Lleva espacio de inventario y una forma de reparar el vehículo.',
+    'Vacía los nodos fáciles antes de entrar a cuevas más profundas.',
+    'Regresa a base cuando llenes el inventario en lugar de alargar demasiado la salida.',
+    'Marca con balizas los trayectos con mejor rendimiento para repetirlos después.'
+  ]}
+/>
 </Section>
 
-<Section icon={{Trophy}} title="Beneficios de Progresión">
-A medida que avanzas en los niveles de entrenamiento, desbloquearás bonificaciones pasivas que fortalecen a todo tu equipo, facilitando el contenido de juego avanzado como las Incursiones y el Campo de Batalla del Caos.
+<Section icon={Sparkles} title="Por qué el oro es importante">
+El oro suele bloquear electrónica, módulos y varias mejoras a la vez. Tener una ruta estable evita cuellos de botella y acelera tanto la expansión de base como el progreso técnico.
 </Section>
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: '¿Cuál es la forma más fácil de conseguir oro en Subnautica 2?',
+    answer: 'Usar una ruta repetible de cuevas o afloramientos cercana a tu nivel actual de equipo en lugar de improvisar cada salida.'
+  },
+  {
+    question: '¿Conviene farmear oro desde temprano?',
+    answer: 'Sí, pero primero para cubrir mejoras inmediatas. La ruta dedicada cobra más valor cuando la electrónica empieza a consumirlo de forma constante.'
+  },
+  {
+    question: '¿Cómo hago más seguras las salidas por oro?',
+    answer: 'Mantén el recorrido corto, usa balizas y no te adentres más solo porque ya estás lejos de la base.'
+  }
+]} />

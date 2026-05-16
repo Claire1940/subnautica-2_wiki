@@ -1,37 +1,54 @@
-import { Map, Swords, Trophy } from 'lucide-react'
+import { Map, Sparkles, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Checklist } from '@/components/mdx/Checklist'
+import { Section } from '@/components/mdx/Section'
 
 export const metadata = {
-  title: "import { Map, Swords, Trophy",
-  description: "Traduza este conteúdo MDX do inglês para o português do Brasil.",
-  category: "Guia",
-  author: "Equipe Wiki",
-  date: "2024-05-24",
-  keywords: "import, map, swords, trophy"
+  title: 'Subnautica 2 Gold Location: onde achar ouro mais rápido em 2026',
+  description: 'Veja onde procurar ouro em Subnautica 2 e como montar uma rota segura de coleta para upgrades e eletrônicos.',
+  category: 'Guia',
+  date: '2026-05-15',
+  author: 'Equipe Wiki de Subnautica'
 }
 
-<!--
-  Instruções de saída chave - Siga rigorosamente:
+<Callout type="tip" title="Resposta rápida">
+O ouro costuma render melhor em cavernas, zonas de transição para áreas mais profundas e rotas onde você consegue coletar vários recursos úteis no mesmo trajeto.
+</Callout>
 
-  Requisitos de formato de saída:
-  1. ⛔️ Comece diretamente com as instruções de importação na primeira linha - NÃO adicione nenhum marcador ```
-  2. Copie todas as instruções de importação (exatamente como estão)
-  3. Deixe uma linha em branco
-  4. Imprima a instrução de exportação de metadados (com os campos traduzidos)
-  5. Deixe uma linha em branco
-  6. Imprima o conteúdo MDX diretamente - NÃO adicione nenhum marcador ```
-  7. NÃO adicione nenhuma explicação ou comentário
-  8. NÃO adicione nenhum marcador ``` ou ```mdx no início, meio ou fim
+<Section icon={Map} title="Onde o ouro costuma aparecer">
+O ouro normalmente surge em áreas que conectam biomas iniciais a regiões mais perigosas. Em vez de procurar em água aberta sem direção, vale focar em cavernas, afloramentos minerais e percursos que já fazem parte da sua progressão.
+</Section>
 
-  ❌ Saída de erro absolutamente proibida:
-  ```                           ← NÃO comece assim!
-  import { Map } from '...'
-  ```                           ← NÃO termine assim!
-  <Section>Conteúdo</Section>
+<Section icon={Target} title="Rotina recomendada de farm">
+<Checklist
+  items={[
+    'Reconheça a rota antes de fazer uma coleta longa.',
+    'Leve espaço de inventário e uma forma de reparar o veículo.',
+    'Pegue primeiro os nós fáceis antes de avançar para cavernas mais profundas.',
+    'Volte para a base quando o inventário encher em vez de alongar demais a saída.',
+    'Marque caminhos de alto rendimento com balizas para repetir depois.'
+  ]}
+/>
+</Section>
 
-  ✅ Formato de saída correto:
-  import { Map } from '...'     ← Comece diretamente, sem marcadores ```
+<Section icon={Sparkles} title="Por que o ouro importa tanto">
+O ouro costuma travar eletrônicos, módulos e várias melhorias ao mesmo tempo. Ter uma rota estável evita gargalos e acelera tanto a expansão da base quanto o avanço tecnológico.
+</Section>
 
-  export const metadata = { ... }
+## FAQ
 
-  <Section>Conteúdo</Section>        ← Termine diretamente, sem marcadores ```
--->
+<FAQ items={[
+  {
+    question: 'Qual é a forma mais fácil de conseguir ouro em Subnautica 2?',
+    answer: 'Usar uma rota repetível de cavernas ou afloramentos próxima ao seu nível atual de equipamento, em vez de improvisar toda saída.'
+  },
+  {
+    question: 'Vale a pena farmar ouro cedo?',
+    answer: 'Sim, primeiro para cobrir upgrades imediatos. A rota dedicada fica ainda mais importante quando eletrônicos começam a consumir ouro constantemente.'
+  },
+  {
+    question: 'Como deixo as corridas por ouro mais seguras?',
+    answer: 'Mantenha o percurso curto, use balizas e não avance mais fundo só porque já está longe da base.'
+  }
+]} />

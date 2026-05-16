@@ -1,1 +1,54 @@
-import { Map, Swords, Trophy
+import { Map, Sparkles, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Checklist } from '@/components/mdx/Checklist'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: 'Subnautica 2 Gold Location Guide: Where to Find Gold Faster in 2026',
+  description: 'Track down reliable gold locations in Subnautica 2 and learn the safest farming routine for early and midgame crafting.',
+  category: 'Guide',
+  date: '2026-05-15',
+  author: 'Subnautica Wiki Team'
+}
+
+<Callout type="tip" title="Quick Answer">
+Gold is usually worth farming in cave-heavy biomes, mineral outcrops near deeper transitions, and routes that let you loop back to base without long detours.
+</Callout>
+
+<Section icon={Map} title="Where gold is usually found">
+Gold tends to appear in progression zones that sit between safe starter regions and more dangerous mid-depth areas. Instead of searching random open water, focus on cave walls, mineral clusters, and routes that already contain multiple crafting resources.
+</Section>
+
+<Section icon={Target} title="Best farming routine">
+<Checklist
+  items={[
+    'Scan the route once before committing to a full farming trip.',
+    'Bring storage space and a repair option if you are using a vehicle.',
+    'Clear easy nodes first, then sweep nearby caves in a single loop.',
+    'Return as soon as inventory is full instead of stretching the run.',
+    'Mark high-yield paths with beacons so later trips are faster.'
+  ]}
+/>
+</Section>
+
+<Section icon={Sparkles} title="Why gold matters">
+Gold is commonly tied to electronics, upgrades, and progression bottlenecks, so running short on it can slow multiple systems at once. A stable gold route removes that pressure and makes base expansion much easier.
+</Section>
+
+## FAQ
+
+<FAQ items={[
+  {
+    question: 'What is the easiest way to get gold in Subnautica 2?',
+    answer: 'Use a repeatable cave loop near your current tech tier instead of searching new danger zones every run.'
+  },
+  {
+    question: 'Should I farm gold early or wait?',
+    answer: 'Farm enough for your immediate upgrades early, then build a dedicated route once electronics and vehicle modules start consuming more of it.'
+  },
+  {
+    question: 'How do I make gold runs safer?',
+    answer: 'Use beacons, keep the route short, and avoid pushing deeper just because you are already out in the field.'
+  }
+]} />
