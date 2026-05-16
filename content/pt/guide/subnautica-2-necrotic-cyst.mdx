@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cisto Necrótico de Subnautica 2: Guia de Infecção e Sobrevivência 2026",
+  description: "Domine a mecânica do cisto necrótico de Subnautica 2. Aprenda a identificar, tratar e sobreviver à infecção alienígena na última atualização de Acesso Antecipado de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Necrotic+Cyst+Survival+Guide",
+  date: "2026-05-16",
+  author: "Equipe Wiki Subnautica"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **cisto necrótico de Subnautica 2**: Um novo perigo biológico introduzido no lançamento do Acesso Antecipado em 14 de maio de 2026.
+- **Mecânica de Infecção**: Ao contrário do vírus Kharaa, o Cisto Necrótico é um crescimento parasitário localizado que afeta tanto jogadores quanto veículos.
+- **Detecção**: Use a ferramenta Scanner atualizada para identificar pústulas em estágio inicial nos braços do seu personagem ou nos cascos dos veículos.
+- **Tratamento**: Requer a síntese de um Bio-Neutralizador em um Fabricador Médico especializado.
+- **Fator de Risco**: Se não for tratado, o cisto reduz a saúde máxima e retarda significativamente o submersível Tadpole.
+</Callout>
+
+Subnautica 2 mergulhou oficialmente no Acesso Antecipado em 14 de maio de 2026, trazendo consigo uma série de novos mistérios e terrores. Entre as adições mais desafiadoras está o **cisto necrótico de Subnautica 2**, uma anomalia biológica parasitária que serve como um obstáculo primário de sobrevivência nos biomas mais profundos e escuros. Este guia fornece uma análise abrangente do cisto necrótico, desde sua descoberta inicial nas profundezas bioluminescentes até as receitas de criação avançadas necessárias para neutralizar sua propagação. Se você está jogando sozinho ou em uma sessão cooperativa de 4 jogadores, entender essa mecânica é vital para sua progressão além das rotas rasas iniciais. Exploraremos os sintomas da infecção, os biomas específicos onde esses cistos prosperam e as estratégias colaborativas necessárias para manter sua tripulação saudável e sua base segura contra contaminação biológica.
+
+<Section icon={Map} title="Identificando o Perigo do Cisto Necrótico">
+
+O **cisto necrótico de Subnautica 2** não é meramente um detalhe visual; é uma ameaça dinâmica que reage à presença e ao ambiente do jogador. Esses cistos geralmente aparecem como protuberâncias brilhantes, roxo-escuras encontradas em superfícies orgânicas, como estruturas de coral ou a pele de fauna maior. Na versão de Acesso Antecipado do jogo, os jogadores encontram essas anomalias pela primeira vez ao avançar para rotas mais profundas, onde as correntes oceânicas são mais fortes e a bioluminescência se torna a principal fonte de luz.
+
+<Callout type="warning" title="Perigo Ambiental">
+Os cistos são altamente reativos à luz. Usar holofotes de alta intensidade em seu submersível Tadpole pode fazer com que eles estourem, liberando esporos que aceleram a taxa de infecção na área imediata.
+</Callout>
+
+Identificar o cisto cedo é a diferença entre uma expedição bem-sucedida e uma retirada forçada. A infecção progride por três estágios distintos, cada um representado por diferentes marcadores físicos no HUD do jogador e no modelo do personagem.
+
+| Estágio da Infecção | Indicadores Visuais | Impacto na Jogabilidade |
+|:--- |:--- |:--- |
+| **Estágio 1: Incubação** | Pequenos pontos brilhantes nos pulsos | Nenhuma perda imediata de saúde / Pequena drenagem de estamina |
+| **Estágio 2: Sintomático** | Pústulas roxas elevadas / Descoloração das veias | -15% Saúde Máxima / Aumento do consumo de oxigênio |
+| **Estágio 3: Necrótico** | Cistos grandes e pulsantes / Sons de tosse | -40% Saúde Máxima / Velocidade de nado reduzida / Liberação de esporos |
+
+<Callout type="tip" title="Prioridade do Scanner">
+Sempre carregue um Scanner. Escanear um cisto Estágio 1 em uma criatura ou em você mesmo é a única maneira de desbloquear o projeto "Bio-Neutralizador" em seu Banco de Dados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Localização dos Biomas e Transmissão">
+
+Em Subnautica 2, a distribuição do **cisto necrótico de Subnautica 2** está ligada a condições ambientais específicas. Ao contrário dos jogos anteriores, onde a infecção era um ponto roteirizado da história, aqui ela funciona como um perigo específico do bioma. Quanto mais fundo você vai, mais prevalentes os cistos se tornam, particularmente em áreas habitadas pelo Leviatã Coletor.
+
+<CardGrid cols={3}>
+  <Card title="Trincheiras Bioluminescentes">
+    - **Alta Densidade**: Cistos crescem nas paredes desses cânions estreitos.
+    - **Risco**: Altos esporos na coluna d'água.
+    - **Nota**: Requer filtragem avançada de O2.
+  </Card>
+  <Card title="Cavernas Bloqueadas por Corrente">
+    - **Média Densidade**: Cistos se prendem a rochas perto de correntes fortes.
+    - **Risco**: O contato físico é difícil de evitar.
+    - **Nota**: Melhor explorado com um submersível Tadpole.
+  </Card>
+  <Card title="Locais de Ninho de Leviatãs">
+    - **Densidade Extrema**: Cistos cobrem a fauna local.
+    - **Risco**: Transmissão direta de criaturas hostis.
+    - **Nota**: Evite essas áreas até que a cura seja criada.
+  </Card>
+</CardGrid>
+
+A transmissão ocorre por três métodos primários: contato físico com flora infectada, respirar água rica em esporos sem um respirador, ou ser atacado por uma criatura infectada. No modo cooperativo, os jogadores também podem transmitir a infecção uns aos outros se compartilharem uma pequena base ou usarem os mesmos armários de armazenamento sem a devida descontaminação.
+
+| Tipo de Transmissão | Descrição | Método de Prevenção |
+|:--- |:--- |:--- |
+| **Esporos Ambientais** | Partículas suspensas em zonas escuras | Respirador Avançado / Cabine do Veículo |
+| **Contato Direto** | Tocar coral ou rochas infectadas | Roupa de Mergulho Reforçada |
+| **Ataque de Fauna** | Mordidas de fauna hostil infectada | Sistema de Defesa Perimetral / Iscas |
+| **Proximidade Cooperativa** | Passar tempo perto de colegas de equipe infectados | Sala de Descontaminação da Base |
+
+<Callout type="info" title="Nota Co-op">
+Se um jogador em sua equipe de 4 jogadores atingir a infecção de Estágio 3, os esporos podem contaminar a atmosfera interna da base, exigindo uma descarga completa do sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Curando o Cisto Necrótico: Passos para a Recuperação">
+
+Tratar o **cisto necrótico de Subnautica 2** requer um processo de várias etapas envolvendo coleta de recursos, descoberta de projetos e expansão da base. Você não pode simplesmente esperar que a infecção desapareça; é um debuff permanente até ser ativamente neutralizado.
+
+<Steps>
+  <Step num="1" title="Obtenha uma Amostra Biológica">
+    Use a Faca de Sobrevivência ou um Extrator de Amostras especializado em um cisto maduro encontrado no ambiente. Cuidado: isso liberará uma explosão de esporos.
+  </Step>
+  <Step num="2" title="Analise na Estação de Pesquisa">
+    Leve a amostra de volta à sua base. Você deve ter uma Estação de Pesquisa (distinta do Fabricador) para sequenciar o DNA do parasita.
+  </Step>
+  <Step num="3" title="Reúna Agentes Neutralizantes">
+    A cura requer materiais raros encontrados nos biomas profundos. Você precisará caçar Fungo de Coral e Enxofre de Profundidade.
+  </Step>
+  <Step num="4" title="Fabrique o Bio-Neutralizador">
+    Use o Fabricador Médico para criar o dardo ou consumível Bio-Neutralizador.
+  </Step>
+  <Step num="5" title="Administre o Tratamento">
+    Use o item em você ou em um colega de equipe. Para veículos, você deve usar um "Kit de Descontaminação de Casco".
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia Avançada">
+Depois de curar a infecção uma vez, você pode criar "Blindagem Resistente a Cistos" para o seu submersível Tadpole, impedindo que o parasita se prenda ao seu casco durante a exploração em águas profundas.
+</Callout>
+
+Os requisitos de criação para a cura são intensivos, refletindo seu status como um marco de meio de jogo. Abaixo estão as receitas confirmadas para o lançamento do Acesso Antecipado de 2026.
+
+| Nome do Item | Materiais Necessários | Saída |
+|:--- |:--- |:--- |
+| **Bio-Neutralizador (Único)** | 1x Fungo de Coral / 1x Minério de Prata / 1x Amostra | 1x Dose (Uso do Jogador) |
+| **Kit de Descontaminação (Veículo)** | 2x Enxofre de Profundidade / 1x Titânio / 1x Amostra | 1x Limpeza de Casco |
+| **Fabricador Médico** | 2x Chip de Computador / 1x Vidro / 1x Titânio | Módulo de Base |
+
+</Section>
+
+<Section icon={Swords} title="Gerenciando Fauna Infectada e Leviatãs">
+
+O **cisto necrótico de Subnautica 2** não afeta apenas você; ele altera o comportamento da vida selvagem do planeta. Criaturas infectadas são mais agressivas, têm maiores pontos de vida e emitem um brilho bioluminescente que as torna mais fáceis de detectar, mas mais perigosas de enfrentar.
+
+O Leviatã Coletor, uma grande ameaça em Subnautica 2, é particularmente suscetível a esses cistos. Um Leviatã infectado exibirá "Frenesi Necrótico", onde ataca com mais frequência e pode rastrear os movimentos do jogador através da trilha de esporos deixada por seu veículo.
+
+<Checklist
+  id="fauna-prep"
+  title="Preparação de Combate Contra Ameaças Infectadas:"
+  items={[
+    "Equipe o Rifle de Estase para interromper o movimento da fauna infectada",
+    "Mantenha o casco do seu Tadpole limpo para reduzir o alcance de detecção",
+    "Use sinalizadores para distrair predadores infectados sensíveis à luz",
+    "Instale o Módulo de Descontaminação de Casco para limpeza automática",
+    "Leve pelo menos duas doses de Bio-Neutralizador em cada mergulho profundo"
+  ]}
+/>
+
+<Callout type="warning" title="Interação com Leviatã">
+Não tente escanear um "Leviatã Coletor Necrótico" sem um veículo de alta velocidade. Seu alcance é estendido pelos crescimentos parasitários, permitindo que ele capture jogadores de mais longe do que um espécime saudável.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégias Co-op para Controle de Infecção">
+
+Com a introdução do co-op de 4 jogadores em Subnautica 2, gerenciar o **cisto necrótico de Subnautica 2** torna-se um esforço de equipe. Inventário compartilhado e armazenamento de base compartilhado significam que um explorador descuidado pode colocar em risco toda a missão.
+
+**Distribuição de Papéis:**
+Em uma equipe de sobrevivência dedicada, é altamente recomendável ter um jogador designado como "Médico". Este jogador prioriza o Fabricador Médico e mantém um estoque de Bio-Neutralizadores. Como projetos e entradas de dados são compartilhados, uma vez que o Médico aprende a cura, todo o grupo pode acessar o conhecimento, mas a coleta de recursos permanece uma tarefa coletiva.
+
+**Isolamento da Base:**
+A construção avançada de bases permite a construção de "Câmaras de Descontaminação de Airlock". Essas salas escaneiam automaticamente os jogadores ao entrarem e impedem que as portas internas se abram se uma infecção de Estágio 2 ou 3 for detectada. Isso impede que o suprimento de ar interno da base seja contaminado.
+
+<Callout type="tip" title="Progresso Compartilhado">
+Use a ferramenta "Elevador de Mergulho" para transportar recursos de zonas profundas e infectadas de volta à superfície. Isso minimiza o número de jogadores que precisam entrar em áreas de alto risco, diminuindo o risco geral de infecção para o grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Resumo e Perguntas Frequentes">
+
+O **cisto necrótico de Subnautica 2** adiciona uma camada de horror biológico e gerenciamento de recursos que define a experiência de sobrevivência de 2026. Ao entender os estágios da infecção, preparar os componentes de cura necessários e utilizar estratégias de descontaminação cooperativa, você pode ir mais fundo no oceano alienígena do que nunca.
+
+<FAQ items={[
+  {
+    question: "O cisto necrótico pode matar meu personagem?",
+    answer: "Sim. Embora a infecção em si não zere sua saúde instantaneamente, ela reduz sua saúde máxima a um ponto em que um único golpe de um predador ou ficar sem oxigênio por alguns segundos será fatal."
+  },
+  {
+    question: "O submersível Tadpole me protege do cisto?",
+    answer: "A cabine o protege de esporos transmitidos pela água, mas os cistos ainda podem se prender ao casco. Se o casco estiver coberto, a velocidade e a eficiência energética do seu veículo cairão significativamente."
+  },
+  {
+    question: "Existe uma cura permanente para o cisto necrótico?",
+    answer: "Na versão atual de Acesso Antecipado, não há imunidade permanente. Você deve usar equipamentos preventivos como a Roupa de Mergulho Reforçada ou o Módulo de Descontaminação para se manter seguro."
+  },
+  {
+    question: "Como encontro Fungo de Coral para a cura?",
+    answer: "O Fungo de Coral é encontrado nas Trincheiras Bioluminescentes, geralmente crescendo à sombra de formações rochosas maiores em profundidades abaixo de 300 metros."
+  }
+]} />
+
+</Section>

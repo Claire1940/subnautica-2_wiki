@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "subnautica 2 necrotic cyst: Guide to Infection & Survival 2026",
+  description: "Master the subnautica 2 necrotic cyst mechanic. Learn how to identify, treat, and survive the alien infection in the latest 2026 Early Access update.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Necrotic+Cyst+Survival+Guide",
+  date: "2026-05-16",
+  author: "Subnautica Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **subnautica 2 necrotic cyst**: A new biological hazard introduced in the May 14, 2026, Early Access launch.
+- **Infection Mechanic**: Unlike the Kharaa virus, the Necrotic Cyst is a localized parasitic growth that affects both players and vehicles.
+- **Detection**: Use the upgraded Scanner tool to identify early-stage pustules on your character’s arms or vehicle hulls.
+- **Treatment**: Requires the synthesis of a Bio-Neutralizer at a specialized Medical Fabricator.
+- **Risk Factor**: If left untreated, the cyst reduces maximum health and significantly slows down the Tadpole submersible.
+</Callout>
+
+Subnautica 2 has officially dived into Early Access as of May 14, 2026, bringing with it a host of new mysteries and terrors. Among the most challenging additions is the **subnautica 2 necrotic cyst**, a parasitic biological anomaly that serves as a primary survival hurdle in the deeper, darker biomes. This guide provides a comprehensive breakdown of the necrotic cyst, from its initial discovery in the bioluminescent depths to the advanced crafting recipes required to neutralize its spread. Whether you are playing solo or in a 4-player co-op session, understanding this mechanic is vital for your progression beyond the shallow starting routes. We will explore the symptoms of infection, the specific biomes where these cysts thrive, and the collaborative strategies needed to keep your crew healthy and your base secure from biological contamination.
+
+<Section icon={Map} title="Identifying the Necrotic Cyst Hazard">
+
+The **subnautica 2 necrotic cyst** is not merely a visual detail; it is a dynamic threat that reacts to the player's presence and environment. These cysts typically appear as glowing, purple-black protrusions found on organic surfaces, such as coral structures or the skin of larger fauna. In the Early Access version of the game, players first encounter these anomalies when pushing into the deeper routes where ocean currents are stronger and bioluminescence becomes the primary light source.
+
+<Callout type="warning" title="Environmental Danger">
+Cysts are highly reactive to light. Using high-intensity floodlights on your Tadpole submersible can cause them to burst, releasing spores that accelerate the infection rate in the immediate area.
+</Callout>
+
+Identifying the cyst early is the difference between a successful expedition and a forced retreat. The infection progresses through three distinct stages, each represented by different physical markers on the player's HUD and character model.
+
+| Infection Stage | Visual Indicators | Gameplay Impact |
+|:--- |:--- |:--- |
+| **Stage 1: Incubation** | Small glowing spots on wrists | No immediate health loss / Minor stamina drain |
+| **Stage 2: Symptomatic** | Raised purple pustules / Vein discoloration | -15% Max Health / Increased oxygen consumption |
+| **Stage 3: Necrotic** | Large, pulsating cysts / Audio coughing cues | -40% Max Health / Reduced swim speed / Spore shedding |
+
+<Callout type="tip" title="Scanner Priority">
+Always carry a Scanner. Scanning a Stage 1 cyst on a creature or yourself is the only way to unlock the "Bio-Neutralizer" blueprint in your Data Bank.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Biome Locations and Transmission">
+
+In Subnautica 2, the distribution of the **subnautica 2 necrotic cyst** is tied to specific environmental conditions. Unlike the previous games where infection was a scripted story beat, here it functions as a biome-specific hazard. The deeper you go, the more prevalent the cysts become, particularly in areas inhabited by the Collector Leviathan.
+
+<CardGrid cols={3}>
+  <Card title="Bioluminescent Trenches">
+    - **High Density**: Cysts grow on the walls of these narrow canyons.
+    - **Risk**: High spores in the water column.
+    - **Note**: Requires advanced O2 filtration.
+  </Card>
+  <Card title="Current-Locked Caves">
+    - **Medium Density**: Cysts attach to rocks near heavy currents.
+    - **Risk**: Physical contact is hard to avoid.
+    - **Note**: Best explored with a Tadpole submersible.
+  </Card>
+  <Card title="Leviathan Nesting Grounds">
+    - **Extreme Density**: Cysts cover the local fauna.
+    - **Risk**: Direct transmission from hostile creatures.
+    - **Note**: Avoid these areas until the cure is crafted.
+  </Card>
+</CardGrid>
+
+Transmission occurs through three primary methods: physical contact with infected flora, breathing in spore-rich water without a rebreather, or being attacked by an infected creature. In co-op mode, players can also pass the infection to one another if they share a small base or use the same storage lockers without proper decontamination.
+
+| Transmission Type | Description | Prevention Method |
+|:--- |:--- |:--- |
+| **Environmental Spores** | Suspended particles in dark zones | Advanced Rebreather / Vehicle Cabin |
+| **Direct Contact** | Touching infected coral or rocks | Reinforced Dive Suit |
+| **Fauna Attack** | Bites from infected hostile fauna | Perimeter Defense System / Decoys |
+| **Co-op Proximity** | Spending time near infected teammates | Base Decontamination Room |
+
+<Callout type="info" title="Co-op Note">
+If one player in your 4-player party reaches Stage 3 infection, the spores can contaminate the base's internal atmosphere, requiring a full system flush.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Curing the Necrotic Cyst: Steps to Recovery">
+
+Treating the **subnautica 2 necrotic cyst** requires a multi-step process involving resource gathering, blueprint discovery, and base expansion. You cannot simply wait for the infection to clear; it is a permanent debuff until actively neutralized.
+
+<Steps>
+  <Step num="1" title="Obtain a Biological Sample">
+    Use the Survival Knife or a specialized Sample Extractor on a mature cyst found in the environment. Beware: this will release a burst of spores.
+  </Step>
+  <Step num="2" title="Analyze at the Research Station">
+    Take the sample back to your base. You must have a Research Station (distinct from the Fabricator) to sequence the parasite's DNA.
+  </Step>
+  <Step num="3" title="Gather Neutralizing Agents">
+    The cure requires rare materials found in the deep biomes. You will need to hunt for Coral Fungus and Deep-Sea Sulfur.
+  </Step>
+  <Step num="4" title="Fabricate the Bio-Neutralizer">
+    Use the Medical Fabricator to create the Bio-Neutralizer dart or consumable.
+  </Step>
+  <Step num="5" title="Administer Treatment">
+    Use the item on yourself or a teammate. For vehicles, you must use a "Hull Decontamination Kit."
+  </Step>
+</Steps>
+
+<Callout type="success" title="Advanced Strategy">
+Once you have cured the infection once, you can craft "Cyst-Resistant Armor Plating" for your Tadpole submersible, preventing the parasite from attaching to your hull during deep-sea exploration.
+</Callout>
+
+The crafting requirements for the cure are intensive, reflecting its status as a mid-game milestone. Below are the confirmed recipes for the 2026 Early Access launch.
+
+| Item Name | Required Materials | Output |
+|:--- |:--- |:--- |
+| **Bio-Neutralizer (Single)** | 1x Coral Fungus / 1x Silver Ore / 1x Sample | 1x Dose (Player Use) |
+| **Decon-Kit (Vehicle)** | 2x Deep-Sea Sulfur / 1x Titanium / 1x Sample | 1x Hull Cleanse |
+| **Medical Fabricator** | 2x Computer Chip / 1x Glass / 1x Titanium | Base Module |
+
+</Section>
+
+<Section icon={Swords} title="Managing Infected Fauna and Leviathans">
+
+The **subnautica 2 necrotic cyst** doesn't just affect you; it alters the behavior of the planet's wildlife. Infected creatures are more aggressive, have higher health pools, and emit a bioluminescent glow that makes them easier to spot but more dangerous to engage.
+
+The Collector Leviathan, a major threat in Subnautica 2, is particularly susceptible to these cysts. An infected Leviathan will exhibit "Necrotic Frenzy," where it attacks more frequently and can track the player's movements through the spore trail left by their vehicle.
+
+<Checklist
+  id="fauna-prep"
+  title="Combat Prep Against Infected Threats:"
+  items={[
+    "Equip the Stasis Rifle to halt infected fauna movement",
+    "Keep your Tadpole hull clean to reduce detection range",
+    "Use flares to distract light-sensitive infected predators",
+    "Install the Hull Decontamination Module for auto-cleaning",
+    "Carry at least two Bio-Neutralizer doses on every deep dive"
+  ]}
+/>
+
+<Callout type="warning" title="Leviathan Interaction">
+Do not attempt to scan a "Necrotic Collector Leviathan" without a high-speed vehicle. Its reach is extended by the parasitic growths, allowing it to snag players from further away than a healthy specimen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Co-op Strategies for Infection Control">
+
+With the introduction of 4-player co-op in Subnautica 2, managing the **subnautica 2 necrotic cyst** becomes a team effort. Shared inventory and shared base storage mean that one careless explorer can jeopardize the entire mission.
+
+**Role Distribution:**
+In a dedicated survival team, it is highly recommended to have one player designated as the "Medic." This player prioritizes the Medical Fabricator and maintains a stockpile of Bio-Neutralizers. Since blueprints and data entries are shared, once the Medic learns the cure, the entire group can access the knowledge, but the resource gathering remains a collective task.
+
+**Base Isolation:**
+Advanced base building allows for the construction of "Airlock Decon Chambers." These rooms automatically scan players as they enter and prevent the inner doors from opening if a Stage 2 or 3 infection is detected. This prevents the base's internal air supply from becoming contaminated.
+
+<Callout type="tip" title="Shared Progress">
+Use the "Dive Elevator" tool to transport resources from deep, infected zones back to the surface. This minimizes the number of players who need to enter high-risk areas, lowering the overall infection risk for the party.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Summary and FAQ">
+
+The **subnautica 2 necrotic cyst** adds a layer of biological horror and resource management that defines the 2026 survival experience. By understanding the stages of infection, preparing the necessary cure components, and utilizing co-op decontamination strategies, you can push deeper into the alien ocean than ever before.
+
+<FAQ items={[
+  {
+    question: "Can the necrotic cyst kill my character?",
+    answer: "Yes. While the infection itself doesn't drop your health to zero instantly, it reduces your maximum health to a point where a single hit from a predator or running out of oxygen for a few seconds will be fatal."
+  },
+  {
+    question: "Does the Tadpole submersible protect me from the cyst?",
+    answer: "The cabin protects you from waterborne spores, but the cysts can still attach to the hull. If the hull is covered, your vehicle's speed and energy efficiency will drop significantly."
+  },
+  {
+    question: "Is there a permanent cure for the necrotic cyst?",
+    answer: "In the current Early Access version, there is no permanent immunity. You must use preventative gear like the Reinforced Dive Suit or the Decontamination Module to stay safe."
+  },
+  {
+    question: "How do I find Coral Fungus for the cure?",
+    answer: "Coral Fungus is found in the Bioluminescent Trenches, usually growing in the shade of larger rock formations at depths below 300 meters."
+  }
+]} />
+
+</Section>

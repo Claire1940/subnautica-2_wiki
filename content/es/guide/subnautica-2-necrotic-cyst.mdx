@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "subnautica 2 quiste necrótico: Guía de infección y supervivencia 2026",
+  description: "Domina la mecánica del quiste necrótico en Subnautica 2. Aprende a identificar, tratar y sobrevivir a la infección alienígena en la última actualización de Acceso Anticipado de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Guía+de+Supervivencia+del+Quiste+Necrótico",
+  date: "2026-05-16",
+  author: "Equipo Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **subnautica 2 quiste necrótico**: Un nuevo peligro biológico introducido en el lanzamiento de Acceso Anticipado del 14 de mayo de 2026.
+- **Mecánica de infección**: A diferencia del virus Kharaa, el Quiste Necrótico es un crecimiento parasitario localizado que afecta tanto a jugadores como a vehículos.
+- **Detección**: Utiliza la herramienta de Escáner mejorada para identificar pústulas en etapa temprana en los brazos de tu personaje o en los cascos de los vehículos.
+- **Tratamiento**: Requiere la síntesis de un Bioneutralizador en un Fabricador Médico especializado.
+- **Factor de riesgo**: Si no se trata, el quiste reduce la salud máxima y ralentiza significativamente el submarino Tadpole.
+</Callout>
+
+Subnautica 2 se ha sumergido oficialmente en Acceso Anticipado a partir del 14 de mayo de 2026, trayendo consigo una serie de nuevos misterios y terrores. Entre las adiciones más desafiantes se encuentra el **subnautica 2 quiste necrótico**, una anomalía biológica parasitaria que sirve como un obstáculo principal para la supervivencia en los biomas más profundos y oscuros. Esta guía proporciona un desglose completo del quiste necrótico, desde su descubrimiento inicial en las profundidades bioluminiscentes hasta las recetas de fabricación avanzadas necesarias para neutralizar su propagación. Ya sea que estés jugando solo o en una sesión cooperativa de 4 jugadores, comprender esta mecánica es vital para tu progreso más allá de las rutas iniciales poco profundas. Exploraremos los síntomas de la infección, los biomas específicos donde prosperan estos quistes y las estrategias colaborativas necesarias para mantener a tu tripulación sana y tu base segura de la contaminación biológica.
+
+<Section icon={Map} title="Identificación del Peligro del Quiste Necrótico">
+
+El **subnautica 2 quiste necrótico** no es solo un detalle visual; es una amenaza dinámica que reacciona a la presencia y el entorno del jugador. Estos quistes suelen aparecer como protuberancias brillantes, de color púrpura oscuro, que se encuentran en superficies orgánicas, como estructuras de coral o la piel de fauna más grande. En la versión de Acceso Anticipado del juego, los jugadores encuentran por primera vez estas anomalías al adentrarse en las rutas más profundas donde las corrientes oceánicas son más fuertes y la bioluminiscencia se convierte en la principal fuente de luz.
+
+<Callout type="warning" title="Peligro Ambiental">
+Los quistes son altamente reactivos a la luz. El uso de focos de alta intensidad en tu submarino Tadpole puede hacer que estallen, liberando esporas que aceleran la tasa de infección en el área inmediata.
+</Callout>
+
+Identificar el quiste temprano es la diferencia entre una expedición exitosa y una retirada forzada. La infección progresa a través de tres etapas distintas, cada una representada por diferentes marcadores físicos en el HUD del jugador y el modelo del personaje.
+
+| Etapa de Infección | Indicadores Visuales | Impacto en el Juego |
+|:--- |:--- |:--- |
+| **Etapa 1: Incubación** | Pequeñas manchas brillantes en las muñecas | Sin pérdida de salud inmediata / Drenaje menor de resistencia |
+| **Etapa 2: Sintomática** | Pústulas moradas elevadas / Decoloración de venas | -15% Salud Máxima / Mayor consumo de oxígeno |
+| **Etapa 3: Necrótica** | Quistes grandes y pulsantes / Señales de tos audible | -40% Salud Máxima / Velocidad de nado reducida / Desprendimiento de esporas |
+
+<Callout type="tip" title="Prioridad del Escáner">
+Lleva siempre un Escáner. Escanear un quiste de Etapa 1 en una criatura o en ti mismo es la única forma de desbloquear el plano del "Bioneutralizador" en tu Banco de Datos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ubicaciones de Biomas y Transmisión">
+
+En Subnautica 2, la distribución del **subnautica 2 quiste necrótico** está ligada a condiciones ambientales específicas. A diferencia de los juegos anteriores, donde la infección era un punto de la historia guionizado, aquí funciona como un peligro específico del bioma. Cuanto más profundo vayas, más prevalentes se vuelven los quistes, particularmente en áreas habitadas por el Leviatán Recolector.
+
+<CardGrid cols={3}>
+  <Card title="Trincheras Bioluminiscentes">
+    - **Alta Densidad**: Los quistes crecen en las paredes de estos cañones estrechos.
+    - **Riesgo**: Altas esporas en la columna de agua.
+    - **Nota**: Requiere filtración avanzada de O2.
+  </Card>
+  <Card title="Cuevas Bloqueadas por Corrientes">
+    - **Densidad Media**: Los quistes se adhieren a las rocas cerca de fuertes corrientes.
+    - **Riesgo**: El contacto físico es difícil de evitar.
+    - **Nota**: Mejor exploradas con un submarino Tadpole.
+  </Card>
+  <Card title="Zonas de Anidación de Leviatanes">
+    - **Densidad Extrema**: Los quistes cubren la fauna local.
+    - **Riesgo**: Transmisión directa de criaturas hostiles.
+    - **Nota**: Evita estas áreas hasta que se fabrique la cura.
+  </Card>
+</CardGrid>
+
+La transmisión ocurre a través de tres métodos principales: contacto físico con flora infectada, respirar agua rica en esporas sin un rebreather, o ser atacado por una criatura infectada. En modo cooperativo, los jugadores también pueden transmitirse la infección entre sí si comparten una pequeña base o usan los mismos casilleros de almacenamiento sin una descontaminación adecuada.
+
+| Tipo de Transmisión | Descripción | Método de Prevención |
+|:--- |:--- |:--- |
+| **Esporas Ambientales** | Partículas suspendidas en zonas oscuras | Rebreather Avanzado / Cabina del Vehículo |
+| **Contacto Directo** | Tocar coral o rocas infectadas | Traje de Buceo Reforzado |
+| **Ataque de Fauna** | Mordeduras de fauna hostil infectada | Sistema de Defensa Perimetral / Señuelos |
+| **Proximidad en Cooperativo** | Pasar tiempo cerca de compañeros de equipo infectados | Sala de Descontaminación de Base |
+
+<Callout type="info" title="Nota Cooperativa">
+Si un jugador en tu grupo de 4 alcanza la infección de Etapa 3, las esporas pueden contaminar la atmósfera interna de la base, requiriendo una purga completa del sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Curando el Quiste Necrótico: Pasos para la Recuperación">
+
+Tratar el **subnautica 2 quiste necrótico** requiere un proceso de varios pasos que implica la recolección de recursos, el descubrimiento de planos y la expansión de la base. No puedes simplemente esperar a que la infección desaparezca; es un perjuicio permanente hasta que se neutralice activamente.
+
+<Steps>
+  <Step num="1" title="Obtener una Muestra Biológica">
+    Usa el Cuchillo de Supervivencia o un Extractor de Muestras especializado en un quiste maduro encontrado en el entorno. Cuidado: esto liberará una ráfaga de esporas.
+  </Step>
+  <Step num="2" title="Analizar en la Estación de Investigación">
+    Lleva la muestra de vuelta a tu base. Debes tener una Estación de Investigación (distinta del Fabricador) para secuenciar el ADN del parásito.
+  </Step>
+  <Step num="3" title="Recopilar Agentes Neutralizantes">
+    La cura requiere materiales raros encontrados en los biomas profundos. Necesitarás buscar Hongo de Coral y Azufre de Aguas Profundas.
+  </Step>
+  <Step num="4" title="Fabricar el Bioneutralizador">
+    Usa el Fabricador Médico para crear el dardo o consumible Bioneutralizador.
+  </Step>
+  <Step num="5" title="Administrar Tratamiento">
+    Usa el objeto en ti mismo o en un compañero de equipo. Para vehículos, debes usar un "Kit de Descontaminación de Casco".
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia Avanzada">
+Una vez que hayas curado la infección, puedes fabricar "Blindaje Resistente a Quistes" para tu submarino Tadpole, evitando que el parásito se adhiera a tu casco durante la exploración en aguas profundas.
+</Callout>
+
+Los requisitos de fabricación de la cura son intensivos, lo que refleja su estado como un hito de mitad de juego. A continuación se presentan las recetas confirmadas para el lanzamiento de Acceso Anticipado de 2026.
+
+| Nombre del Artículo | Materiales Requeridos | Salida |
+|:--- |:--- |:--- |
+| **Bioneutralizador (Individual)** | 1x Hongo de Coral / 1x Mineral de Plata / 1x Muestra | 1x Dosis (Uso del Jugador) |
+| **Kit de Descontaminación (Vehículo)** | 2x Azufre de Aguas Profundas / 1x Titanio / 1x Muestra | 1x Limpieza de Casco |
+| **Fabricador Médico** | 2x Chip de Computadora / 1x Vidrio / 1x Titanio | Módulo Base |
+
+</Section>
+
+<Section icon={Swords} title="Manejo de Fauna Infectada y Leviatanes">
+
+El **subnautica 2 quiste necrótico** no solo te afecta a ti; altera el comportamiento de la vida silvestre del planeta. Las criaturas infectadas son más agresivas, tienen mayores reservas de salud y emiten un brillo bioluminiscente que las hace más fáciles de detectar pero más peligrosas de enfrentar.
+
+El Leviatán Recolector, una amenaza importante en Subnautica 2, es particularmente susceptible a estos quistes. Un Leviatán infectado exhibirá "Frenesí Necrótico", donde ataca con más frecuencia y puede rastrear los movimientos del jugador a través del rastro de esporas dejado por su vehículo.
+
+<Checklist
+  id="fauna-prep"
+  title="Preparación de Combate contra Amenazas Infectadas:"
+  items={[
+    "Equipa el Rifle de Estasis para detener el movimiento de la fauna infectada",
+    "Mantén el casco de tu Tadpole limpio para reducir el rango de detección",
+    "Usa bengalas para distraer a los depredadores infectados sensibles a la luz",
+    "Instala el Módulo de Descontaminación de Casco para la limpieza automática",
+    "Lleva al menos dos dosis de Bioneutralizador en cada inmersión profunda"
+  ]}
+/>
+
+<Callout type="warning" title="Interacción con Leviatanes">
+No intentes escanear un "Leviatán Recolector Necrótico" sin un vehículo de alta velocidad. Su alcance se extiende por los crecimientos parasitarios, lo que le permite atrapar a los jugadores desde más lejos que un espécimen sano.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias Cooperativas para el Control de Infecciones">
+
+Con la introducción del modo cooperativo de 4 jugadores en Subnautica 2, el manejo del **subnautica 2 quiste necrótico** se convierte en un esfuerzo de equipo. El inventario compartido y el almacenamiento base compartido significan que un explorador descuidado puede poner en peligro toda la misión.
+
+**Distribución de Roles:**
+En un equipo de supervivencia dedicado, se recomienda encarecidamente tener un jugador designado como "Médico". Este jugador prioriza el Fabricador Médico y mantiene un stock de Bioneutralizadores. Dado que los planos y las entradas de datos se comparten, una vez que el Médico aprende la cura, todo el grupo puede acceder al conocimiento, pero la recolección de recursos sigue siendo una tarea colectiva.
+
+**Aislamiento de la Base:**
+La construcción de bases avanzadas permite la construcción de "Cámaras de Descontaminación con Esclusa". Estas habitaciones escanean automáticamente a los jugadores al entrar y evitan que las puertas interiores se abran si se detecta una infección de Etapa 2 o 3. Esto evita que el suministro de aire interno de la base se contamine.
+
+<Callout type="tip" title="Progreso Compartido">
+Usa la herramienta "Elevador de Buceo" para transportar recursos desde zonas profundas e infectadas de vuelta a la superficie. Esto minimiza el número de jugadores que necesitan entrar en áreas de alto riesgo, reduciendo el riesgo general de infección para el grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Resumen y Preguntas Frecuentes">
+
+El **subnautica 2 quiste necrótico** añade una capa de horror biológico y gestión de recursos que define la experiencia de supervivencia de 2026. Al comprender las etapas de la infección, preparar los componentes de cura necesarios y utilizar estrategias de descontaminación cooperativa, podrás adentrarte más en el océano alienígena que nunca antes.
+
+<FAQ items={[
+  {
+    question: "¿Puede el quiste necrótico matar a mi personaje?",
+    answer: "Sí. Aunque la infección en sí misma no reduce tu salud a cero instantáneamente, disminuye tu salud máxima hasta un punto en que un solo golpe de un depredador o quedarte sin oxígeno por unos segundos será fatal."
+  },
+  {
+    question: "¿El submarino Tadpole me protege del quiste?",
+    answer: "La cabina te protege de las esporas transmitidas por el agua, pero los quistes aún pueden adherirse al casco. Si el casco está cubierto, la velocidad y la eficiencia energética de tu vehículo disminuirán significativamente."
+  },
+  {
+    question: "¿Existe una cura permanente para el quiste necrótico?",
+    answer: "En la versión actual de Acceso Anticipado, no hay inmunidad permanente. Debes usar equipo preventivo como el Traje de Buceo Reforzado o el Módulo de Descontaminación para mantenerte seguro."
+  },
+  {
+    question: "¿Cómo encuentro Hongo de Coral para la cura?",
+    answer: "El Hongo de Coral se encuentra en las Trincheras Bioluminiscentes, generalmente creciendo a la sombra de formaciones rocosas más grandes a profundidades superiores a los 300 metros."
+  }
+]} />
+
+</Section>
