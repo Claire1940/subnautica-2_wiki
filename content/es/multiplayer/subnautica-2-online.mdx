@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Online: Configuración Multijugador y Guía de Supervivencia Cooperativa",
+  description: "Domina Subnautica 2 online con nuestra guía de cooperativo para 4 jugadores, configuración de crossplay, construcción de bases compartidas y consejos esenciales de supervivencia en acceso anticipado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Subnautica+2+Online+Guide",
+  date: "2026-05-17",
+  author: "Equipo de Wiki de Subnautica 2"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Subnautica 2 online** soporta hasta **4 jugadores en cooperativo** con crossplay completo en todas las plataformas.
+- Se requieren **guardados basados en el anfitrión**, pero puedes convertir archivos de un solo jugador a multijugador en cualquier momento.
+- El **intercambio de recursos** es fluido, sin mecánicas de "anclaje", lo que permite a los jugadores explorar diferentes biomas de forma independiente.
+- Las **adaptaciones genéticas** son el nuevo núcleo de progresión, que requiere que los jugadores escaneen criaturas e interactúen con la flora alienígena para sobrevivir en profundidades mayores.
+- Las **estaciones de escaneo compartidas** son universales; todos los jugadores en el lobby ven los mismos pings en su HUD.
+</Callout>
+
+<Section icon={Map} title="Conectividad Multijugador y Configuración de Crossplay">
+
+Subnautica 2 introduce el tan esperado modo multijugador oficial, permitiendo que hasta cuatro Pioneros exploren las profundidades alienígenas juntos. A diferencia de entregas anteriores donde el multijugador era un mod impulsado por la comunidad, esta implementación nativa garantiza estabilidad y características integradas como el juego multiplataforma. Para comenzar tu viaje en **Subnautica 2 online**, primero debes decidir si iniciar un mundo nuevo o traer amigos a una partida guardada existente.
+
+**Aspectos destacados del video:**
+- Guía paso a paso para generar y usar **códigos de amigo de 8 dígitos**.
+- Explicación de cómo convertir partidas guardadas de un solo jugador en mundos multijugador.
+- Descripción general de la interfaz de la lista de amigos para invitaciones en la misma plataforma y multiplataforma.
+- Demostración del sistema "sin anclaje" para la exploración independiente.
+
+<YouTubeEmbed videoId="2tHS6ru4ZJE" title="Guía Multijugador de Subnautica 2: Cómo Jugar con Amigos" />
+
+La conexión con amigos se gestiona a través de un sistema interno dedicado. Si juegas en la misma plataforma, puedes usar las funciones de invitación estándar. Sin embargo, para el juego multiplataforma, utilizarás la lista de amigos específica del juego.
+
+| Característica | Especificación | Notas |
+| :--- | :--- | :--- |
+| **Límite de Jugadores** | 4 Jugadores | Solo cooperativo, no PvP |
+| **Crossplay** | Compatible | PC, Xbox y PlayStation |
+| **Tipo de Guardado** | Lado del Anfitrión | Los invitados progresan en el mundo del anfitrión |
+| **Anclaje** | Ninguno | Los jugadores pueden estar en diferentes biomas |
+| **Chat de Voz** | Integrado | Opciones de proximidad y global |
+
+<Callout type="tip" title="Consejo Pro: Conversión de Partidas Guardadas">
+Si comenzaste tu viaje solo y encontraste una ubicación de base perfecta, no te preocupes. Puedes convertir cualquier archivo de guardado de un solo jugador en un guardado multijugador desde el menú principal sin perder ningún progreso o estructura construida.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Juego Cooperativo y Recursos Compartidos">
+
+En **Subnautica 2 online**, la cooperación es más que simplemente nadar juntos; se trata de gestionar un ecosistema compartido. El juego está diseñado para ser rico en recursos para acomodar a múltiples jugadores, asegurando que la escasez de materiales no obstaculice la progresión. Sin embargo, ciertos sistemas de alta tecnología se comparten en todo el lobby, lo que requiere comunicación entre los Pioneros.
+
+Un caso crítico es la **Estación de Escaneo**. Aunque es muy eficaz para localizar recursos específicos como Plomo o Plata, la salida de la estación es universal. Si un jugador configura el escáner para buscar Cuarzo, todos los jugadores en la sesión verán esos nodos de Cuarzo en su HUD. Solo se puede rastrear un recurso a la vez por estación, lo que la convierte en una herramienta compartida en lugar de individual.
+
+<CardGrid cols={3}>
+  <Card title="Puntos de Reaparición Compartidos">
+    Varios jugadores pueden asignarse al mismo **Bio Pod** o cama base. Al morir, reaparecerás en tu última ubicación asignada.
+  </Card>
+  <Card title="Distribución de Recursos">
+    El mundo de Subnautica 2 "inunda" a los jugadores con recursos. La escasez rara vez es un problema incluso con un equipo completo de 4 jugadores.
+  </Card>
+  <Card title="Exploración Independiente">
+    Sin anclajes invisibles, un jugador puede estar en la superficie cultivando alimentos mientras otro está a 600 m de profundidad explorando ruinas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de Recursos">
+Aunque los recursos son abundantes, la limitación de la **Estación de Escaneo** significa que debes coordinarte con tu equipo. Si todos buscan materiales diferentes simultáneamente, necesitarás construir múltiples bases con sus propias estaciones de escaneo para evitar el desorden en el HUD.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión: Adaptaciones Genéticas y Herramientas">
+
+La progresión en Subnautica 2 ha evolucionado más allá de las simples mejoras del tanque de oxígeno. El núcleo de tu supervivencia ahora reside en las **Adaptaciones Genéticas**. Al interactuar con el **Pabellón de Adaptación** y varios "Árboles de Ángel" que se encuentran en calas profundas, los jugadores pueden modificar su ADN para resistir el duro entorno alienígena.
+
+<Steps>
+  <Step num="1" title="Obtener la Multiherramienta y el Escáner">
+    Recolecta Pulpa Fibrosa y Bolsas de Ácido para fabricar baterías básicas. El Escáner es tu herramienta más importante para desbloquear planos y estudiar la fauna local.
+  </Step>
+  <Step num="2" title="Localizar el Centro de Bienvenida">
+    Encuentra el Centro de Bienvenida de Alterra para desbloquear el **Constructor de Hábitat** y el **Bio Laboratorio**. Alimentar este edificio es esencial para la tecnología inicial del juego.
+  </Step>
+  <Step num="3" title="Adquirir Primeras Adaptaciones">
+    Visita la sala de Adaptación en el naufragio inicial. La primera gran mejora te permite respirar aire altamente presurizado, esencial para bucear más allá de los 500 m.
+  </Step>
+  <Step num="4" title="Desbloquear Bio Mods">
+    Usa el **Bio Escáner** en criaturas como el Tiburón Martillo o la Babosa Marina. Esto desbloquea habilidades pasivas como "Brillar en la Oscuridad" o "Aumento de Velocidad de Nado".
+  </Step>
+</Steps>
+
+| Tipo de Adaptación | Efecto | Requisito |
+| :--- | :--- | :--- |
+| **Resistencia a la Presión** | Bucea más profundo sin daño | Pabellón del Naufragio Inicial |
+| **Sistema Digestivo** | Come especies alienígenas de forma segura | Raíz de Planta Gelatina |
+| **Resistencia al Calor** | Sobrevive en Biomas de Lava | Raíz de Árbol del Mundo Curada |
+| **Visión Avanzada** | Lee texto Alienígena (Axiom) | Segundo Árbol Infectado |
+| **Impulso de Oxígeno** | Menor consumo de O2 | Investigación de Bio Laboratorio |
+
+<Callout type="success" title="Esencial para la Supervivencia">
+Lleva siempre un **Resonador Sónico**. Esta herramienta es necesaria para extraer grandes vetas de mineral y es la única forma de curar las raíces de árboles infectadas que bloquean tu progresión en las áreas narrativas más profundas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcción de Bases y el Submarino Renacuajo">
+
+La construcción de bases en **Subnautica 2 online** es un esfuerzo colaborativo. El nuevo Constructor de Hábitat permite estructuras más complejas, incluyendo pasillos verticales y habitaciones especializadas como la **Piscina Lunar** para tus vehículos. El vehículo principal para la exploración temprana y media del juego es el **Renacuajo**, un sumergible versátil que se puede actualizar con varios módulos de chasis.
+
+<CardGrid cols={2}>
+  <Card title="El Sumergible Renacuajo">
+    - **Capacidad**: Soporta hasta 3 jugadores (1 piloto, 2 en brazos exteriores).
+    - **Personalización**: Se puede equipar con chasis de Rayo Explorador o Alado.
+    - **Velocidad**: Alta movilidad pero requiere cambios frecuentes de celdas de energía.
+  </Card>
+  <Card title="Infraestructura del Hábitat">
+    - **Energía**: Turbinas solares, biorreactores e hidroeléctricas.
+    - **Utilidad**: Estaciones de escaneo, estaciones de modificación y cargadores de batería.
+    - **Social**: Salas de mesa redonda y carteles decorativos.
+  </Card>
+</CardGrid>
+
+La gestión de la energía es el mayor desafío para una base multijugador. Con cuatro jugadores usando fabricadores y cargadores, un solo panel solar no será suficiente. Debes hacer la transición a **Turbinas Hidroeléctricas** colocadas en corrientes submarinas o **Generadores Térmicos** en respiraderos volcánicos para mantener un suministro constante de energía.
+
+| Módulo de Vehículo | Función | Costo de Recursos |
+| :--- | :--- | :--- |
+| **Módulo de Profundidad MK1** | Aumenta el límite de profundidad | Titanio, Plata, Vidrio |
+| **Chasis de Exploración** | Aumento masivo de velocidad | Litio, Azufre |
+| **Módulo de Almacenamiento** | Añade espacio de carga externo | Lingote de Titanio |
+| **Chasis Alado** | Maniobrabilidad mejorada | Plomo, Cuarzo |
+
+<Callout type="info" title="Consejo de Energía">
+Usa **Transmisores de Energía** para vincular fuentes de energía distantes (como respiraderos térmicos) a tu base principal. Esto te permite construir en áreas seguras y poco profundas mientras extraes energía de biomas peligrosos y de alta energía.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navegando por el Nuevo Mundo Alienígena">
+
+El mundo de Subnautica 2 no es el Planeta 4546B. Estás en un nuevo mundo, caracterizado por enormes acantilados verticales, bosques bioluminiscentes y el misterioso **Árbol del Mundo**. La narrativa gira en torno a la **IA Noah** y la búsqueda de 26 colonos desaparecidos. A medida que explores, encontrarás Cajas Negras que reconstruyen la tragedia que ocurrió antes de tu llegada.
+
+**Lista de Verificación de Exploración Esencial:**
+<Checklist
+  id="exploration-goals"
+  title="Hitos Clave:"
+  items={[
+    "Localiza la Caja Negra de Anita Gotshall cerca del lugar del accidente inicial.",
+    "Cura las tres Raíces Infectadas para desbloquear la narrativa del Árbol del Mundo.",
+    "Fabrica el Fabricante de Espera para minería y movimiento avanzados.",
+    "Encuentra las ruinas de la Aldea Taeling para comprender la historia del planeta.",
+    "Activa el Generador Alienígena para acceder a la Sala de Astronomía."
+  ]}
+/>
+
+Las profundidades están custodiadas por Leviatanes masivos, como el **Calamar Gigante (similar a Cthulhu)** y el **Tiburón Martillo**. A diferencia de juegos anteriores, algunas criaturas usan ataques EMP o habilidades de granada cegadora para desorientar a los jugadores, haciendo que el trabajo en equipo sea esencial durante las expediciones en aguas profundas.
+
+<Callout type="tip" title="Estrategia de Exploración">
+Al cruzar "El Vacío" o trincheras profundas, usa la **Maniobra Dividida**. Haz que dos jugadores en un Renacuajo vayan a la izquierda mientras los otros van a la derecha. Esto confunde a los grandes depredadores y aumenta las posibilidades de que al menos un equipo llegue a su destino de forma segura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo juego Subnautica 2 online con amigos en diferentes consolas?",
+    answer: "Debes usar la función 'Añadir Amigo' dentro del juego. Genera un código de 8 dígitos desde tu lista de amigos, haz que tu amigo lo introduzca en su menú y, una vez que se acepte la solicitud, podrás invitarlos directamente a tu sesión alojada."
+  },
+  {
+    question: "¿Hay un límite en la distancia a la que pueden estar los jugadores entre sí?",
+    answer: "No. Subnautica 2 no utiliza un sistema de anclaje. Un jugador puede quedarse en la base mientras otro explora los biomas más profundos del mapa sin problemas de rendimiento o teletransportación forzada."
+  },
+  {
+    question: "¿Podemos construir varias bases juntos?",
+    answer: "Sí. Todos los jugadores pueden usar el Constructor de Hábitat para contribuir a una única base masiva o construir sus propios puestos avanzados separados. Todas las bases son compartidas y accesibles por todos en la sesión."
+  },
+  {
+    question: "¿Qué pasa con nuestro progreso si el anfitrión se desconecta?",
+    answer: "Dado que el archivo de guardado se almacena en la máquina del anfitrión, la sesión finalizará para todos los jugadores cuando el anfitrión se vaya. Se recomienda que el jugador con el horario más consistente o el mejor hardware aloje el juego."
+  }
+]} />
+
+</Section>
