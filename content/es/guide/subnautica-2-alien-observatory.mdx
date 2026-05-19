@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Observatorio Alienígena: Guía de Desbloqueo y Recorrido del Final",
+  description: "Navega por las profundidades, activa el observatorio alienígena y descubre los secretos de la civilización Axum en el final de acceso anticipado de Subnautica 2.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3498db/fff?text=Subnautica+2+Observatory",
+  date: "2026-05-19",
+  author: "Equipo Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Para acceder al **Observatorio Alienígena de Subnautica 2**, primero debes reparar la Central Eléctrica Axum.
+- Esto requiere obtener la **Adaptación de Visión Axum** limpiando las infestaciones de Bloom.
+- Reúne materiales cruciales como **Lingotes de Titanio, Lingotes de Mangaleación y Estroncio** para las reparaciones de la turbina.
+- El observatorio revela información clave sobre los **Árboles del Mundo** y la región de Xanadú.
+- Asegúrate de que tu Tadpole esté mejorado para inmersiones profundas y así navegar por la región de Karakorum.
+</Callout>
+
+<Section icon={Map} title="Localizando el Observatorio Alienígena de Subnautica 2">
+El **Observatorio Alienígena de Subnautica 2** es una estructura masiva y antigua ubicada en las profundidades de la región de Karakorum, muy al este de tu Cápsula de Supervivencia. Alcanzarlo requiere una preparación cuidadosa y una comprensión de los peligros que acechan en estas profundidades. El viaje en sí es una prueba de tu ingenio y de las mejoras de tu vehículo.
+
+<Callout type="warning" title="Cuidado con las Profundidades">
+El camino hacia el observatorio, especialmente cerca de las Granjas de Metal, está custodiado por fauna agresiva, incluido el aterrador **Leviathan Colector**. Permanece siempre cerca del lecho marino y prepárate para evadir amenazas.
+</Callout>
+
+**Puntos Destacados del Video:**
+- Demuestra la ubicación del bioma de las Ruinas Alienígenas.
+- Muestra las mejoras clave necesarias para el buceo profundo (mejoras del Tadpole, rebreather).
+- Describe los pasos iniciales para aprender el idioma alienígena.
+
+<YouTubeEmbed videoId="dyW74_AYq1E" title="Subnautica 2 - Cómo Desbloquear el Final (Visión Axum, Turbina, Ruinas Alienígenas)" />
+
+Al llegar, encontrarás una puerta alienígena sellada y una turbina inactiva, ambas requiriendo energía. Tu objetivo inmediato es explorar el bioma circundante de las Ruinas Alienígenas y una base abandonada, que te proporcionará los planos esenciales para las herramientas que necesitas.
+
+</Section>
+
+<Section icon={Target} title="Obteniendo la Adaptación de Visión Axum">
+Desbloquear la **Adaptación de Visión Axum** es crucial para interactuar con la tecnología alienígena y avanzar en la línea de misiones del observatorio. Esta habilidad te permite leer el antiguo idioma Axum, haciendo que los terminales y glifos sean comprensibles. El proceso implica fabricar una herramienta especializada y limpiar varios peligros ambientales.
+
+<Steps>
+  <Step num="1" title="Fabrica el Resonador de Retroalimentación">
+    Antes de poder limpiar los Cancros de Floración, necesitas el **Resonador de Retroalimentación**. Esta es una versión mejorada de tu Resonador Sónico, capaz de destruir los Cancros de Floración de Karakorum más resistentes desde la distancia.
+    <Checklist
+      id="resonator-craft"
+      title="Componentes del Resonador de Retroalimentación:"
+      items={[
+        "1x Resonador Sónico",
+        "2x Vidrio Esmaltado (requiere Esmalte)",
+        "2x Cristal Conductor",
+        "2x Estroncio (fabricado a partir de Celestina)"
+      ]}
+    />
+    Encontrarás **Fragmentos de Resonador de Retroalimentación** en lugares como el Naufragio de la Cigarra (Sala de Terapia) y cerca de las Granjas de Metal.
+  </Step>
+  <Step num="2" title="Localiza y Limpia los Sitios de Floración">
+    La Adaptación de Visión Axum se obtiene de un Peine de Ángel. Para activarla, debes destruir todos los Cancros de Floración cercanos usando tu Resonador de Retroalimentación recién fabricado. Estos cankros se encuentran en tres sitios menores y en un Núcleo de Floración central.
+    <Callout type="tip">
+    El **Puesto de Investigación**, una base alienígena abandonada cerca del Observatorio, es un excelente centro. Cuenta con un fabricador, una Biocama y taquillas para almacenamiento una vez que se le da energía, lo que lo hace ideal para la fabricación y el reabastecimiento.
+    </Callout>
+  </Step>
+  <Step num="3" title="Obtén la Visión Axum">
+    Una vez que todos los Cancros de Floración sean destruidos, el Núcleo de Floración central se abrirá, revelando un Peine de Ángel. Interactúa con su centro rosa para obtener la **Adaptación de Visión Axum**, lo que te permitirá comprender el idioma alienígena.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Reparando la Turbina de la Central Eléctrica Axum">
+Con la Visión Axum, ahora puedes comenzar el proceso de reactivación de la enorme turbina alienígena que alimenta el observatorio. Esto implica interactuar con salas de control, escanear la turbina y reunir recursos sustanciales para las reparaciones.
+
+<Callout type="success" title="Estrategia de Recolección de Recursos">
+Para reunir eficientemente los materiales necesarios para la reparación de la turbina, prioriza establecer una base temporal o usar la capacidad de almacenamiento de tu Tadpole. La región de Karakorum es rica en Celestina y Atacamita.
+</Callout>
+
+**Materiales para la Reparación de la Turbina:**
+
+| Tipo de Material    | Cantidad | Fuente/Fabricación                                  | Ubicación                                                              |
+|---------------------|----------|-----------------------------------------------------|------------------------------------------------------------------------|
+| **Lingotes de Titanio** | 10       | 30x Titanio (de Titanio crudo)                      | Abundante en todo el mapa, ricos depósitos al oeste de las Ruinas Alienígenas |
+| **Estroncio**       | 10       | 20x Celestina (procesada)                           | Región de Karakorum, cerca de la Central Eléctrica                     |
+| **Lingotes de Mangaleación**| 10       | 10x Lingotes de Titanio, 10x Atacamita, 10x Troilita| Atacamita en el lecho marino cerca de la Central Eléctrica; Troilita en las Granjas de Metal |
+
+<Steps>
+  <Step num="1" title="Activar Salas de Control">
+    Localiza las Salas de Control Inferior y Superior construidas en las paredes del acantilado cerca de la Central Eléctrica. Usa tu recién adquirida Visión Axum para interactuar con los terminales, encendiendo la energía y alineando los diales hasta que brillen en verde.
+  </Step>
+  <Step num="2" title="Escanear y Recolectar Materiales">
+    Escanea la sección rota de la Turbina de la Central Eléctrica con tu Bioescáner para revelar los materiales de reparación necesarios. Esto te dará la lista precisa de elementos requeridos, como se detalla en la tabla anterior.
+  </Step>
+  <Step num="3" title="Reparar la Turbina">
+    Una vez que se hayan recolectado todos los materiales, regresa a la sección dañada de la turbina. Usa tu Herramienta de Reparación para arreglarla, restaurando su integridad estructural.
+  </Step>
+  <Step num="4" title="Activar la Central Eléctrica">
+    Vuelve a la Sala de Control Superior. El terminal de la derecha ahora estará completamente funcional. Actívalo, luego procede al terminal central y haz clic en la luz roja para poner en línea toda la Central Eléctrica. La turbina comenzará a girar y la energía se restaurará en el área, incluyendo el **Observatorio Alienígena de Subnautica 2**.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Explorando el Observatorio Alienígena y el Final del Juego">
+Con la Central Eléctrica activa, el camino hacia el **Observatorio Alienígena de Subnautica 2** finalmente está abierto. Este segmento final del contenido de acceso anticipado revela información crítica y sienta las bases para futuras actualizaciones.
+
+<CardGrid cols={2}>
+  <Card title="Entrada del Observatorio">
+    Regresa a la puerta principal del observatorio. El terminal ahora te permitirá abrir la Puerta Axum, concediendo acceso al interior.
+  </Card>
+  <Card title="El Orrey">
+    En el interior, encontrarás un enorme modelo mecánico del sistema estelar, un **Orrey**. Escanéalo para aprender sobre tu sistema estelar actual y su relación con la Tierra.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Profundización en la Historia">
+El escaneo del Orrey proporciona información valiosa que tu PDA transmite a NoA, ofreciendo una visión de tu ubicación dentro de la vasta galaxia. Presta atención a los glifos Axum circundantes para obtener información adicional.
+</Callout>
+
+Nada hacia arriba a través de uno de los agujeros con forma de huevo en el techo para llegar a un nivel superior. Aquí, encontrarás un terminal final. Activarlo desencadena un holograma crucial, que revela mensajes de los Arquitectos sobre "Árboles del Mundo" moribundos, la región de Xanadú y criaturas peligrosas conocidas como Crypters. Esto marca actualmente el final de la historia de acceso anticipado de **Subnautica 2**.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Observatorio Alienígena de Subnautica 2">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra el Observatorio Alienígena de Subnautica 2?",
+    answer: "El **Observatorio Alienígena de Subnautica 2** está situado muy al este de la Cápsula de Supervivencia, dentro de la región de Karakorum. Es una estructura submarina masiva que se convierte en un objetivo clave después de completar los Corrales de Renacuajos."
+  },
+  {
+    question: "¿Qué es la Adaptación de Visión Axum y por qué la necesito para el observatorio?",
+    answer: "La **Adaptación de Visión Axum** es una habilidad especial que te permite leer y comprender el antiguo idioma alienígena Axum. La necesitas para interactuar con los terminales alienígenas en la Central Eléctrica, que debe ser reactivada para alimentar el observatorio y abrir su puerta principal."
+  },
+  {
+    question: "¿Qué materiales se requieren para reparar la turbina de la Central Eléctrica para acceder al Observatorio Alienígena de Subnautica 2?",
+    answer: "Para reparar la turbina, necesitarás 10x **Lingotes de Titanio**, 10x **Lingotes de Mangaleación** y 10x **Estroncio**. Estos materiales requieren una extensa recolección y procesamiento de recursos brutos como Titanio, Atacamita, Troilita y Celestina."
+  },
+  {
+    question: "¿Qué encuentro dentro del Observatorio Alienígena de Subnautica 2?",
+    answer: "Dentro del observatorio, encontrarás un Orrey, un modelo mecánico del sistema estelar que proporciona información sobre tu ubicación. También encontrarás un terminal en un nivel superior que reproduce un holograma, revelando información crítica sobre los Arquitectos, los Árboles del Mundo, Xanadú y los Crypters, marcando el final actual del acceso anticipado de **Subnautica 2**."
+  }
+]} />
+
+</Section>

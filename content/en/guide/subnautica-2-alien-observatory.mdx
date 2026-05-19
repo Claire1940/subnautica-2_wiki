@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Alien Observatory: Unlock Guide & Ending Walkthrough",
+  description: "Navigate the deep, activate the alien observatory, and uncover the secrets of the Axum civilization in Subnautica 2's early access ending.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3498db/fff?text=Subnautica+2+Observatory",
+  date: "2026-05-19",
+  author: "Subnautica Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- To access the **Subnautica 2 Alien Observatory**, you must first repair the Axum Power Plant.
+- This requires obtaining the **Axum Vision Adaptation** by cleansing Bloom infestations.
+- Gather crucial materials like **Titanium Ingots, Mangalloy Ingots, and Strontium** for turbine repairs.
+- The observatory reveals key lore about the **World Trees** and the region of Xanadu.
+- Ensure your Tadpole is upgraded for deep dives to navigate the Karakorum region.
+</Callout>
+
+<Section icon={Map} title="Locating the Subnautica 2 Alien Observatory">
+The **Subnautica 2 Alien Observatory** is a massive, ancient structure located deep within the Karakorum region, far to the east of your Lifepod. Reaching it requires careful preparation and an understanding of the dangers lurking in these depths. The journey itself is a test of your resourcefulness and vehicle upgrades.
+
+<Callout type="warning" title="Beware the Depths">
+The path to the observatory, especially near the Metal Farms, is guarded by aggressive fauna, including the terrifying **Collector Leviathan**. Always stick close to the seafloor and be prepared to evade threats.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates the location of the Alien Ruins biome.
+- Shows key upgrades needed for deep diving (Tadpole upgrades, rebreather).
+- Outlines the initial steps to learn the alien language.
+
+<YouTubeEmbed videoId="dyW74_AYq1E" title="Subnautica 2 - How To Unlock The Ending (Axum Vision, Turbine, Alien Ruins)" />
+
+Upon arrival, you'll find a sealed alien door and a dormant turbine, both requiring power. Your immediate goal is to explore the surrounding Alien Ruins biome and an abandoned base, which will provide essential blueprints for the tools you need.
+
+</Section>
+
+<Section icon={Target} title="Gaining Axum Vision Adaptation">
+Unlocking the **Axum Vision Adaptation** is crucial for interacting with alien technology and progressing through the observatory questline. This ability allows you to read the ancient Axum language, making terminals and glyphs comprehensible. The process involves crafting a specialized tool and cleansing several environmental hazards.
+
+<Steps>
+  <Step num="1" title="Craft the Feedback Resonator">
+    Before you can cleanse the Bloom Cankers, you need the **Feedback Resonator**. This is an upgraded version of your Sonic Resonator, capable of destroying the more resilient Karakorum Bloom Cankers from a distance.
+    <Checklist
+      id="resonator-craft"
+      title="Feedback Resonator Components:"
+      items={[
+        "1x Sonic Resonator",
+        "2x Enameled Glass (requires Enamel)",
+        "2x Conduit Crystal",
+        "2x Strontium (crafted from Celestine)"
+      ]}
+    />
+    You'll find **Feedback Resonator Fragments** in locations like the Cicada Wreck (Therapy Room) and near the Metal Farms.
+  </Step>
+  <Step num="2" title="Locate and Cleanse Bloom Sites">
+    The Axum Vision Adaptation is obtained from an Angel Comb. To activate it, you must destroy all nearby Bloom Cankers using your newly crafted Feedback Resonator. These cankers are found across three minor sites and a central Bloom Core.
+    <Callout type="tip">
+    The **Research Outpost**, an abandoned alien base near the Observatory, is an excellent hub. It features a fabricator, Biobed, and lockers for storage once powered, making it ideal for crafting and resupply.
+    </Callout>
+  </Step>
+  <Step num="3" title="Obtain Axum Vision">
+    Once all Bloom Cankers are destroyed, the central Bloom Core will open, revealing an Angel Comb. Interact with its pink center to gain the **Axum Vision Adaptation**, enabling you to understand the alien language.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Repairing the Axum Power Plant Turbine">
+With Axum Vision, you can now begin the process of reactivating the massive alien turbine that powers the observatory. This involves interacting with control rooms, scanning the turbine, and gathering substantial resources for repairs.
+
+<Callout type="success" title="Resource Gathering Strategy">
+To efficiently gather the necessary materials for the turbine repair, prioritize establishing a temporary base or using your Tadpole's storage capacity. The Karakorum region is rich in Celestine and Atacamite.
+</Callout>
+
+**Turbine Repair Materials:**
+
+| Material Type       | Quantity | Source/Crafting                                     | Location                                                               |
+|---------------------|----------|-----------------------------------------------------|------------------------------------------------------------------------|
+| **Titanium Ingots** | 10       | 30x Titanium (from raw Titanium)                    | Abundant across the map, rich deposits west of Alien Ruins             |
+| **Strontium**       | 10       | 20x Celestine (processed)                           | Karakorum region, near the Power Plant                                 |
+| **Mangalloy Ingots**| 10       | 10x Titanium Ingots, 10x Atacamite, 10x Troilite    | Atacamite on seabed near Power Plant; Troilite in Metal Farms          |
+
+<Steps>
+  <Step num="1" title="Activate Control Rooms">
+    Locate both the Lower and Upper Control Rooms built into the cliff walls near the Power Plant. Use your newly acquired Axum Vision to interact with the terminals, turning on the power and aligning the dials until they glow green.
+  </Step>
+  <Step num="2" title="Scan and Gather Materials">
+    Scan the broken section of the Power Plant Turbine with your Bioscanner to reveal the required repair materials. This will give you the precise list of items needed, as detailed in the table above.
+  </Step>
+  <Step num="3" title="Repair the Turbine">
+    Once all materials are collected, return to the damaged turbine section. Use your Repair Tool to fix it, restoring its structural integrity.
+  </Step>
+  <Step num="4" title="Activate the Power Plant">
+    Go back to the Upper Control Room. The right-hand terminal will now be fully functional. Activate it, then proceed to the central terminal and click the red light to bring the entire Power Plant online. The turbine will begin spinning, and power will be restored to the area, including the **Subnautica 2 Alien Observatory**.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Exploring the Alien Observatory and Game Ending">
+With the Power Plant active, the path to the **Subnautica 2 Alien Observatory** is finally open. This final segment of the early access content reveals critical lore and sets the stage for future updates.
+
+<CardGrid cols={2}>
+  <Card title="Observatory Entrance">
+    Return to the observatory's main door. The terminal will now allow you to open the Axum Door, granting access to the interior.
+  </Card>
+  <Card title="The Orrery">
+    Inside, you'll find a massive mechanical model of the star system, an **Orrery**. Scan it to learn about your current star system and its relation to Earth.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Lore Deep Dive">
+The Orrery scan provides valuable information that your PDA relays to NoA, offering insights into your location within the vast galaxy. Pay attention to the surrounding Axum glyphs for additional lore.
+</Callout>
+
+Swim upwards through one of the egg-shaped holes in the ceiling to reach an upper level. Here, you'll find a final terminal. Activating it triggers a crucial hologram, revealing messages from the Architects about dying "World Trees," the region of Xanadu, and dangerous creatures known as Crypters. This currently marks the end of the early access storyline for **Subnautica 2**.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Subnautica 2 Alien Observatory">
+
+<FAQ items={[
+  {
+    question: "Where is the Subnautica 2 Alien Observatory located?",
+    answer: "The **Subnautica 2 Alien Observatory** is situated far to the east of the Lifepod, within the Karakorum region. It's a massive underwater structure that becomes a key objective after completing the Tadpole Pens."
+  },
+  {
+    question: "What is the Axum Vision Adaptation and why do I need it for the observatory?",
+    answer: "The **Axum Vision Adaptation** is a special ability that allows you to read and understand the ancient alien Axum language. You need it to interact with the alien terminals in the Power Plant, which must be reactivated to power the observatory and open its main door."
+  },
+  {
+    question: "What materials are required to repair the Power Plant turbine to access the Subnautica 2 Alien Observatory?",
+    answer: "To repair the turbine, you'll need 10x **Titanium Ingots**, 10x **Mangalloy Ingots**, and 10x **Strontium**. These materials require extensive gathering and processing of raw resources like Titanium, Atacamite, Troilite, and Celestine."
+  },
+  {
+    question: "What do I find inside the Subnautica 2 Alien Observatory?",
+    answer: "Inside the observatory, you'll find an Orrery, a mechanical model of the star system that provides information about your location. You'll also encounter a terminal on an upper level that plays a hologram, revealing critical lore about the Architects, World Trees, Xanadu, and Crypters, marking the current early access ending of **Subnautica 2**."
+  }
+]} />
+
+</Section>

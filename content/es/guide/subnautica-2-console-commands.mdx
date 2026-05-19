@@ -1,0 +1,260 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Code, Terminal } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comandos de Consola de Subnautica 2: Desbloquea Trucos y Generación de Objetos",
+  description: "Domina los comandos de consola de Subnautica 2 para habilitar el modo dios, desbloquear todos los planos, generar objetos y personalizar tu experiencia de juego en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/36454F/fff?text=Subnautica+2+Console+Commands",
+  date: "2026-05-19",
+  author: "Equipo de Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **comandos de consola de Subnautica 2** se habilitan mediante mods para PC.
+- Instala **UE4SS** y el **Mod de Comandos de Consola** para acceder a la consola de depuración.
+- Usa `bobthebuilder` para el **modo dios** instantáneo, creación gratuita y herramientas esenciales.
+- Genera objetos con `item [nombre] [cantidad]` para una rápida adquisición de recursos.
+- Alterna estados del juego como `oxygen` (aire ilimitado) e `invisible` (las criaturas te ignoran).
+</Callout>
+
+<Section icon={Code} title="Habilitando Comandos de Consola de Subnautica 2 (PC)">
+Aunque el Subnautica original contaba con una consola de depuración integrada, los **comandos de consola de Subnautica 2** no están oficialmente integrados por defecto. Para desbloquear estas potentes herramientas, los jugadores de PC necesitan instalar un par de mods. Este proceso es sencillo y te dará acceso a una amplia gama de opciones, desde generar objetos hasta habilitar el modo creativo.
+
+**Puntos Destacados del Video:**
+- Los comandos de consola requieren la instalación de mods en Subnautica 2.
+- Primero, localiza la carpeta de instalación de tu juego.
+- Descarga y extrae dos mods específicos.
+- Estos mods habilitan una consola de comandos totalmente integrada.
+
+<YouTubeEmbed videoId="H5jgim8SHCE" title="SUBNAUTICA 2 CÓMO USAR LOS COMANDOS DE CONSOLA" />
+
+<Callout type="warning" title="Nota Importante sobre los Logros">
+El uso de los **comandos de consola de Subnautica 2** deshabilitará los logros para tu archivo de guardado actual. Se recomienda encarecidamente hacer una copia de seguridad de tu partida o iniciar una nueva si planeas usar trucos, especialmente si te importa ganar logros dentro del juego.
+</Callout>
+
+### Instalación Paso a Paso
+
+<Steps>
+  <Step num="1" title="Localizar Directorio del Juego">
+    Navega a la carpeta de instalación de Subnautica 2. Para usuarios de Steam, haz clic derecho en el juego en tu biblioteca, ve a "Administrar" y luego a "Explorar archivos locales".
+  </Step>
+  <Step num="2" title="Descargar UE4SS">
+    Descarga el archivo zip de UE4SS para Subnautica 2 desde un sitio web de modding de buena reputación. Este es el mod fundamental que permite que otros mods funcionen.
+  </Step>
+  <Step num="3" title="Extraer Archivos de UE4SS">
+    Ve a `\Subnautica2\Subnautica2\Binaries\Win64` dentro de tu directorio de juego. Coloca el archivo zip de UE4SS descargado aquí y extrae su contenido directamente en esta carpeta.
+  </Step>
+  <Step num="4" title="Descargar Mod de Comandos de Consola">
+    Descarga el archivo zip del Mod de Comandos de Consola. Este mod contiene la funcionalidad real de la consola.
+  </Step>
+  <Step num="5" title="Instalar Mod de Comandos de Consola">
+    Abre el archivo zip del Mod de Comandos de Consola y localiza la carpeta "DebugUIToggle". Coloca toda esta carpeta en `\Subnautica2\Subnautica2\Binaries\Win64\Mods` dentro de tu directorio de juego. Si la carpeta 'Mods' no existe, créala.
+  </Step>
+  <Step num="6" title="Iniciar Juego y Abrir Consola">
+    Inicia Subnautica 2. Una vez dentro del juego, presiona la tecla `F2` para abrir la consola de comandos. Ahora deberías ver una variedad de opciones y poder introducir comandos.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Terminal} title="Comandos Esenciales de Consola de Subnautica 2">
+Una vez que hayas habilitado la consola con éxito, se abre un mundo de posibilidades. Estos comandos pueden alterar drásticamente tu juego, ofreciendo desde atajos de gestión de recursos hasta invencibilidad. Aquí tienes un desglose de algunos de los **comandos de consola de Subnautica 2** más útiles.
+
+<Callout type="tip" title="Acceso Rápido a la Consola">
+En PC, después de la instalación del mod, simplemente presiona `F2` para abrir la consola de comandos. Algunas fuentes sugieren `tilde (~) ` o `F3` para abrir una consola de desarrollador, pero para la consola modificada, `F2` es la clave.
+</Callout>
+
+### Comandos de Juego Centrales
+
+| Comando           | Efecto                                                              | Uso de Ejemplo            |
+| :---------------- | :------------------------------------------------------------------ | :------------------------ |
+| `god`             | Sin daño, comida, agua y oxígeno infinitos.                         | `god`                     |
+| `invisible`       | Las criaturas hostiles te ignoran por completo.                     | `invisible`               |
+| `nocost`          | Crea cualquier cosa gratis usando el Fabricador y el Constructor de Hábitats. | `nocost`                  |
+| `unlockall`       | Obtén todas las recetas, planos y entradas de PDA al instante.      | `unlockall`               |
+| `oxygen`          | Suministro de oxígeno ilimitado.                                    | `oxygen`                  |
+| `kill`            | Te reaparece inmediatamente (útil para desatascarse).              | `kill`                    |
+| `bobthebuilder`   | Otorga constructor, escáner, cuchillo, herramienta de reparación; habilita `nocost`, `unlockall`, `fastbuild`, `fastgrow`. | `bobthebuilder`           |
+| `fastscan`        | Hace que tu escáner sea casi instantáneo.                           | `fastscan`                |
+| `fasthatch`       | Los huevos de criaturas en el confinamiento alienígena eclosionan en segundos. | `fasthatch`               |
+| `day`             | Establece la hora del día.                                          | `day`                     |
+| `night`           | Establece la hora de la noche.                                      | `night`                   |
+| `daynight #`      | Establece una hora específica del día (ej., `daynight 0.5` para el mediodía). | `daynight 0.5`            |
+| `FOV #`           | Cambia el Campo de Visión (ej., `FOV 100`).                         | `FOV 100`                 |
+| `togglehud`       | Oculta tu HUD.                                                      | `togglehud`               |
+
+<Callout type="info" title="Cambios de Modo de Juego">
+Puedes cambiar tu modo de juego sobre la marcha usando comandos como `creative`, `freedom` o `survival`. Esto te permite alternar entre la exploración relajada y la supervivencia desafiante según sea necesario.
+</Callout>
+
+### Generación de Objetos y Gestión de Recursos
+
+Uno de los usos más populares de los comandos de consola es generar cualquier objeto directamente en tu inventario. Esto puede ahorrar una inmensa cantidad de tiempo y esfuerzo en la recolección de recursos.
+
+| Sintaxis del Comando    | Descripción                                                     |
+| :---------------------- | :-------------------------------------------------------------- |
+| `item [nombre] [cantidad]` | Añade una cantidad específica de un objeto a tu inventario.    |
+| `spawn [nombre] [cantidad]` | Genera una cantidad específica de un objeto frente al jugador. |
+
+**Ejemplo:** Para añadir 5 unidades de Litio a tu inventario, escribe `item lithium 5`.
+
+### Códigos ID de Objetos Comunes
+
+Muchos códigos ID de objetos son intuitivos, coincidiendo con el nombre del objeto en el juego. Sin embargo, algunos difieren. Aquí tienes una lista de códigos ID de objetos útiles:
+
+| Objeto            | Código ID del Objeto  |
+| :---------------- | :-------------------- |
+| Titanio           | `titanium`            |
+| Cobre             | `copper`              |
+| Cuarzo            | `quartz`              |
+| Litio             | `lithium`             |
+| Plata             | `silver`              |
+| Oro               | `gold`                |
+| Diamante          | `diamond`             |
+| Plomo             | `lead`                |
+| Caucho            | `rubber`              |
+| Sal               | `salt`                |
+| Vidrio            | `glass`               |
+| Vidrio Esmaltado  | `enameledglass`       |
+| Batería Avanzada  | `advancedbattery`     |
+| Célula de Energía | `powercell`           |
+| Kit de Cableado   | `wiringkit`           |
+| Kit de Cableado Avanzado | `advancedwiringkit` |
+| Escáner           | `scanner`             |
+| Herramienta de Reparación | `repairtool`      |
+| Linterna          | `flashlight`          |
+| Bolsa de Aire     | `airbladder`          |
+| Máscara de Buceo  | `scubamask`           |
+| Chatarra Metálica | `metalsalvage`        |
+
+<CardGrid cols={2}>
+  <Card title="Recolección de Recursos">
+    Usa `item [nombre_recurso] [cantidad]` para evitar el tedioso farmeo. Esto es perfecto para construir grandes bases o fabricar vehículos avanzados rápidamente.
+  </Card>
+  <Card title="Construcción Experimental">
+    Combina `nocost` con la generación de objetos para experimentar con diseños de bases y mejoras de vehículos sin ninguna restricción de materiales.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Comandos Avanzados y de Depuración">
+Más allá de los trucos básicos, los **comandos de consola de Subnautica 2** ofrecen herramientas para depuración, control ambiental e incluso teletransporte. Estos pueden ser particularmente útiles para creadores de contenido, modders o jugadores que buscan explorar las mecánicas del juego en profundidad.
+
+### Comandos de Teletransporte
+
+| Comando             | Efecto                                                              | Uso de Ejemplo                        |
+| :------------------ | :------------------------------------------------------------------ | :------------------------------------ |
+| `biome [NOMBRE]`    | Teletransporta al jugador a un bioma específico.                    | `biome shallowtwistybridges`          |
+| `warp [x] [y] [z]`  | Teletransporta al jugador a las coordenadas especificadas.          | `warp 100 50 200`                     |
+| `goto [NOMBRE]`     | Teletransporta a ubicaciones nombradas (ej., `goto rocket`).        | `goto rocket`                         |
+| `spawnnearby`       | Teletransporta al jugador una corta distancia en una dirección aleatoria (desatascarse). | `spawnnearby`                         |
+
+<Callout type="warning" title="Sistema de Coordenadas">
+Al usar comandos `warp`, recuerda que `[x]` es Este/Oeste, `[y]` es Altitud y `[z]` es Norte/Sur. Coordenadas incorrectas pueden ubicarte en lugares peligrosos o no deseados.
+</Callout>
+
+### Comandos Ambientales y Técnicos
+
+| Comando           | Efecto                                                              |
+| :---------------- | :------------------------------------------------------------------ |
+| `accelweather #`  | Acelera los futuros eventos climáticos.                             |
+| `precipitation`   | Activa/desactiva la lluvia.                                         |
+| `wind`            | Activa/desactiva el viento.                                         |
+| `fog`             | Activa/desactiva la niebla en el juego.                             |
+| `fps`             | Muestra los cuadros por segundo actuales.                           |
+| `gamereset`       | Reinicia el terreno (úsalo con precaución, especialmente en vehículos). |
+| `ghost`           | Permite el movimiento libre a través de objetos; el jugador se teletransporta a la cámara. |
+| `printbiome`      | Muestra el bioma actual en el que se encuentra el jugador.          |
+| `resetachievements` | Restablece todos los logros (úsalo si quieres volver a ganarlos). |
+
+### Comandos Actualmente Deshabilitados/No Funcionales
+
+Algunos comandos de títulos anteriores de Subnautica o etapas de desarrollo tempranas existen en los archivos del juego pero actualmente no son funcionales, incluso con mods. Estos incluyen:
+
+<Checklist
+  id="disabled-commands"
+  title="Comandos No Funcionales:"
+  items={[
+    "Goto (algunas variantes)",
+    "Fastswim",
+    "Noclip",
+    "Fly",
+    "Warp (algunas variantes)"
+  ]}
+/>
+
+<Callout type="success" title="Futuro Soporte Oficial">
+Unknown Worlds ha indicado que los comandos de consola oficiales y las opciones de FOV están planeados para futuras actualizaciones del acceso anticipado de Subnautica 2. Esto significa que algunas de las características actuales dependientes de mods podrían eventualmente volverse nativas del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Prácticas para Usar Comandos">
+Aunque los **comandos de consola de Subnautica 2** pueden mejorar tu juego, es importante usarlos de manera responsable para evitar corromper tus archivos de guardado o disminuir tu disfrute de la progresión prevista del juego.
+
+### Lista de Verificación de Uso Responsable
+
+<Checklist
+  id="command-best-practices"
+  title="Antes de Usar Comandos:"
+  items={[
+    "Siempre haz una copia de seguridad de tus archivos de guardado.",
+    "Comprende el efecto del comando antes de ejecutarlo.",
+    "Evita usar comandos de teletransporte mientras estás dentro de vehículos.",
+    "Usa los comandos con moderación si deseas preservar el desafío.",
+    "Reinicia el juego después de instalaciones significativas de mods o si los comandos se comportan de forma inesperada."
+  ]}
+/>
+
+### Compatibilidad de Mods
+
+<CardGrid cols={2}>
+  <Card title="Conflictos de Mods">
+    Ten en cuenta que la instalación de múltiples mods, especialmente aquellos que alteran las mecánicas centrales del juego, puede provocar conflictos. Si encuentras bloqueos o comportamientos inesperados, intenta deshabilitar otros mods.
+  </Card>
+  <Card title="Conciencia de Actualización">
+    Las actualizaciones del juego a veces pueden romper la funcionalidad de los mods. Después de un parche oficial de Subnautica 2, es posible que debas esperar a que los desarrolladores de mods lancen versiones actualizadas de sus mods.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejorando Tu Experiencia en Subnautica 2">
+Los **comandos de consola de Subnautica 2** proporcionan una forma poderosa de personalizar tu aventura, ya sea que busques saltarte la rutina, probar nuevas teorías o simplemente explorar sin limitaciones. Desde la generación instantánea de recursos hasta el modo dios, estas herramientas te dan el control total de tu viaje submarino.
+
+<Callout type="tip" title="Experimenta de Forma Segura">
+La mejor manera de aprender sobre la gran cantidad de comandos disponibles es experimentar. Inicia un nuevo archivo de guardado específicamente para probar comandos, así no arriesgas tu progreso principal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre los Comandos de Consola">
+
+<FAQ items={[
+  {
+    question: "¿Están disponibles los comandos de consola de Subnautica 2 en todas las plataformas?",
+    answer: "Actualmente, los **comandos de consola de Subnautica 2** son accesibles principalmente en PC a través de instalaciones de mods. El soporte oficial de consola para estos comandos está planeado para futuras actualizaciones, pero actualmente, las versiones de consola no tienen acceso nativo."
+  },
+  {
+    question: "¿El uso de comandos de consola deshabilitará los logros en Subnautica 2?",
+    answer: "Sí, el uso de los **comandos de consola de Subnautica 2** normalmente deshabilitará los logros para el archivo de guardado en el que estés jugando. Es aconsejable crear un guardado separado o hacer una copia de seguridad de tu guardado principal antes de habilitar y usar los comandos."
+  },
+  {
+    question: "¿Puedo generar cualquier objeto usando el comando `item`?",
+    answer: "La mayoría de los objetos del juego se pueden generar usando el comando `item [nombre] [cantidad]`. Sin embargo, algunos objetos pueden tener códigos de identificación diferentes a sus nombres de visualización, y algunos objetos de marcador de posición pueden no funcionar como se espera. Consulta listas completas de ID de objetos para códigos específicos."
+  },
+  {
+    question: "¿Qué es el comando `bobthebuilder` en Subnautica 2?",
+    answer: "El comando `bobthebuilder` es un potente atajo que te proporciona instantáneamente herramientas esenciales (Constructor de Hábitats, Escáner, Cuchillo de Supervivencia, Herramienta de Reparación) y habilita varios trucos, incluyendo `fastbuild`, `unlockall`, `nocost` y `fastgrow`. Es esencialmente un paquete de inicio de modo creativo instantáneo."
+  }
+]} />
+
+</Section>
