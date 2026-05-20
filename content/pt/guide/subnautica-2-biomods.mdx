@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Biomods de Subnautica 2: Lista de Níveis e Guia de Desbloqueio",
+  description: "Mergulhe fundo nos Biomods de Subnautica 2 com nossa lista de níveis, detalhando habilidades ativas e passivas, e um guia completo sobre como desbloquear todos eles.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Subnautica+2+Biomods",
+  date: "2026-05-20",
+  author: "Equipe Wiki de Subnautica"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Retenção de Água** e **Disparada** são Biomods de **Subnautica 2** de nível superior para sobrevivência no início do jogo.
+- Desbloqueie a maioria dos Biomods **escaneando criaturas específicas** usando o Bioscanner.
+- Construa um **Biolab** em sua base para trocar facilmente entre habilidades ativas e passivas.
+- O **Controle de Oxigênio** estende significativamente o tempo de exploração subaquática quando parado.
+- Evite **Jardim Dérmico** e **Secreção de Água** em seu estado atual devido à baixa eficiência.
+</Callout>
+
+<Section icon={Map} title="Entendendo os Biomods de Subnautica 2">
+Subnautica 2 apresenta os Biomods, atualizações de personagem que alteram significativamente sua experiência de jogo. Essas habilidades são categorizadas em habilidades ativas e passivas, oferecendo vários benefícios, desde o gerenciamento de recursos até a dissuasão de predadores. Embora alguns estejam disponíveis por padrão, a maioria exige que você escaneie criaturas específicas com um Bioscanner atualizado. Uma vez desbloqueados, você pode equipá-los em um Biolab, seja no Centro de Boas-Vindas ou em um que você construa em sua base.
+
+**Destaques do Vídeo:**
+- Demonstra os efeitos de cada Biomod em tempo real.
+- Fornece um ranking de níveis para Biomods passivos e ativos.
+- Explica a utilidade prática (ou a falta dela) para cada habilidade.
+
+<YouTubeEmbed videoId="qUl2xZcBGa8" title="Eu Testei Todos os Biomods de Subnautica 2 (Alguns São Inúteis)" />
+
+<Callout type="tip" title="Construindo seu Biolab">
+Para construir seu próprio Biolab para troca conveniente de Biomods, você precisará de **3x Titânio, 1x Fio de Cobre e 1x Ácido Suave**. Isso permite que você gerencie suas habilidades sem precisar retornar ao Centro de Boas-Vindas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Biomods Passivos: Lista de Níveis e Efeitos">
+Os Biomods Passivos estão constantemente ativos, proporcionando benefícios contínuos. Sua eficácia varia muito, influenciando seu gerenciamento de recursos e capacidades de exploração. Entender quais oferecem o maior valor é crucial para a sobrevivência em Proteus.
+
+<CardGrid cols={3}>
+  <Card title="Nível S: Essencial para a Sobrevivência">
+    - **Retenção de Água**: Dobra a ingestão de água, crítico antes da filtração de água.
+    - **Controle de Oxigênio**: Triplica a duração do oxigênio quando parado, excelente para exploração.
+  </Card>
+  <Card title="Nível A: Altamente Recomendado">
+    - **Metabolismo Lento**: Torna a perda de comida mais lenta, reduzindo o gerenciamento da fome.
+    - **Sentido de Orientação**: Detecta bases e estruturas energizadas próximas, auxiliando na exploração e para completionistas.
+  </Card>
+  <Card title="Nível B: Situacional, mas Útil">
+    - **Planador Marinho**: Aumenta a velocidade de nado perto da superfície, bom para navegar em áreas rasas.
+    - **Bioluminescência**: Fornece luz gratuita em ambientes escuros, útil para operações na base.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Biomods Passivos Ineficazes">
+**Jardim Dérmico** e **Secreção de Água** são atualmente ineficientes. O Jardim Dérmico gera 5 de comida a cada 3,5 minutos, enquanto você queima 10 de comida nesse tempo. A Secreção de Água gera 5 de água a cada 2,5 minutos, mas você perde 10 de água no mesmo período. Eles não são autossustentáveis.
+</Callout>
+
+### Lista de Níveis de Biomods Passivos
+
+| Biomod              | Efeito                                          | Nível | Notas                                                                    |
+| :------------------ | :---------------------------------------------- | :--- | :----------------------------------------------------------------------- |
+| **Retenção de Água** | Dobra a água obtida de todas as fontes           | S    | Essencial para o início do jogo, economiza espaço no inventário.         |
+| **Controle de Oxigênio**  | Diminui o consumo de oxigênio quando não está em movimento        | S    | Ótimo para pesquisar áreas, estende significativamente o tempo de mergulho.              |
+| **Metabolismo Lento** | A perda de comida é mais lenta (41s por ponto vs 21s)      | A    | Bom para reduzir as idas por comida, mas menos impactante que a Retenção de Água.   |
+| **Sentido de Orientação**    | Detecta bases e estruturas energizadas próximas     | A    | Excelente para encontrar locais escondidos e para completionistas.               |
+| **Planador Marinho**     | Nada mais rápido perto de superfícies subaquáticas           | B    | Decente para navegar em áreas rasas, mas requer proximidade.       |
+| **Bioluminescência** | Emite um brilho pessoal                           | B    | Fornece luz gratuita, bom para iluminação da base ou excursões curtas.         |
+| Camuflagem          | Invisibilidade a predadores quando parado       | C    | Predadores ainda atacam se já estiverem mirando; útil em situações específicas.        |
+| **Jardim Dérmico**   | Cresce lentamente algas nutritivas (5 comida/3,5 min)  | D    | Altamente ineficiente; você queima mais comida do que gera.                |
+| **Secreção de Água** | Enche lentamente o pacote de água (5 água/2,5 min)     | D    | Altamente ineficiente; você perde mais água do que gera.               |
+| Sentido de Ameaça        | Detecta ameaças próximas via som/flash          | D    | Pouco confiável e facilmente ignorado; não indica a direção da ameaça.        |
+
+</Section>
+
+<Section icon={Swords} title="Biomods Ativos: Escolhas Estratégicas para Encontros">
+Os Biomods Ativos exigem ativação manual e são melhor usados estrategicamente para escapar do perigo, navegar ou localizar recursos. Escolher o Biomod ativo certo pode ser a diferença entre a sobrevivência e se tornar uma refeição para a fauna de Proteus.
+
+<CardGrid cols={2}>
+  <Card title="Nível S: Sempre Equipado">
+    - **Disparada**: Proporciona um rápido impulso de velocidade, excelente para desviar de predadores ou subir rapidamente.
+  </Card>
+  <Card title="Nível A: Alternativas Fortes">
+    - **Descarga Elétrica**: Emite um choque de 800 volts, repelindo a maioria dos predadores em uma grande área de efeito.
+  </Card>
+</CardGrid>
+
+### Lista de Níveis de Biomods Ativos
+
+| Biomod              | Efeito                                            | Nível | Notas                                                                            |
+| :------------------ | :------------------------------------------------ | :--- | :------------------------------------------------------------------------------- |
+| **Disparada**            | Rápido impulso de velocidade de movimento (5s de recarga)       | S    | O melhor em geral para evasão e viagem mais rápida, especialmente no início do jogo.            |
+| **Descarga Elétrica** | Descarga de 800 volts que afasta predadores (grande área de efeito) | A    | Excelente para defesa, mas não funciona em todas as criaturas (por exemplo, Hammerheads).   |
+| Eco Sônico          | Emite pulso de sonar para destacar recursos          | C    | Alcance limitado e destaca apenas recursos físicos; útil para problemas de visibilidade. |
+| Nuvem de Isca          | Libera isca para distrair predadores               | C    | Curta duração, longo tempo de recarga e menos eficaz que a Descarga Elétrica.       |
+| Rastreador          | Deixa um rastro de feromônio para rastrear passos           | D    | Incontrolável e muitas vezes cria confusão; não é útil no estado atual do jogo.    |
+
+<Callout type="info" title="Domínio da Disparada">
+O Biomod Disparada, apesar de sua curta duração e recarga de 5 segundos, é inestimável para evasões rápidas e ascensão veloz à superfície. É frequentemente considerada a melhor habilidade ativa padrão.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Desbloquear Todos os Biomods de Subnautica 2">
+O desbloqueio de Biomods em Subnautica 2 envolve principalmente o uso do Bioscanner em criaturas específicas. Este dispositivo de escaneamento aprimorado é essencial para expandir suas habilidades disponíveis. Siga estas etapas para adquirir todos os Biomods atuais.
+
+<Steps>
+  <Step num="1" title="Obtenha o Bioscanner">
+    O Bioscanner é uma versão aprimorada do seu scanner padrão. Certifique-se de ter adquirido e criado esta ferramenta, pois ela é necessária para escanear criaturas e desbloquear Biomods.
+  </Step>
+  <Step num="2" title="Localize Criaturas para Escaneamento">
+    Cada Biomod está ligado a uma criatura específica. Você precisará se aventurar em vários biomas e procurar esses organismos. Esteja preparado para encontros hostis, especialmente ao escanear espécies maiores ou mais agressivas.
+  </Step>
+  <Step num="3" title="Escaneie a Criatura com Segurança">
+    Aproxime-se da criatura alvo com cautela. Para criaturas perigosas como o **Leviatã Coletor**, considere usar um **veículo Girino** para absorver danos, ou habilidades temporárias de distração como **Descarga Elétrica** ou **Camuflagem**, se disponíveis.
+  </Step>
+  <Step num="4" title="Retorne a um Biolab">
+    Uma vez que uma criatura é escaneada com sucesso, o Biomod correspondente será desbloqueado. Dirija-se ao Biolab do Centro de Boas-Vindas ou ao seu Biolab pessoal na base para equipar a nova habilidade.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Biomods Padrão">
+Quatro Biomods estão disponíveis por padrão: **Disparada** (Ativo), **Rastreador** (Ativo), **Planador Marinho** (Passivo) e **Controle de Oxigênio** (Passivo). Você pode equipá-los de qualquer Biolab sem escanear.
+</Callout>
+
+### Requisitos de Desbloqueio de Biomods
+
+| Biomod              | Tipo    | Criatura           | Localização                                                | Notas                                                              |
+| :------------------ | :------ | :----------------- | :------------------------------------------------------ | :----------------------------------------------------------------- |
+| **Disparada**            | Ativo  | N/A                | Padrão                                                 | Evasão e movimento rápidos.                                        |
+| **Rastreador**      | Ativo  | N/A                | Padrão                                                 | Deixa um rastro de feromônio.                                          |
+| **Descarga Elétrica** | Ativo | Geordie Elétrico   | Karakorum (perto da Turbina Alienígena)                          | Eletrocuta predadores próximos.                                             |
+| **Nuvem de Isca**      | Ativo  | Esponja Tóxica, Houndgar | Múltiplos (cavernas/leitos marinhos), Deserto Zezuran                | Distrai predadores com isca.                                     |
+| **Eco Sônico**      | Ativo  | Leviatã Coletor | Deserto Zezuran, Fazendas de Metal                             | Destaca recursos; o escaneamento requer cautela.                   |
+| **Planador Marinho**     | Passivo | N/A                | Padrão                                                 | Natação mais rápida perto da superfície.                                     |
+| **Controle de Oxigênio**  | Passivo | N/A                | Padrão                                                 | Conserva oxigênio quando parado.                                       |
+| **Bioluminescência** | Passivo | Lança-areia, Geordie Elétrico | Múltiplos (cavernas/leitos marinhos), Karakorum (Turbina Alienígena) | Emite luz.                                                       |
+| **Camuflagem**      | Passivo | Cabeça-de-Bala         | Karakorum (perto das Ruínas Alienígenas)                            | Invisibilidade quando não está em movimento.                                |
+| **Retenção de Água** | Passivo | Caranguejo Coral         | Águas Rasas                                                | Dobra a ingestão de água.                                              |
+| **Sentido de Orientação**    | Passivo | Água-Viva-Surge, Hammerhead | Águas Rasas (perto do Centro de Boas-Vindas, Caranguejos Coral)             | Detecta bases energizadas.                                             |
+| **Sentido de Ameaça**    | Passivo | Espinho-Flutuante         | Karakorum (fora das Ruínas Alienígenas)                         | Detecta ameaças próximas.                                            |
+| **Metabolismo Lento** | Passivo | Manga-Mordiscadora      | Águas Rasas                                                | Reduz a taxa de consumo de comida.                                     |
+| **Jardim Dérmico**   | Passivo | Manga-Agulha      | Karakorum (perto das Ruínas Alienígenas)                            | Cresce algas para comida.                                               |
+| **Secreção de Água** | Passivo | Lesma Aquática         | Múltiplos (leito marinho)                                       | Filtra água em pacotes.                                        |
+
+</Section>
+
+<Section icon={Shield} title="Otimizando seu Carregamento de Biomods">
+Escolher a combinação certa de Biomods ativos e passivos pode melhorar drasticamente sua eficiência e segurança. Embora atualmente você possa equipar apenas um Biomod ativo e um passivo, futuras atualizações podem permitir mais.
+
+<Checklist
+  id="biomod-optimization"
+  title="Configuração de Biomods Recomendada para o Início do Jogo:"
+  items={[
+    "Equipe **Retenção de Água** como seu passivo para exploração estendida.",
+    "Utilize **Disparada** como seu ativo para fugas rápidas e viagens.",
+    "Construa um **Biolab** em sua base para trocas fáceis.",
+    "Priorize o escaneamento de criaturas para **Descarga Elétrica** para opções defensivas.",
+    "Considere **Sentido de Orientação** para encontrar estruturas escondidas assim que as necessidades básicas forem atendidas."
+  ]}
+/>
+
+<Callout type="tip" title="Troca Situacional">
+Não tenha medo de trocar Biomods com base no seu objetivo atual. Explorando cavernas escuras? Equipe Bioluminescência. Caçando recursos raros? Eco Sônico pode ser útil. Sempre adapte seu carregamento ao desafio em questão.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes Sobre os Biomods de Subnautica 2">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio novos Biomods em Subnautica 2?",
+    answer: "Você desbloqueia novos Biomods escaneando criaturas específicas usando o Bioscanner. Cada criatura está ligada a um Biomod único, e uma vez escaneada, a habilidade fica disponível em qualquer Biolab."
+  },
+  {
+    question: "Posso equipar vários Biomods passivos ao mesmo tempo?",
+    answer: "Atualmente, no acesso antecipado, você só pode equipar um Biomod ativo e um passivo por vez. A interface do usuário do Biolab, no entanto, sugere que mais slots podem ficar disponíveis em futuras atualizações."
+  },
+  {
+    question: "Quais Biomods são melhores para a sobrevivência no início do jogo?",
+    answer: "**Retenção de Água** e **Disparada** são considerados de nível superior para o início do jogo. A Retenção de Água estende significativamente sua hidratação, enquanto a Disparada proporciona mobilidade crucial para evasão e exploração."
+  },
+  {
+    question: "O Jardim Dérmico e a Secreção de Água são úteis?",
+    answer: "Em seu estado atual, o Jardim Dérmico e a Secreção de Água são altamente ineficientes. Eles geram recursos a uma taxa mais lenta do que seu personagem os consome, tornando-os em grande parte ineficazes para a autossustentação."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Subnautica 2 Biomods: Tier List & Unlock Guide",
+  description: "Dive deep into Subnautica 2's Biomods with our tier list, detailing active and passive abilities, and a comprehensive guide on how to unlock them all.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Subnautica+2+Biomods",
+  date: "2026-05-20",
+  author: "Subnautica Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Water Retention** and **Dash** are top-tier **Subnautica 2 Biomods** for early game survival.
+- Unlock most Biomods by **scanning specific creatures** using the Bioscanner.
+- Construct a **Biolab** in your base to easily swap between active and passive abilities.
+- **Oxygen Control** significantly extends underwater exploration time when stationary.
+- Avoid **Dermal Garden** and **Water Secretion** in their current state due to low efficiency.
+</Callout>
+
+<Section icon={Map} title="Understanding Subnautica 2 Biomods">
+Subnautica 2 introduces Biomods, character upgrades that significantly alter your gameplay experience. These abilities are categorized into active and passive skills, offering various benefits from resource management to predator deterrence. While a few are available by default, the majority require you to scan specific creatures with an upgraded Bioscanner. Once unlocked, you can equip them at a Biolab, either at the Welcome Center or one you construct in your base.
+
+**Video Highlights:**
+- Demonstrates the effects of each Biomod in real-time gameplay.
+- Provides a tier ranking for both passive and active Biomods.
+- Explains the practical utility (or lack thereof) for each ability.
+
+<YouTubeEmbed videoId="qUl2xZcBGa8" title="I Tested Every Subnautica 2 Biomod (Some Are Useless)" />
+
+<Callout type="tip" title="Building Your Biolab">
+To construct your own Biolab for convenient Biomod swapping, you will need **3x Titanium, 1x Copper Wire, and 1x Mild Acid**. This allows you to manage your abilities without returning to the Welcome Center.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Passive Biomods: Tier List and Effects">
+Passive Biomods are constantly active, providing continuous benefits. Their effectiveness varies greatly, influencing your resource management and exploration capabilities. Understanding which ones offer the most value is crucial for survival on Proteus.
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Essential for Survival">
+    - **Water Retention**: Doubles water intake, critical before water filtration.
+    - **Oxygen Control**: Triples oxygen duration when stationary, excellent for exploration.
+  </Card>
+  <Card title="A-Tier: Highly Recommended">
+    - **Slow Metabolism**: Makes food loss slower, reducing hunger management.
+    - **Homing Sense**: Detects nearby powered bases and structures, aiding exploration and completionists.
+  </Card>
+  <Card title="B-Tier: Situational but Useful">
+    - **Sea Skimmer**: Increases swim speed near surfaces, good for navigating shallow areas.
+    - **Bioluminescence**: Provides free light in dark environments, useful for base operations.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Ineffective Passive Biomods">
+**Dermal Garden** and **Water Secretion** are currently inefficient. Dermal Garden generates 5 food every 3.5 minutes while you burn 10 food in that time. Water Secretion generates 5 water every 2.5 minutes, but you lose 10 water in the same period. They are not self-sustaining.
+</Callout>
+
+### Passive Biomod Tier List
+
+| Biomod              | Effect                                          | Tier | Notes                                                                    |
+| :------------------ | :---------------------------------------------- | :--- | :----------------------------------------------------------------------- |
+| **Water Retention** | Doubles water gained from all sources           | S    | Essential for early game, saves inventory space.                         |
+| **Oxygen Control**  | Slows oxygen consumption when not moving        | S    | Great for surveying areas, extends dive time significantly.              |
+| **Slow Metabolism** | Food loss is slower (41s per point vs 21s)      | A    | Good for reducing food runs, but less impactful than Water Retention.   |
+| **Homing Sense**    | Detects nearby powered bases and structures     | A    | Excellent for finding hidden locations and completionists.               |
+| **Sea Skimmer**     | Swims faster near underwater surfaces           | B    | Decent for navigating shallow areas, but requires close proximity.       |
+| **Bioluminescence** | Emits a personal glow                           | B    | Provides free light, good for base lighting or short excursions.         |
+| Camouflage          | Invisibility to predators when stationary       | C    | Predators still attack if already targeted; situationally useful.        |
+| **Dermal Garden**   | Slowly grows nutritious algae (5 food/3.5 min)  | D    | Highly inefficient; you burn more food than it generates.                |
+| **Water Secretion** | Slowly fills water packet (5 water/2.5 min)     | D    | Highly inefficient; you lose more water than it generates.               |
+| Threat Sense        | Detects nearby threats via sound/flash          | D    | Unreliable and easily missed; does not indicate threat direction.        |
+
+</Section>
+
+<Section icon={Swords} title="Active Biomods: Strategic Choices for Encounters">
+Active Biomods require manual activation and are best used strategically to escape danger, navigate, or locate resources. Choosing the right active Biomod can be the difference between survival and becoming a meal for Proteus's fauna.
+
+<CardGrid cols={2}>
+  <Card title="S-Tier: Always Equipped">
+    - **Dash**: Provides a quick burst of speed, excellent for dodging predators or quickly ascending.
+  </Card>
+  <Card title="A-Tier: Strong Alternatives">
+    - **Electric Discharge**: Emits an 800-volt shock, deterring most predators in a large AoE.
+  </Card>
+</CardGrid>
+
+### Active Biomod Tier List
+
+| Biomod              | Effect                                            | Tier | Notes                                                                            |
+| :------------------ | :------------------------------------------------ | :--- | :------------------------------------------------------------------------------- |
+| **Dash**            | Quick burst of movement speed (5s cooldown)       | S    | Best all-around for evasion and faster travel, especially early game.            |
+| **Electric Discharge** | 800-volt discharge deters predators (large AoE) | A    | Excellent for defense, but doesn't work on all creatures (e.g., Hammerheads).   |
+| Sonic Echo          | Emits sonar pulse to highlight resources          | C    | Limited range and only highlights physical resources; useful for visibility issues. |
+| Chum Cloud          | Releases bait to distract predators               | C    | Short duration, long cooldown, and less effective than Electric Discharge.       |
+| Pathfinder          | Leaves a pheromone trail to trace steps           | D    | Uncontrollable and often creates confusion; not useful in current game state.    |
+
+<Callout type="info" title="Dash Mastery">
+The Dash Biomod, despite its short duration and 5-second cooldown, is invaluable for quick evasions and rapid ascent to the surface. It is often considered the best default active ability.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Unlock All Subnautica 2 Biomods">
+Unlocking Biomods in Subnautica 2 primarily involves using the Bioscanner on specific creatures. This upgraded scanning device is essential for expanding your available abilities. Follow these steps to acquire all current Biomods.
+
+<Steps>
+  <Step num="1" title="Get the Bioscanner">
+    The Bioscanner is an upgraded version of your standard scanner. Ensure you have acquired and crafted this tool, as it's necessary for scanning creatures to unlock Biomods.
+  </Step>
+  <Step num="2" title="Locate Creatures for Scanning">
+    Each Biomod is tied to a specific creature. You'll need to venture into various biomes and search for these organisms. Be prepared for hostile encounters, especially when scanning larger or more aggressive species.
+  </Step>
+  <Step num="3" title="Scan the Creature Safely">
+    Approach the target creature with caution. For dangerous creatures like the **Collector Leviathan**, consider using a **Tadpole vehicle** to absorb damage, or temporary distraction abilities like **Electric Discharge** or **Camouflage** if available.
+  </Step>
+  <Step num="4" title="Return to a Biolab">
+    Once a creature is successfully scanned, the corresponding Biomod will be unlocked. Head to the Welcome Center's Biolab or your personal base Biolab to equip the new ability.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Default Biomods">
+Four Biomods are available by default: **Dash** (Active), **Pathfinder** (Active), **Sea Skimmer** (Passive), and **Oxygen Control** (Passive). You can equip these from any Biolab without scanning.
+</Callout>
+
+### Biomod Unlock Requirements
+
+| Biomod              | Type    | Creature           | Location                                                | Notes                                                              |
+| :------------------ | :------ | :----------------- | :------------------------------------------------------ | :----------------------------------------------------------------- |
+| **Dash**            | Active  | N/A                | Default                                                 | Quick evasion and movement.                                        |
+| **Pathfinder**      | Active  | N/A                | Default                                                 | Leaves a pheromone trail.                                          |
+| **Electric Discharge** | Active | Electric Geordie   | Karakorum (near Alien Turbine)                          | Zaps nearby predators.                                             |
+| **Chum Cloud**      | Active  | Toxic Sponge, Houndgar | Multiple (caves/seabeds), Zezuran Desert                | Distracts predators with bait.                                     |
+| **Sonic Echo**      | Active  | Collector Leviathan | Zezuran Desert, Metal Farms                             | Highlights resources; scanning requires caution.                   |
+| **Sea Skimmer**     | Passive | N/A                | Default                                                 | Faster swimming near surfaces.                                     |
+| **Oxygen Control**  | Passive | N/A                | Default                                                 | Conserves oxygen when still.                                       |
+| **Bioluminescence** | Passive | Sandspear, Electric Geordie | Multiple (caverns/seabeds), Karakorum (Alien Turbine) | Emits light.                                                       |
+| **Camouflage**      | Passive | Bullethead         | Karakorum (near Alien Ruins)                            | Invisibility when not moving.                                      |
+| **Water Retention** | Passive | Coral Crab         | Shallows                                                | Doubles water intake.                                              |
+| **Homing Sense**    | Passive | Surge Jelly, Hammerhead | Shallows (near Welcome Center, Coral Crabs)             | Detects powered bases.                                             |
+| **Threat Sense**    | Passive | Hoverthorn         | Karakorum (outside Alien Ruins)                         | Detects nearby threats.                                            |
+| **Slow Metabolism** | Passive | Nibbler Mango      | Shallows                                                | Reduces food consumption rate.                                     |
+| **Dermal Garden**   | Passive | Needler Mango      | Karakorum (near Alien Ruins)                            | Grows algae for food.                                              |
+| **Water Secretion** | Passive | Water Slug         | Multiple (seabed)                                       | Filters water into packets.                                        |
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Your Biomod Loadout">
+Choosing the right combination of active and passive Biomods can dramatically improve your efficiency and safety. While you can currently only equip one active and one passive Biomod, future updates may allow for more.
+
+<Checklist
+  id="biomod-optimization"
+  title="Recommended Biomod Setup for Early Game:"
+  items={[
+    "Equip **Water Retention** as your passive for extended exploration.",
+    "Utilize **Dash** as your active for quick escapes and travel.",
+    "Construct a **Biolab** at your base for easy swapping.",
+    "Prioritize scanning creatures for **Electric Discharge** for defensive options.",
+    "Consider **Homing Sense** for finding hidden structures once basic needs are met."
+  ]}
+/>
+
+<Callout type="tip" title="Situational Swapping">
+Don't be afraid to swap Biomods based on your current objective. Exploring dark caves? Equip Bioluminescence. Hunting for rare resources? Sonic Echo might be useful. Always adapt your loadout to the challenge at hand.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions About Subnautica 2 Biomods">
+
+<FAQ items={[
+  {
+    question: "How do I unlock new Biomods in Subnautica 2?",
+    answer: "You unlock new Biomods by scanning specific creatures using the Bioscanner. Each creature is tied to a unique Biomod, and once scanned, the ability becomes available at any Biolab."
+  },
+  {
+    question: "Can I equip multiple passive Biomods at once?",
+    answer: "Currently, in early access, you can only equip one active and one passive Biomod at a time. The Biolab UI, however, suggests that more slots may become available in future updates."
+  },
+  {
+    question: "Which Biomods are best for early game survival?",
+    answer: "**Water Retention** and **Dash** are considered top-tier for early game. Water Retention significantly extends your hydration, while Dash provides crucial mobility for evasion and exploration."
+  },
+  {
+    question: "Are Dermal Garden and Water Secretion useful?",
+    answer: "In their current state, Dermal Garden and Water Secretion are highly inefficient. They generate resources at a rate slower than your character consumes them, making them largely ineffective for self-sustainment."
+  }
+]} />
+
+</Section>
