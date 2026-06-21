@@ -1,0 +1,2312 @@
+{
+  "en": {
+    "guide": [
+      {
+        "slug": "subnautica-2-acidic-rain-pouch",
+        "file": "subnautica-2-acidic-rain-pouch"
+      },
+      {
+        "slug": "subnautica-2-adaptations",
+        "file": "subnautica-2-adaptations"
+      },
+      {
+        "slug": "subnautica-2-age-rating",
+        "file": "subnautica-2-age-rating"
+      },
+      {
+        "slug": "subnautica-2-alien-generator",
+        "file": "subnautica-2-alien-generator"
+      },
+      {
+        "slug": "subnautica-2-alien-observatory",
+        "file": "subnautica-2-alien-observatory"
+      },
+      {
+        "slug": "subnautica-2-alien-ruins",
+        "file": "subnautica-2-alien-ruins"
+      },
+      {
+        "slug": "subnautica-2-all-creatures",
+        "file": "subnautica-2-all-creatures"
+      },
+      {
+        "slug": "subnautica-2-all-leviathans",
+        "file": "subnautica-2-all-leviathans"
+      },
+      {
+        "slug": "subnautica-2-angel-comb",
+        "file": "subnautica-2-angel-comb"
+      },
+      {
+        "slug": "subnautica-2-aquarium",
+        "file": "subnautica-2-aquarium"
+      },
+      {
+        "slug": "subnautica-2-architect-organs",
+        "file": "subnautica-2-architect-organs"
+      },
+      {
+        "slug": "subnautica-2-armored-pox",
+        "file": "subnautica-2-armored-pox"
+      },
+      {
+        "slug": "subnautica-2-axum",
+        "file": "subnautica-2-axum"
+      },
+      {
+        "slug": "subnautica-2-base-building",
+        "file": "subnautica-2-base-building"
+      },
+      {
+        "slug": "subnautica-2-battery-charger",
+        "file": "subnautica-2-battery-charger"
+      },
+      {
+        "slug": "subnautica-2-beginner-guide",
+        "file": "subnautica-2-beginner-guide"
+      },
+      {
+        "slug": "subnautica-2-biomes",
+        "file": "subnautica-2-biomes"
+      },
+      {
+        "slug": "subnautica-2-biomods",
+        "file": "subnautica-2-biomods"
+      },
+      {
+        "slug": "subnautica-2-bioscanner",
+        "file": "subnautica-2-bioscanner"
+      },
+      {
+        "slug": "subnautica-2-blueprints",
+        "file": "subnautica-2-blueprints"
+      },
+      {
+        "slug": "subnautica-2-camp-one",
+        "file": "subnautica-2-camp-one"
+      },
+      {
+        "slug": "subnautica-2-collector-leviathan",
+        "file": "subnautica-2-collector-leviathan"
+      },
+      {
+        "slug": "subnautica-2-conduit-crystal",
+        "file": "subnautica-2-conduit-crystal"
+      },
+      {
+        "slug": "subnautica-2-console-commands",
+        "file": "subnautica-2-console-commands"
+      },
+      {
+        "slug": "subnautica-2-controversy",
+        "file": "subnautica-2-controversy"
+      },
+      {
+        "slug": "subnautica-2-creature-enamel",
+        "file": "subnautica-2-creature-enamel"
+      },
+      {
+        "slug": "subnautica-2-creatures",
+        "file": "subnautica-2-creatures"
+      },
+      {
+        "slug": "subnautica-2-data-collection",
+        "file": "subnautica-2-data-collection"
+      },
+      {
+        "slug": "subnautica-2-dead-zone",
+        "file": "subnautica-2-dead-zone"
+      },
+      {
+        "slug": "subnautica-2-depth-module",
+        "file": "subnautica-2-depth-module"
+      },
+      {
+        "slug": "subnautica-2-diamonds",
+        "file": "subnautica-2-diamonds"
+      },
+      {
+        "slug": "subnautica-2-elusive-leviathan",
+        "file": "subnautica-2-elusive-leviathan"
+      },
+      {
+        "slug": "subnautica-2-ending",
+        "file": "subnautica-2-ending"
+      },
+      {
+        "slug": "subnautica-2-eva-suit",
+        "file": "subnautica-2-eva-suit"
+      },
+      {
+        "slug": "subnautica-2-feedback-resonator",
+        "file": "subnautica-2-feedback-resonator"
+      },
+      {
+        "slug": "subnautica-2-fibrous-pulp",
+        "file": "subnautica-2-fibrous-pulp"
+      },
+      {
+        "slug": "subnautica-2-fully-functional-fabricator",
+        "file": "subnautica-2-fully-functional-fabricator"
+      },
+      {
+        "slug": "subnautica-2-gameplay",
+        "file": "subnautica-2-gameplay"
+      },
+      {
+        "slug": "subnautica-2-gargantuan-leviathan",
+        "file": "subnautica-2-gargantuan-leviathan"
+      },
+      {
+        "slug": "subnautica-2-gold-location",
+        "file": "subnautica-2-gold-location"
+      },
+      {
+        "slug": "subnautica-2-growbed",
+        "file": "subnautica-2-growbed"
+      },
+      {
+        "slug": "subnautica-2-guide",
+        "file": "subnautica-2-guide"
+      },
+      {
+        "slug": "subnautica-2-habitat-builder",
+        "file": "subnautica-2-habitat-builder"
+      },
+      {
+        "slug": "subnautica-2-how-far-can-you-get",
+        "file": "subnautica-2-how-far-can-you-get"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-lead",
+        "file": "subnautica-2-how-to-get-lead"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-silver",
+        "file": "subnautica-2-how-to-get-silver"
+      },
+      {
+        "slug": "subnautica-2-hydraulic-fluid",
+        "file": "subnautica-2-hydraulic-fluid"
+      },
+      {
+        "slug": "subnautica-2-hydroelectric-turbine",
+        "file": "subnautica-2-hydroelectric-turbine"
+      },
+      {
+        "slug": "subnautica-2-interactive-map",
+        "file": "subnautica-2-interactive-map"
+      },
+      {
+        "slug": "subnautica-2-inventory-upgrade",
+        "file": "subnautica-2-inventory-upgrade"
+      },
+      {
+        "slug": "subnautica-2-investigate-tadpole-pens",
+        "file": "subnautica-2-investigate-tadpole-pens"
+      },
+      {
+        "slug": "subnautica-2-iron-ingot",
+        "file": "subnautica-2-iron-ingot"
+      },
+      {
+        "slug": "subnautica-2-keycard",
+        "file": "subnautica-2-keycard"
+      },
+      {
+        "slug": "subnautica-2-kharaa",
+        "file": "subnautica-2-kharaa"
+      },
+      {
+        "slug": "subnautica-2-lead-location",
+        "file": "subnautica-2-lead-location"
+      },
+      {
+        "slug": "subnautica-2-leviathans",
+        "file": "subnautica-2-leviathans"
+      },
+      {
+        "slug": "subnautica-2-lithium-location",
+        "file": "subnautica-2-lithium-location"
+      },
+      {
+        "slug": "subnautica-2-lithium",
+        "file": "subnautica-2-lithium"
+      },
+      {
+        "slug": "subnautica-2-lore",
+        "file": "subnautica-2-lore"
+      },
+      {
+        "slug": "subnautica-2-map",
+        "file": "subnautica-2-map"
+      },
+      {
+        "slug": "subnautica-2-necrotic-cyst",
+        "file": "subnautica-2-necrotic-cyst"
+      },
+      {
+        "slug": "subnautica-2-nickel-ore",
+        "file": "subnautica-2-nickel-ore"
+      },
+      {
+        "slug": "subnautica-2-power-transmitter",
+        "file": "subnautica-2-power-transmitter"
+      },
+      {
+        "slug": "subnautica-2-repair-tool",
+        "file": "subnautica-2-repair-tool"
+      },
+      {
+        "slug": "subnautica-2-tadpole",
+        "file": "subnautica-2-tadpole"
+      },
+      {
+        "slug": "subnautica-2-tips",
+        "file": "subnautica-2-tips"
+      },
+      {
+        "slug": "subnautica-2-vehicles",
+        "file": "subnautica-2-vehicles"
+      },
+      {
+        "slug": "subnautica-2-void-leviathan",
+        "file": "subnautica-2-void-leviathan"
+      },
+      {
+        "slug": "subnautica-2-walkthrough",
+        "file": "subnautica-2-walkthrough"
+      },
+      {
+        "slug": "subnautica-2-world-tree",
+        "file": "subnautica-2-world-tree"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "subnautica-2-coop",
+        "file": "subnautica-2-coop"
+      },
+      {
+        "slug": "subnautica-2-cross-platform",
+        "file": "subnautica-2-cross-platform"
+      },
+      {
+        "slug": "subnautica-2-crossplay",
+        "file": "subnautica-2-crossplay"
+      },
+      {
+        "slug": "subnautica-2-dedicated-server",
+        "file": "subnautica-2-dedicated-server"
+      },
+      {
+        "slug": "subnautica-2-how-many-players",
+        "file": "subnautica-2-how-many-players"
+      },
+      {
+        "slug": "subnautica-2-local-co-op",
+        "file": "subnautica-2-local-co-op"
+      },
+      {
+        "slug": "subnautica-2-multiplayer",
+        "file": "subnautica-2-multiplayer"
+      },
+      {
+        "slug": "subnautica-2-online",
+        "file": "subnautica-2-online"
+      },
+      {
+        "slug": "subnautica-2-proximity-chat",
+        "file": "subnautica-2-proximity-chat"
+      },
+      {
+        "slug": "subnautica-2-split-screen",
+        "file": "subnautica-2-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "subnautica-2-console",
+        "file": "subnautica-2-console"
+      },
+      {
+        "slug": "subnautica-2-game-pass",
+        "file": "subnautica-2-game-pass"
+      },
+      {
+        "slug": "subnautica-2-geforce-now",
+        "file": "subnautica-2-geforce-now"
+      },
+      {
+        "slug": "subnautica-2-mac",
+        "file": "subnautica-2-mac"
+      },
+      {
+        "slug": "subnautica-2-mobile",
+        "file": "subnautica-2-mobile"
+      },
+      {
+        "slug": "subnautica-2-platforms",
+        "file": "subnautica-2-platforms"
+      },
+      {
+        "slug": "subnautica-2-playstation",
+        "file": "subnautica-2-playstation"
+      },
+      {
+        "slug": "subnautica-2-ps4",
+        "file": "subnautica-2-ps4"
+      },
+      {
+        "slug": "subnautica-2-ps5",
+        "file": "subnautica-2-ps5"
+      },
+      {
+        "slug": "subnautica-2-steam-deck",
+        "file": "subnautica-2-steam-deck"
+      },
+      {
+        "slug": "subnautica-2-steam",
+        "file": "subnautica-2-steam"
+      },
+      {
+        "slug": "subnautica-2-switch-2",
+        "file": "subnautica-2-switch-2"
+      },
+      {
+        "slug": "subnautica-2-ue5",
+        "file": "subnautica-2-ue5"
+      },
+      {
+        "slug": "subnautica-2-xbox",
+        "file": "subnautica-2-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "subnautica-2-cost",
+        "file": "subnautica-2-cost"
+      },
+      {
+        "slug": "subnautica-2-early-access-price",
+        "file": "subnautica-2-early-access-price"
+      },
+      {
+        "slug": "subnautica-2-estimated-price",
+        "file": "subnautica-2-estimated-price"
+      },
+      {
+        "slug": "subnautica-2-price-estimate",
+        "file": "subnautica-2-price-estimate"
+      },
+      {
+        "slug": "subnautica-2-price",
+        "file": "subnautica-2-price"
+      },
+      {
+        "slug": "subnautica-2-xbox-price",
+        "file": "subnautica-2-xbox-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "subnautica-2-beta",
+        "file": "subnautica-2-beta"
+      },
+      {
+        "slug": "subnautica-2-demo",
+        "file": "subnautica-2-demo"
+      },
+      {
+        "slug": "subnautica-2-early-access-release-date",
+        "file": "subnautica-2-early-access-release-date"
+      },
+      {
+        "slug": "subnautica-2-early-access",
+        "file": "subnautica-2-early-access"
+      },
+      {
+        "slug": "subnautica-2-full-release-date",
+        "file": "subnautica-2-full-release-date"
+      },
+      {
+        "slug": "subnautica-2-pre-order-bonus",
+        "file": "subnautica-2-pre-order-bonus"
+      },
+      {
+        "slug": "subnautica-2-pre-order",
+        "file": "subnautica-2-pre-order"
+      },
+      {
+        "slug": "subnautica-2-preload",
+        "file": "subnautica-2-preload"
+      },
+      {
+        "slug": "subnautica-2-release-date-early-access",
+        "file": "subnautica-2-release-date-early-access"
+      },
+      {
+        "slug": "subnautica-2-release-date",
+        "file": "subnautica-2-release-date"
+      },
+      {
+        "slug": "subnautica-2-release-time",
+        "file": "subnautica-2-release-time"
+      },
+      {
+        "slug": "subnautica-2-release",
+        "file": "subnautica-2-release"
+      },
+      {
+        "slug": "subnautica-2-roadmap",
+        "file": "subnautica-2-roadmap"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "subnautica-2-download-size",
+        "file": "subnautica-2-download-size"
+      },
+      {
+        "slug": "subnautica-2-engine",
+        "file": "subnautica-2-engine"
+      },
+      {
+        "slug": "subnautica-2-graphics",
+        "file": "subnautica-2-graphics"
+      },
+      {
+        "slug": "subnautica-2-hardware-requirements",
+        "file": "subnautica-2-hardware-requirements"
+      },
+      {
+        "slug": "subnautica-2-minimum-requirements",
+        "file": "subnautica-2-minimum-requirements"
+      },
+      {
+        "slug": "subnautica-2-pc-requirements",
+        "file": "subnautica-2-pc-requirements"
+      },
+      {
+        "slug": "subnautica-2-requirements",
+        "file": "subnautica-2-requirements"
+      },
+      {
+        "slug": "subnautica-2-specs",
+        "file": "subnautica-2-specs"
+      },
+      {
+        "slug": "subnautica-2-steam-deck-settings",
+        "file": "subnautica-2-steam-deck-settings"
+      },
+      {
+        "slug": "subnautica-2-system-requirements",
+        "file": "subnautica-2-system-requirements"
+      },
+      {
+        "slug": "subnautica-2-unreal-engine",
+        "file": "subnautica-2-unreal-engine"
+      },
+      {
+        "slug": "subnautica-2-vr",
+        "file": "subnautica-2-vr"
+      }
+    ]
+  },
+  "es": {
+    "guide": [
+      {
+        "slug": "subnautica-2-acidic-rain-pouch",
+        "file": "subnautica-2-acidic-rain-pouch"
+      },
+      {
+        "slug": "subnautica-2-adaptations",
+        "file": "subnautica-2-adaptations"
+      },
+      {
+        "slug": "subnautica-2-age-rating",
+        "file": "subnautica-2-age-rating"
+      },
+      {
+        "slug": "subnautica-2-alien-generator",
+        "file": "subnautica-2-alien-generator"
+      },
+      {
+        "slug": "subnautica-2-alien-observatory",
+        "file": "subnautica-2-alien-observatory"
+      },
+      {
+        "slug": "subnautica-2-alien-ruins",
+        "file": "subnautica-2-alien-ruins"
+      },
+      {
+        "slug": "subnautica-2-all-creatures",
+        "file": "subnautica-2-all-creatures"
+      },
+      {
+        "slug": "subnautica-2-all-leviathans",
+        "file": "subnautica-2-all-leviathans"
+      },
+      {
+        "slug": "subnautica-2-angel-comb",
+        "file": "subnautica-2-angel-comb"
+      },
+      {
+        "slug": "subnautica-2-aquarium",
+        "file": "subnautica-2-aquarium"
+      },
+      {
+        "slug": "subnautica-2-architect-organs",
+        "file": "subnautica-2-architect-organs"
+      },
+      {
+        "slug": "subnautica-2-armored-pox",
+        "file": "subnautica-2-armored-pox"
+      },
+      {
+        "slug": "subnautica-2-axum",
+        "file": "subnautica-2-axum"
+      },
+      {
+        "slug": "subnautica-2-base-building",
+        "file": "subnautica-2-base-building"
+      },
+      {
+        "slug": "subnautica-2-battery-charger",
+        "file": "subnautica-2-battery-charger"
+      },
+      {
+        "slug": "subnautica-2-beginner-guide",
+        "file": "subnautica-2-beginner-guide"
+      },
+      {
+        "slug": "subnautica-2-biomes",
+        "file": "subnautica-2-biomes"
+      },
+      {
+        "slug": "subnautica-2-biomods",
+        "file": "subnautica-2-biomods"
+      },
+      {
+        "slug": "subnautica-2-bioscanner",
+        "file": "subnautica-2-bioscanner"
+      },
+      {
+        "slug": "subnautica-2-blueprints",
+        "file": "subnautica-2-blueprints"
+      },
+      {
+        "slug": "subnautica-2-camp-one",
+        "file": "subnautica-2-camp-one"
+      },
+      {
+        "slug": "subnautica-2-collector-leviathan",
+        "file": "subnautica-2-collector-leviathan"
+      },
+      {
+        "slug": "subnautica-2-conduit-crystal",
+        "file": "subnautica-2-conduit-crystal"
+      },
+      {
+        "slug": "subnautica-2-console-commands",
+        "file": "subnautica-2-console-commands"
+      },
+      {
+        "slug": "subnautica-2-controversy",
+        "file": "subnautica-2-controversy"
+      },
+      {
+        "slug": "subnautica-2-creature-enamel",
+        "file": "subnautica-2-creature-enamel"
+      },
+      {
+        "slug": "subnautica-2-creatures",
+        "file": "subnautica-2-creatures"
+      },
+      {
+        "slug": "subnautica-2-data-collection",
+        "file": "subnautica-2-data-collection"
+      },
+      {
+        "slug": "subnautica-2-dead-zone",
+        "file": "subnautica-2-dead-zone"
+      },
+      {
+        "slug": "subnautica-2-depth-module",
+        "file": "subnautica-2-depth-module"
+      },
+      {
+        "slug": "subnautica-2-diamonds",
+        "file": "subnautica-2-diamonds"
+      },
+      {
+        "slug": "subnautica-2-elusive-leviathan",
+        "file": "subnautica-2-elusive-leviathan"
+      },
+      {
+        "slug": "subnautica-2-ending",
+        "file": "subnautica-2-ending"
+      },
+      {
+        "slug": "subnautica-2-eva-suit",
+        "file": "subnautica-2-eva-suit"
+      },
+      {
+        "slug": "subnautica-2-feedback-resonator",
+        "file": "subnautica-2-feedback-resonator"
+      },
+      {
+        "slug": "subnautica-2-fibrous-pulp",
+        "file": "subnautica-2-fibrous-pulp"
+      },
+      {
+        "slug": "subnautica-2-fully-functional-fabricator",
+        "file": "subnautica-2-fully-functional-fabricator"
+      },
+      {
+        "slug": "subnautica-2-gameplay",
+        "file": "subnautica-2-gameplay"
+      },
+      {
+        "slug": "subnautica-2-gargantuan-leviathan",
+        "file": "subnautica-2-gargantuan-leviathan"
+      },
+      {
+        "slug": "subnautica-2-gold-location",
+        "file": "subnautica-2-gold-location"
+      },
+      {
+        "slug": "subnautica-2-growbed",
+        "file": "subnautica-2-growbed"
+      },
+      {
+        "slug": "subnautica-2-guide",
+        "file": "subnautica-2-guide"
+      },
+      {
+        "slug": "subnautica-2-habitat-builder",
+        "file": "subnautica-2-habitat-builder"
+      },
+      {
+        "slug": "subnautica-2-how-far-can-you-get",
+        "file": "subnautica-2-how-far-can-you-get"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-lead",
+        "file": "subnautica-2-how-to-get-lead"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-silver",
+        "file": "subnautica-2-how-to-get-silver"
+      },
+      {
+        "slug": "subnautica-2-hydraulic-fluid",
+        "file": "subnautica-2-hydraulic-fluid"
+      },
+      {
+        "slug": "subnautica-2-hydroelectric-turbine",
+        "file": "subnautica-2-hydroelectric-turbine"
+      },
+      {
+        "slug": "subnautica-2-interactive-map",
+        "file": "subnautica-2-interactive-map"
+      },
+      {
+        "slug": "subnautica-2-inventory-upgrade",
+        "file": "subnautica-2-inventory-upgrade"
+      },
+      {
+        "slug": "subnautica-2-investigate-tadpole-pens",
+        "file": "subnautica-2-investigate-tadpole-pens"
+      },
+      {
+        "slug": "subnautica-2-iron-ingot",
+        "file": "subnautica-2-iron-ingot"
+      },
+      {
+        "slug": "subnautica-2-keycard",
+        "file": "subnautica-2-keycard"
+      },
+      {
+        "slug": "subnautica-2-kharaa",
+        "file": "subnautica-2-kharaa"
+      },
+      {
+        "slug": "subnautica-2-lead-location",
+        "file": "subnautica-2-lead-location"
+      },
+      {
+        "slug": "subnautica-2-leviathans",
+        "file": "subnautica-2-leviathans"
+      },
+      {
+        "slug": "subnautica-2-lithium-location",
+        "file": "subnautica-2-lithium-location"
+      },
+      {
+        "slug": "subnautica-2-lithium",
+        "file": "subnautica-2-lithium"
+      },
+      {
+        "slug": "subnautica-2-lore",
+        "file": "subnautica-2-lore"
+      },
+      {
+        "slug": "subnautica-2-map",
+        "file": "subnautica-2-map"
+      },
+      {
+        "slug": "subnautica-2-necrotic-cyst",
+        "file": "subnautica-2-necrotic-cyst"
+      },
+      {
+        "slug": "subnautica-2-nickel-ore",
+        "file": "subnautica-2-nickel-ore"
+      },
+      {
+        "slug": "subnautica-2-power-transmitter",
+        "file": "subnautica-2-power-transmitter"
+      },
+      {
+        "slug": "subnautica-2-repair-tool",
+        "file": "subnautica-2-repair-tool"
+      },
+      {
+        "slug": "subnautica-2-tadpole",
+        "file": "subnautica-2-tadpole"
+      },
+      {
+        "slug": "subnautica-2-tips",
+        "file": "subnautica-2-tips"
+      },
+      {
+        "slug": "subnautica-2-vehicles",
+        "file": "subnautica-2-vehicles"
+      },
+      {
+        "slug": "subnautica-2-void-leviathan",
+        "file": "subnautica-2-void-leviathan"
+      },
+      {
+        "slug": "subnautica-2-walkthrough",
+        "file": "subnautica-2-walkthrough"
+      },
+      {
+        "slug": "subnautica-2-world-tree",
+        "file": "subnautica-2-world-tree"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "subnautica-2-coop",
+        "file": "subnautica-2-coop"
+      },
+      {
+        "slug": "subnautica-2-cross-platform",
+        "file": "subnautica-2-cross-platform"
+      },
+      {
+        "slug": "subnautica-2-crossplay",
+        "file": "subnautica-2-crossplay"
+      },
+      {
+        "slug": "subnautica-2-dedicated-server",
+        "file": "subnautica-2-dedicated-server"
+      },
+      {
+        "slug": "subnautica-2-how-many-players",
+        "file": "subnautica-2-how-many-players"
+      },
+      {
+        "slug": "subnautica-2-local-co-op",
+        "file": "subnautica-2-local-co-op"
+      },
+      {
+        "slug": "subnautica-2-multiplayer",
+        "file": "subnautica-2-multiplayer"
+      },
+      {
+        "slug": "subnautica-2-online",
+        "file": "subnautica-2-online"
+      },
+      {
+        "slug": "subnautica-2-proximity-chat",
+        "file": "subnautica-2-proximity-chat"
+      },
+      {
+        "slug": "subnautica-2-split-screen",
+        "file": "subnautica-2-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "subnautica-2-console",
+        "file": "subnautica-2-console"
+      },
+      {
+        "slug": "subnautica-2-game-pass",
+        "file": "subnautica-2-game-pass"
+      },
+      {
+        "slug": "subnautica-2-geforce-now",
+        "file": "subnautica-2-geforce-now"
+      },
+      {
+        "slug": "subnautica-2-mac",
+        "file": "subnautica-2-mac"
+      },
+      {
+        "slug": "subnautica-2-mobile",
+        "file": "subnautica-2-mobile"
+      },
+      {
+        "slug": "subnautica-2-platforms",
+        "file": "subnautica-2-platforms"
+      },
+      {
+        "slug": "subnautica-2-playstation",
+        "file": "subnautica-2-playstation"
+      },
+      {
+        "slug": "subnautica-2-ps4",
+        "file": "subnautica-2-ps4"
+      },
+      {
+        "slug": "subnautica-2-ps5",
+        "file": "subnautica-2-ps5"
+      },
+      {
+        "slug": "subnautica-2-steam-deck",
+        "file": "subnautica-2-steam-deck"
+      },
+      {
+        "slug": "subnautica-2-steam",
+        "file": "subnautica-2-steam"
+      },
+      {
+        "slug": "subnautica-2-switch-2",
+        "file": "subnautica-2-switch-2"
+      },
+      {
+        "slug": "subnautica-2-ue5",
+        "file": "subnautica-2-ue5"
+      },
+      {
+        "slug": "subnautica-2-xbox",
+        "file": "subnautica-2-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "subnautica-2-cost",
+        "file": "subnautica-2-cost"
+      },
+      {
+        "slug": "subnautica-2-early-access-price",
+        "file": "subnautica-2-early-access-price"
+      },
+      {
+        "slug": "subnautica-2-estimated-price",
+        "file": "subnautica-2-estimated-price"
+      },
+      {
+        "slug": "subnautica-2-price-estimate",
+        "file": "subnautica-2-price-estimate"
+      },
+      {
+        "slug": "subnautica-2-price",
+        "file": "subnautica-2-price"
+      },
+      {
+        "slug": "subnautica-2-xbox-price",
+        "file": "subnautica-2-xbox-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "subnautica-2-beta",
+        "file": "subnautica-2-beta"
+      },
+      {
+        "slug": "subnautica-2-demo",
+        "file": "subnautica-2-demo"
+      },
+      {
+        "slug": "subnautica-2-early-access-release-date",
+        "file": "subnautica-2-early-access-release-date"
+      },
+      {
+        "slug": "subnautica-2-early-access",
+        "file": "subnautica-2-early-access"
+      },
+      {
+        "slug": "subnautica-2-full-release-date",
+        "file": "subnautica-2-full-release-date"
+      },
+      {
+        "slug": "subnautica-2-pre-order-bonus",
+        "file": "subnautica-2-pre-order-bonus"
+      },
+      {
+        "slug": "subnautica-2-pre-order",
+        "file": "subnautica-2-pre-order"
+      },
+      {
+        "slug": "subnautica-2-preload",
+        "file": "subnautica-2-preload"
+      },
+      {
+        "slug": "subnautica-2-release-date-early-access",
+        "file": "subnautica-2-release-date-early-access"
+      },
+      {
+        "slug": "subnautica-2-release-date",
+        "file": "subnautica-2-release-date"
+      },
+      {
+        "slug": "subnautica-2-release-time",
+        "file": "subnautica-2-release-time"
+      },
+      {
+        "slug": "subnautica-2-release",
+        "file": "subnautica-2-release"
+      },
+      {
+        "slug": "subnautica-2-roadmap",
+        "file": "subnautica-2-roadmap"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "subnautica-2-download-size",
+        "file": "subnautica-2-download-size"
+      },
+      {
+        "slug": "subnautica-2-engine",
+        "file": "subnautica-2-engine"
+      },
+      {
+        "slug": "subnautica-2-graphics",
+        "file": "subnautica-2-graphics"
+      },
+      {
+        "slug": "subnautica-2-hardware-requirements",
+        "file": "subnautica-2-hardware-requirements"
+      },
+      {
+        "slug": "subnautica-2-minimum-requirements",
+        "file": "subnautica-2-minimum-requirements"
+      },
+      {
+        "slug": "subnautica-2-pc-requirements",
+        "file": "subnautica-2-pc-requirements"
+      },
+      {
+        "slug": "subnautica-2-requirements",
+        "file": "subnautica-2-requirements"
+      },
+      {
+        "slug": "subnautica-2-specs",
+        "file": "subnautica-2-specs"
+      },
+      {
+        "slug": "subnautica-2-steam-deck-settings",
+        "file": "subnautica-2-steam-deck-settings"
+      },
+      {
+        "slug": "subnautica-2-system-requirements",
+        "file": "subnautica-2-system-requirements"
+      },
+      {
+        "slug": "subnautica-2-unreal-engine",
+        "file": "subnautica-2-unreal-engine"
+      },
+      {
+        "slug": "subnautica-2-vr",
+        "file": "subnautica-2-vr"
+      }
+    ]
+  },
+  "fr": {
+    "guide": [
+      {
+        "slug": "subnautica-2-base-building",
+        "file": "subnautica-2-base-building"
+      },
+      {
+        "slug": "subnautica-2-beginner-guide",
+        "file": "subnautica-2-beginner-guide"
+      },
+      {
+        "slug": "subnautica-2-gameplay",
+        "file": "subnautica-2-gameplay"
+      },
+      {
+        "slug": "subnautica-2-guide",
+        "file": "subnautica-2-guide"
+      },
+      {
+        "slug": "subnautica-2-habitat-builder",
+        "file": "subnautica-2-habitat-builder"
+      },
+      {
+        "slug": "subnautica-2-interactive-map",
+        "file": "subnautica-2-interactive-map"
+      },
+      {
+        "slug": "subnautica-2-map",
+        "file": "subnautica-2-map"
+      },
+      {
+        "slug": "subnautica-2-tadpole",
+        "file": "subnautica-2-tadpole"
+      },
+      {
+        "slug": "subnautica-2-tips",
+        "file": "subnautica-2-tips"
+      },
+      {
+        "slug": "subnautica-2-vehicles",
+        "file": "subnautica-2-vehicles"
+      },
+      {
+        "slug": "subnautica-2-walkthrough",
+        "file": "subnautica-2-walkthrough"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "subnautica-2-coop",
+        "file": "subnautica-2-coop"
+      },
+      {
+        "slug": "subnautica-2-cross-platform",
+        "file": "subnautica-2-cross-platform"
+      },
+      {
+        "slug": "subnautica-2-crossplay",
+        "file": "subnautica-2-crossplay"
+      },
+      {
+        "slug": "subnautica-2-dedicated-server",
+        "file": "subnautica-2-dedicated-server"
+      },
+      {
+        "slug": "subnautica-2-how-many-players",
+        "file": "subnautica-2-how-many-players"
+      },
+      {
+        "slug": "subnautica-2-local-co-op",
+        "file": "subnautica-2-local-co-op"
+      },
+      {
+        "slug": "subnautica-2-multiplayer",
+        "file": "subnautica-2-multiplayer"
+      },
+      {
+        "slug": "subnautica-2-proximity-chat",
+        "file": "subnautica-2-proximity-chat"
+      },
+      {
+        "slug": "subnautica-2-split-screen",
+        "file": "subnautica-2-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "subnautica-2-console",
+        "file": "subnautica-2-console"
+      },
+      {
+        "slug": "subnautica-2-game-pass",
+        "file": "subnautica-2-game-pass"
+      },
+      {
+        "slug": "subnautica-2-mac",
+        "file": "subnautica-2-mac"
+      },
+      {
+        "slug": "subnautica-2-mobile",
+        "file": "subnautica-2-mobile"
+      },
+      {
+        "slug": "subnautica-2-platforms",
+        "file": "subnautica-2-platforms"
+      },
+      {
+        "slug": "subnautica-2-playstation",
+        "file": "subnautica-2-playstation"
+      },
+      {
+        "slug": "subnautica-2-ps4",
+        "file": "subnautica-2-ps4"
+      },
+      {
+        "slug": "subnautica-2-ps5",
+        "file": "subnautica-2-ps5"
+      },
+      {
+        "slug": "subnautica-2-steam-deck",
+        "file": "subnautica-2-steam-deck"
+      },
+      {
+        "slug": "subnautica-2-steam",
+        "file": "subnautica-2-steam"
+      },
+      {
+        "slug": "subnautica-2-switch-2",
+        "file": "subnautica-2-switch-2"
+      },
+      {
+        "slug": "subnautica-2-xbox",
+        "file": "subnautica-2-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "subnautica-2-cost",
+        "file": "subnautica-2-cost"
+      },
+      {
+        "slug": "subnautica-2-early-access-price",
+        "file": "subnautica-2-early-access-price"
+      },
+      {
+        "slug": "subnautica-2-estimated-price",
+        "file": "subnautica-2-estimated-price"
+      },
+      {
+        "slug": "subnautica-2-price-estimate",
+        "file": "subnautica-2-price-estimate"
+      },
+      {
+        "slug": "subnautica-2-price",
+        "file": "subnautica-2-price"
+      },
+      {
+        "slug": "subnautica-2-xbox-price",
+        "file": "subnautica-2-xbox-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "subnautica-2-beta",
+        "file": "subnautica-2-beta"
+      },
+      {
+        "slug": "subnautica-2-demo",
+        "file": "subnautica-2-demo"
+      },
+      {
+        "slug": "subnautica-2-early-access-release-date",
+        "file": "subnautica-2-early-access-release-date"
+      },
+      {
+        "slug": "subnautica-2-early-access",
+        "file": "subnautica-2-early-access"
+      },
+      {
+        "slug": "subnautica-2-full-release-date",
+        "file": "subnautica-2-full-release-date"
+      },
+      {
+        "slug": "subnautica-2-pre-order-bonus",
+        "file": "subnautica-2-pre-order-bonus"
+      },
+      {
+        "slug": "subnautica-2-pre-order",
+        "file": "subnautica-2-pre-order"
+      },
+      {
+        "slug": "subnautica-2-preload",
+        "file": "subnautica-2-preload"
+      },
+      {
+        "slug": "subnautica-2-release-date-early-access",
+        "file": "subnautica-2-release-date-early-access"
+      },
+      {
+        "slug": "subnautica-2-release-date",
+        "file": "subnautica-2-release-date"
+      },
+      {
+        "slug": "subnautica-2-release-time",
+        "file": "subnautica-2-release-time"
+      },
+      {
+        "slug": "subnautica-2-release",
+        "file": "subnautica-2-release"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "subnautica-2-engine",
+        "file": "subnautica-2-engine"
+      },
+      {
+        "slug": "subnautica-2-graphics",
+        "file": "subnautica-2-graphics"
+      },
+      {
+        "slug": "subnautica-2-hardware-requirements",
+        "file": "subnautica-2-hardware-requirements"
+      },
+      {
+        "slug": "subnautica-2-minimum-requirements",
+        "file": "subnautica-2-minimum-requirements"
+      },
+      {
+        "slug": "subnautica-2-pc-requirements",
+        "file": "subnautica-2-pc-requirements"
+      },
+      {
+        "slug": "subnautica-2-requirements",
+        "file": "subnautica-2-requirements"
+      },
+      {
+        "slug": "subnautica-2-specs",
+        "file": "subnautica-2-specs"
+      },
+      {
+        "slug": "subnautica-2-system-requirements",
+        "file": "subnautica-2-system-requirements"
+      },
+      {
+        "slug": "subnautica-2-unreal-engine",
+        "file": "subnautica-2-unreal-engine"
+      },
+      {
+        "slug": "subnautica-2-vr",
+        "file": "subnautica-2-vr"
+      }
+    ]
+  },
+  "ja": {
+    "guide": [
+      {
+        "slug": "subnautica-2-acidic-rain-pouch",
+        "file": "subnautica-2-acidic-rain-pouch"
+      },
+      {
+        "slug": "subnautica-2-adaptations",
+        "file": "subnautica-2-adaptations"
+      },
+      {
+        "slug": "subnautica-2-age-rating",
+        "file": "subnautica-2-age-rating"
+      },
+      {
+        "slug": "subnautica-2-alien-generator",
+        "file": "subnautica-2-alien-generator"
+      },
+      {
+        "slug": "subnautica-2-alien-observatory",
+        "file": "subnautica-2-alien-observatory"
+      },
+      {
+        "slug": "subnautica-2-alien-ruins",
+        "file": "subnautica-2-alien-ruins"
+      },
+      {
+        "slug": "subnautica-2-all-creatures",
+        "file": "subnautica-2-all-creatures"
+      },
+      {
+        "slug": "subnautica-2-all-leviathans",
+        "file": "subnautica-2-all-leviathans"
+      },
+      {
+        "slug": "subnautica-2-angel-comb",
+        "file": "subnautica-2-angel-comb"
+      },
+      {
+        "slug": "subnautica-2-aquarium",
+        "file": "subnautica-2-aquarium"
+      },
+      {
+        "slug": "subnautica-2-architect-organs",
+        "file": "subnautica-2-architect-organs"
+      },
+      {
+        "slug": "subnautica-2-armored-pox",
+        "file": "subnautica-2-armored-pox"
+      },
+      {
+        "slug": "subnautica-2-axum",
+        "file": "subnautica-2-axum"
+      },
+      {
+        "slug": "subnautica-2-base-building",
+        "file": "subnautica-2-base-building"
+      },
+      {
+        "slug": "subnautica-2-battery-charger",
+        "file": "subnautica-2-battery-charger"
+      },
+      {
+        "slug": "subnautica-2-beginner-guide",
+        "file": "subnautica-2-beginner-guide"
+      },
+      {
+        "slug": "subnautica-2-biomes",
+        "file": "subnautica-2-biomes"
+      },
+      {
+        "slug": "subnautica-2-biomods",
+        "file": "subnautica-2-biomods"
+      },
+      {
+        "slug": "subnautica-2-bioscanner",
+        "file": "subnautica-2-bioscanner"
+      },
+      {
+        "slug": "subnautica-2-blueprints",
+        "file": "subnautica-2-blueprints"
+      },
+      {
+        "slug": "subnautica-2-camp-one",
+        "file": "subnautica-2-camp-one"
+      },
+      {
+        "slug": "subnautica-2-collector-leviathan",
+        "file": "subnautica-2-collector-leviathan"
+      },
+      {
+        "slug": "subnautica-2-conduit-crystal",
+        "file": "subnautica-2-conduit-crystal"
+      },
+      {
+        "slug": "subnautica-2-console-commands",
+        "file": "subnautica-2-console-commands"
+      },
+      {
+        "slug": "subnautica-2-controversy",
+        "file": "subnautica-2-controversy"
+      },
+      {
+        "slug": "subnautica-2-creature-enamel",
+        "file": "subnautica-2-creature-enamel"
+      },
+      {
+        "slug": "subnautica-2-creatures",
+        "file": "subnautica-2-creatures"
+      },
+      {
+        "slug": "subnautica-2-data-collection",
+        "file": "subnautica-2-data-collection"
+      },
+      {
+        "slug": "subnautica-2-dead-zone",
+        "file": "subnautica-2-dead-zone"
+      },
+      {
+        "slug": "subnautica-2-depth-module",
+        "file": "subnautica-2-depth-module"
+      },
+      {
+        "slug": "subnautica-2-diamonds",
+        "file": "subnautica-2-diamonds"
+      },
+      {
+        "slug": "subnautica-2-elusive-leviathan",
+        "file": "subnautica-2-elusive-leviathan"
+      },
+      {
+        "slug": "subnautica-2-ending",
+        "file": "subnautica-2-ending"
+      },
+      {
+        "slug": "subnautica-2-eva-suit",
+        "file": "subnautica-2-eva-suit"
+      },
+      {
+        "slug": "subnautica-2-feedback-resonator",
+        "file": "subnautica-2-feedback-resonator"
+      },
+      {
+        "slug": "subnautica-2-fibrous-pulp",
+        "file": "subnautica-2-fibrous-pulp"
+      },
+      {
+        "slug": "subnautica-2-fully-functional-fabricator",
+        "file": "subnautica-2-fully-functional-fabricator"
+      },
+      {
+        "slug": "subnautica-2-gameplay",
+        "file": "subnautica-2-gameplay"
+      },
+      {
+        "slug": "subnautica-2-gargantuan-leviathan",
+        "file": "subnautica-2-gargantuan-leviathan"
+      },
+      {
+        "slug": "subnautica-2-gold-location",
+        "file": "subnautica-2-gold-location"
+      },
+      {
+        "slug": "subnautica-2-growbed",
+        "file": "subnautica-2-growbed"
+      },
+      {
+        "slug": "subnautica-2-guide",
+        "file": "subnautica-2-guide"
+      },
+      {
+        "slug": "subnautica-2-habitat-builder",
+        "file": "subnautica-2-habitat-builder"
+      },
+      {
+        "slug": "subnautica-2-how-far-can-you-get",
+        "file": "subnautica-2-how-far-can-you-get"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-lead",
+        "file": "subnautica-2-how-to-get-lead"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-silver",
+        "file": "subnautica-2-how-to-get-silver"
+      },
+      {
+        "slug": "subnautica-2-hydraulic-fluid",
+        "file": "subnautica-2-hydraulic-fluid"
+      },
+      {
+        "slug": "subnautica-2-hydroelectric-turbine",
+        "file": "subnautica-2-hydroelectric-turbine"
+      },
+      {
+        "slug": "subnautica-2-interactive-map",
+        "file": "subnautica-2-interactive-map"
+      },
+      {
+        "slug": "subnautica-2-inventory-upgrade",
+        "file": "subnautica-2-inventory-upgrade"
+      },
+      {
+        "slug": "subnautica-2-investigate-tadpole-pens",
+        "file": "subnautica-2-investigate-tadpole-pens"
+      },
+      {
+        "slug": "subnautica-2-iron-ingot",
+        "file": "subnautica-2-iron-ingot"
+      },
+      {
+        "slug": "subnautica-2-keycard",
+        "file": "subnautica-2-keycard"
+      },
+      {
+        "slug": "subnautica-2-kharaa",
+        "file": "subnautica-2-kharaa"
+      },
+      {
+        "slug": "subnautica-2-lead-location",
+        "file": "subnautica-2-lead-location"
+      },
+      {
+        "slug": "subnautica-2-leviathans",
+        "file": "subnautica-2-leviathans"
+      },
+      {
+        "slug": "subnautica-2-lithium-location",
+        "file": "subnautica-2-lithium-location"
+      },
+      {
+        "slug": "subnautica-2-lithium",
+        "file": "subnautica-2-lithium"
+      },
+      {
+        "slug": "subnautica-2-lore",
+        "file": "subnautica-2-lore"
+      },
+      {
+        "slug": "subnautica-2-map",
+        "file": "subnautica-2-map"
+      },
+      {
+        "slug": "subnautica-2-necrotic-cyst",
+        "file": "subnautica-2-necrotic-cyst"
+      },
+      {
+        "slug": "subnautica-2-nickel-ore",
+        "file": "subnautica-2-nickel-ore"
+      },
+      {
+        "slug": "subnautica-2-power-transmitter",
+        "file": "subnautica-2-power-transmitter"
+      },
+      {
+        "slug": "subnautica-2-repair-tool",
+        "file": "subnautica-2-repair-tool"
+      },
+      {
+        "slug": "subnautica-2-tadpole",
+        "file": "subnautica-2-tadpole"
+      },
+      {
+        "slug": "subnautica-2-tips",
+        "file": "subnautica-2-tips"
+      },
+      {
+        "slug": "subnautica-2-vehicles",
+        "file": "subnautica-2-vehicles"
+      },
+      {
+        "slug": "subnautica-2-void-leviathan",
+        "file": "subnautica-2-void-leviathan"
+      },
+      {
+        "slug": "subnautica-2-walkthrough",
+        "file": "subnautica-2-walkthrough"
+      },
+      {
+        "slug": "subnautica-2-world-tree",
+        "file": "subnautica-2-world-tree"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "subnautica-2-coop",
+        "file": "subnautica-2-coop"
+      },
+      {
+        "slug": "subnautica-2-cross-platform",
+        "file": "subnautica-2-cross-platform"
+      },
+      {
+        "slug": "subnautica-2-crossplay",
+        "file": "subnautica-2-crossplay"
+      },
+      {
+        "slug": "subnautica-2-dedicated-server",
+        "file": "subnautica-2-dedicated-server"
+      },
+      {
+        "slug": "subnautica-2-how-many-players",
+        "file": "subnautica-2-how-many-players"
+      },
+      {
+        "slug": "subnautica-2-local-co-op",
+        "file": "subnautica-2-local-co-op"
+      },
+      {
+        "slug": "subnautica-2-multiplayer",
+        "file": "subnautica-2-multiplayer"
+      },
+      {
+        "slug": "subnautica-2-online",
+        "file": "subnautica-2-online"
+      },
+      {
+        "slug": "subnautica-2-proximity-chat",
+        "file": "subnautica-2-proximity-chat"
+      },
+      {
+        "slug": "subnautica-2-split-screen",
+        "file": "subnautica-2-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "subnautica-2-console",
+        "file": "subnautica-2-console"
+      },
+      {
+        "slug": "subnautica-2-game-pass",
+        "file": "subnautica-2-game-pass"
+      },
+      {
+        "slug": "subnautica-2-geforce-now",
+        "file": "subnautica-2-geforce-now"
+      },
+      {
+        "slug": "subnautica-2-mac",
+        "file": "subnautica-2-mac"
+      },
+      {
+        "slug": "subnautica-2-mobile",
+        "file": "subnautica-2-mobile"
+      },
+      {
+        "slug": "subnautica-2-platforms",
+        "file": "subnautica-2-platforms"
+      },
+      {
+        "slug": "subnautica-2-playstation",
+        "file": "subnautica-2-playstation"
+      },
+      {
+        "slug": "subnautica-2-ps4",
+        "file": "subnautica-2-ps4"
+      },
+      {
+        "slug": "subnautica-2-ps5",
+        "file": "subnautica-2-ps5"
+      },
+      {
+        "slug": "subnautica-2-steam-deck",
+        "file": "subnautica-2-steam-deck"
+      },
+      {
+        "slug": "subnautica-2-steam",
+        "file": "subnautica-2-steam"
+      },
+      {
+        "slug": "subnautica-2-switch-2",
+        "file": "subnautica-2-switch-2"
+      },
+      {
+        "slug": "subnautica-2-ue5",
+        "file": "subnautica-2-ue5"
+      },
+      {
+        "slug": "subnautica-2-xbox",
+        "file": "subnautica-2-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "subnautica-2-cost",
+        "file": "subnautica-2-cost"
+      },
+      {
+        "slug": "subnautica-2-early-access-price",
+        "file": "subnautica-2-early-access-price"
+      },
+      {
+        "slug": "subnautica-2-estimated-price",
+        "file": "subnautica-2-estimated-price"
+      },
+      {
+        "slug": "subnautica-2-price-estimate",
+        "file": "subnautica-2-price-estimate"
+      },
+      {
+        "slug": "subnautica-2-price",
+        "file": "subnautica-2-price"
+      },
+      {
+        "slug": "subnautica-2-xbox-price",
+        "file": "subnautica-2-xbox-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "subnautica-2-beta",
+        "file": "subnautica-2-beta"
+      },
+      {
+        "slug": "subnautica-2-demo",
+        "file": "subnautica-2-demo"
+      },
+      {
+        "slug": "subnautica-2-early-access-release-date",
+        "file": "subnautica-2-early-access-release-date"
+      },
+      {
+        "slug": "subnautica-2-early-access",
+        "file": "subnautica-2-early-access"
+      },
+      {
+        "slug": "subnautica-2-full-release-date",
+        "file": "subnautica-2-full-release-date"
+      },
+      {
+        "slug": "subnautica-2-pre-order-bonus",
+        "file": "subnautica-2-pre-order-bonus"
+      },
+      {
+        "slug": "subnautica-2-pre-order",
+        "file": "subnautica-2-pre-order"
+      },
+      {
+        "slug": "subnautica-2-preload",
+        "file": "subnautica-2-preload"
+      },
+      {
+        "slug": "subnautica-2-release-date-early-access",
+        "file": "subnautica-2-release-date-early-access"
+      },
+      {
+        "slug": "subnautica-2-release-date",
+        "file": "subnautica-2-release-date"
+      },
+      {
+        "slug": "subnautica-2-release-time",
+        "file": "subnautica-2-release-time"
+      },
+      {
+        "slug": "subnautica-2-release",
+        "file": "subnautica-2-release"
+      },
+      {
+        "slug": "subnautica-2-roadmap",
+        "file": "subnautica-2-roadmap"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "subnautica-2-download-size",
+        "file": "subnautica-2-download-size"
+      },
+      {
+        "slug": "subnautica-2-engine",
+        "file": "subnautica-2-engine"
+      },
+      {
+        "slug": "subnautica-2-graphics",
+        "file": "subnautica-2-graphics"
+      },
+      {
+        "slug": "subnautica-2-hardware-requirements",
+        "file": "subnautica-2-hardware-requirements"
+      },
+      {
+        "slug": "subnautica-2-minimum-requirements",
+        "file": "subnautica-2-minimum-requirements"
+      },
+      {
+        "slug": "subnautica-2-pc-requirements",
+        "file": "subnautica-2-pc-requirements"
+      },
+      {
+        "slug": "subnautica-2-requirements",
+        "file": "subnautica-2-requirements"
+      },
+      {
+        "slug": "subnautica-2-specs",
+        "file": "subnautica-2-specs"
+      },
+      {
+        "slug": "subnautica-2-steam-deck-settings",
+        "file": "subnautica-2-steam-deck-settings"
+      },
+      {
+        "slug": "subnautica-2-system-requirements",
+        "file": "subnautica-2-system-requirements"
+      },
+      {
+        "slug": "subnautica-2-unreal-engine",
+        "file": "subnautica-2-unreal-engine"
+      },
+      {
+        "slug": "subnautica-2-vr",
+        "file": "subnautica-2-vr"
+      }
+    ]
+  },
+  "pt": {
+    "guide": [
+      {
+        "slug": "subnautica-2-acidic-rain-pouch",
+        "file": "subnautica-2-acidic-rain-pouch"
+      },
+      {
+        "slug": "subnautica-2-adaptations",
+        "file": "subnautica-2-adaptations"
+      },
+      {
+        "slug": "subnautica-2-age-rating",
+        "file": "subnautica-2-age-rating"
+      },
+      {
+        "slug": "subnautica-2-alien-generator",
+        "file": "subnautica-2-alien-generator"
+      },
+      {
+        "slug": "subnautica-2-alien-observatory",
+        "file": "subnautica-2-alien-observatory"
+      },
+      {
+        "slug": "subnautica-2-alien-ruins",
+        "file": "subnautica-2-alien-ruins"
+      },
+      {
+        "slug": "subnautica-2-all-creatures",
+        "file": "subnautica-2-all-creatures"
+      },
+      {
+        "slug": "subnautica-2-all-leviathans",
+        "file": "subnautica-2-all-leviathans"
+      },
+      {
+        "slug": "subnautica-2-angel-comb",
+        "file": "subnautica-2-angel-comb"
+      },
+      {
+        "slug": "subnautica-2-aquarium",
+        "file": "subnautica-2-aquarium"
+      },
+      {
+        "slug": "subnautica-2-architect-organs",
+        "file": "subnautica-2-architect-organs"
+      },
+      {
+        "slug": "subnautica-2-armored-pox",
+        "file": "subnautica-2-armored-pox"
+      },
+      {
+        "slug": "subnautica-2-axum",
+        "file": "subnautica-2-axum"
+      },
+      {
+        "slug": "subnautica-2-base-building",
+        "file": "subnautica-2-base-building"
+      },
+      {
+        "slug": "subnautica-2-battery-charger",
+        "file": "subnautica-2-battery-charger"
+      },
+      {
+        "slug": "subnautica-2-beginner-guide",
+        "file": "subnautica-2-beginner-guide"
+      },
+      {
+        "slug": "subnautica-2-biomes",
+        "file": "subnautica-2-biomes"
+      },
+      {
+        "slug": "subnautica-2-biomods",
+        "file": "subnautica-2-biomods"
+      },
+      {
+        "slug": "subnautica-2-bioscanner",
+        "file": "subnautica-2-bioscanner"
+      },
+      {
+        "slug": "subnautica-2-blueprints",
+        "file": "subnautica-2-blueprints"
+      },
+      {
+        "slug": "subnautica-2-camp-one",
+        "file": "subnautica-2-camp-one"
+      },
+      {
+        "slug": "subnautica-2-collector-leviathan",
+        "file": "subnautica-2-collector-leviathan"
+      },
+      {
+        "slug": "subnautica-2-conduit-crystal",
+        "file": "subnautica-2-conduit-crystal"
+      },
+      {
+        "slug": "subnautica-2-console-commands",
+        "file": "subnautica-2-console-commands"
+      },
+      {
+        "slug": "subnautica-2-controversy",
+        "file": "subnautica-2-controversy"
+      },
+      {
+        "slug": "subnautica-2-creature-enamel",
+        "file": "subnautica-2-creature-enamel"
+      },
+      {
+        "slug": "subnautica-2-creatures",
+        "file": "subnautica-2-creatures"
+      },
+      {
+        "slug": "subnautica-2-data-collection",
+        "file": "subnautica-2-data-collection"
+      },
+      {
+        "slug": "subnautica-2-dead-zone",
+        "file": "subnautica-2-dead-zone"
+      },
+      {
+        "slug": "subnautica-2-depth-module",
+        "file": "subnautica-2-depth-module"
+      },
+      {
+        "slug": "subnautica-2-diamonds",
+        "file": "subnautica-2-diamonds"
+      },
+      {
+        "slug": "subnautica-2-elusive-leviathan",
+        "file": "subnautica-2-elusive-leviathan"
+      },
+      {
+        "slug": "subnautica-2-ending",
+        "file": "subnautica-2-ending"
+      },
+      {
+        "slug": "subnautica-2-eva-suit",
+        "file": "subnautica-2-eva-suit"
+      },
+      {
+        "slug": "subnautica-2-feedback-resonator",
+        "file": "subnautica-2-feedback-resonator"
+      },
+      {
+        "slug": "subnautica-2-fibrous-pulp",
+        "file": "subnautica-2-fibrous-pulp"
+      },
+      {
+        "slug": "subnautica-2-fully-functional-fabricator",
+        "file": "subnautica-2-fully-functional-fabricator"
+      },
+      {
+        "slug": "subnautica-2-gameplay",
+        "file": "subnautica-2-gameplay"
+      },
+      {
+        "slug": "subnautica-2-gargantuan-leviathan",
+        "file": "subnautica-2-gargantuan-leviathan"
+      },
+      {
+        "slug": "subnautica-2-gold-location",
+        "file": "subnautica-2-gold-location"
+      },
+      {
+        "slug": "subnautica-2-growbed",
+        "file": "subnautica-2-growbed"
+      },
+      {
+        "slug": "subnautica-2-guide",
+        "file": "subnautica-2-guide"
+      },
+      {
+        "slug": "subnautica-2-habitat-builder",
+        "file": "subnautica-2-habitat-builder"
+      },
+      {
+        "slug": "subnautica-2-how-far-can-you-get",
+        "file": "subnautica-2-how-far-can-you-get"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-lead",
+        "file": "subnautica-2-how-to-get-lead"
+      },
+      {
+        "slug": "subnautica-2-how-to-get-silver",
+        "file": "subnautica-2-how-to-get-silver"
+      },
+      {
+        "slug": "subnautica-2-hydraulic-fluid",
+        "file": "subnautica-2-hydraulic-fluid"
+      },
+      {
+        "slug": "subnautica-2-hydroelectric-turbine",
+        "file": "subnautica-2-hydroelectric-turbine"
+      },
+      {
+        "slug": "subnautica-2-interactive-map",
+        "file": "subnautica-2-interactive-map"
+      },
+      {
+        "slug": "subnautica-2-inventory-upgrade",
+        "file": "subnautica-2-inventory-upgrade"
+      },
+      {
+        "slug": "subnautica-2-investigate-tadpole-pens",
+        "file": "subnautica-2-investigate-tadpole-pens"
+      },
+      {
+        "slug": "subnautica-2-iron-ingot",
+        "file": "subnautica-2-iron-ingot"
+      },
+      {
+        "slug": "subnautica-2-keycard",
+        "file": "subnautica-2-keycard"
+      },
+      {
+        "slug": "subnautica-2-kharaa",
+        "file": "subnautica-2-kharaa"
+      },
+      {
+        "slug": "subnautica-2-lead-location",
+        "file": "subnautica-2-lead-location"
+      },
+      {
+        "slug": "subnautica-2-leviathans",
+        "file": "subnautica-2-leviathans"
+      },
+      {
+        "slug": "subnautica-2-lithium-location",
+        "file": "subnautica-2-lithium-location"
+      },
+      {
+        "slug": "subnautica-2-lithium",
+        "file": "subnautica-2-lithium"
+      },
+      {
+        "slug": "subnautica-2-lore",
+        "file": "subnautica-2-lore"
+      },
+      {
+        "slug": "subnautica-2-map",
+        "file": "subnautica-2-map"
+      },
+      {
+        "slug": "subnautica-2-necrotic-cyst",
+        "file": "subnautica-2-necrotic-cyst"
+      },
+      {
+        "slug": "subnautica-2-nickel-ore",
+        "file": "subnautica-2-nickel-ore"
+      },
+      {
+        "slug": "subnautica-2-power-transmitter",
+        "file": "subnautica-2-power-transmitter"
+      },
+      {
+        "slug": "subnautica-2-repair-tool",
+        "file": "subnautica-2-repair-tool"
+      },
+      {
+        "slug": "subnautica-2-tadpole",
+        "file": "subnautica-2-tadpole"
+      },
+      {
+        "slug": "subnautica-2-tips",
+        "file": "subnautica-2-tips"
+      },
+      {
+        "slug": "subnautica-2-vehicles",
+        "file": "subnautica-2-vehicles"
+      },
+      {
+        "slug": "subnautica-2-void-leviathan",
+        "file": "subnautica-2-void-leviathan"
+      },
+      {
+        "slug": "subnautica-2-walkthrough",
+        "file": "subnautica-2-walkthrough"
+      },
+      {
+        "slug": "subnautica-2-world-tree",
+        "file": "subnautica-2-world-tree"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "subnautica-2-coop",
+        "file": "subnautica-2-coop"
+      },
+      {
+        "slug": "subnautica-2-cross-platform",
+        "file": "subnautica-2-cross-platform"
+      },
+      {
+        "slug": "subnautica-2-crossplay",
+        "file": "subnautica-2-crossplay"
+      },
+      {
+        "slug": "subnautica-2-dedicated-server",
+        "file": "subnautica-2-dedicated-server"
+      },
+      {
+        "slug": "subnautica-2-how-many-players",
+        "file": "subnautica-2-how-many-players"
+      },
+      {
+        "slug": "subnautica-2-local-co-op",
+        "file": "subnautica-2-local-co-op"
+      },
+      {
+        "slug": "subnautica-2-multiplayer",
+        "file": "subnautica-2-multiplayer"
+      },
+      {
+        "slug": "subnautica-2-online",
+        "file": "subnautica-2-online"
+      },
+      {
+        "slug": "subnautica-2-proximity-chat",
+        "file": "subnautica-2-proximity-chat"
+      },
+      {
+        "slug": "subnautica-2-split-screen",
+        "file": "subnautica-2-split-screen"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "subnautica-2-console",
+        "file": "subnautica-2-console"
+      },
+      {
+        "slug": "subnautica-2-game-pass",
+        "file": "subnautica-2-game-pass"
+      },
+      {
+        "slug": "subnautica-2-geforce-now",
+        "file": "subnautica-2-geforce-now"
+      },
+      {
+        "slug": "subnautica-2-mac",
+        "file": "subnautica-2-mac"
+      },
+      {
+        "slug": "subnautica-2-mobile",
+        "file": "subnautica-2-mobile"
+      },
+      {
+        "slug": "subnautica-2-platforms",
+        "file": "subnautica-2-platforms"
+      },
+      {
+        "slug": "subnautica-2-playstation",
+        "file": "subnautica-2-playstation"
+      },
+      {
+        "slug": "subnautica-2-ps4",
+        "file": "subnautica-2-ps4"
+      },
+      {
+        "slug": "subnautica-2-ps5",
+        "file": "subnautica-2-ps5"
+      },
+      {
+        "slug": "subnautica-2-steam-deck",
+        "file": "subnautica-2-steam-deck"
+      },
+      {
+        "slug": "subnautica-2-steam",
+        "file": "subnautica-2-steam"
+      },
+      {
+        "slug": "subnautica-2-switch-2",
+        "file": "subnautica-2-switch-2"
+      },
+      {
+        "slug": "subnautica-2-ue5",
+        "file": "subnautica-2-ue5"
+      },
+      {
+        "slug": "subnautica-2-xbox",
+        "file": "subnautica-2-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "subnautica-2-cost",
+        "file": "subnautica-2-cost"
+      },
+      {
+        "slug": "subnautica-2-early-access-price",
+        "file": "subnautica-2-early-access-price"
+      },
+      {
+        "slug": "subnautica-2-estimated-price",
+        "file": "subnautica-2-estimated-price"
+      },
+      {
+        "slug": "subnautica-2-price-estimate",
+        "file": "subnautica-2-price-estimate"
+      },
+      {
+        "slug": "subnautica-2-price",
+        "file": "subnautica-2-price"
+      },
+      {
+        "slug": "subnautica-2-xbox-price",
+        "file": "subnautica-2-xbox-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "subnautica-2-beta",
+        "file": "subnautica-2-beta"
+      },
+      {
+        "slug": "subnautica-2-demo",
+        "file": "subnautica-2-demo"
+      },
+      {
+        "slug": "subnautica-2-early-access-release-date",
+        "file": "subnautica-2-early-access-release-date"
+      },
+      {
+        "slug": "subnautica-2-early-access",
+        "file": "subnautica-2-early-access"
+      },
+      {
+        "slug": "subnautica-2-full-release-date",
+        "file": "subnautica-2-full-release-date"
+      },
+      {
+        "slug": "subnautica-2-pre-order-bonus",
+        "file": "subnautica-2-pre-order-bonus"
+      },
+      {
+        "slug": "subnautica-2-pre-order",
+        "file": "subnautica-2-pre-order"
+      },
+      {
+        "slug": "subnautica-2-preload",
+        "file": "subnautica-2-preload"
+      },
+      {
+        "slug": "subnautica-2-release-date-early-access",
+        "file": "subnautica-2-release-date-early-access"
+      },
+      {
+        "slug": "subnautica-2-release-date",
+        "file": "subnautica-2-release-date"
+      },
+      {
+        "slug": "subnautica-2-release-time",
+        "file": "subnautica-2-release-time"
+      },
+      {
+        "slug": "subnautica-2-release",
+        "file": "subnautica-2-release"
+      },
+      {
+        "slug": "subnautica-2-roadmap",
+        "file": "subnautica-2-roadmap"
+      }
+    ],
+    "requirements": [
+      {
+        "slug": "subnautica-2-download-size",
+        "file": "subnautica-2-download-size"
+      },
+      {
+        "slug": "subnautica-2-engine",
+        "file": "subnautica-2-engine"
+      },
+      {
+        "slug": "subnautica-2-graphics",
+        "file": "subnautica-2-graphics"
+      },
+      {
+        "slug": "subnautica-2-hardware-requirements",
+        "file": "subnautica-2-hardware-requirements"
+      },
+      {
+        "slug": "subnautica-2-minimum-requirements",
+        "file": "subnautica-2-minimum-requirements"
+      },
+      {
+        "slug": "subnautica-2-pc-requirements",
+        "file": "subnautica-2-pc-requirements"
+      },
+      {
+        "slug": "subnautica-2-requirements",
+        "file": "subnautica-2-requirements"
+      },
+      {
+        "slug": "subnautica-2-specs",
+        "file": "subnautica-2-specs"
+      },
+      {
+        "slug": "subnautica-2-steam-deck-settings",
+        "file": "subnautica-2-steam-deck-settings"
+      },
+      {
+        "slug": "subnautica-2-system-requirements",
+        "file": "subnautica-2-system-requirements"
+      },
+      {
+        "slug": "subnautica-2-unreal-engine",
+        "file": "subnautica-2-unreal-engine"
+      },
+      {
+        "slug": "subnautica-2-vr",
+        "file": "subnautica-2-vr"
+      }
+    ]
+  }
+}
